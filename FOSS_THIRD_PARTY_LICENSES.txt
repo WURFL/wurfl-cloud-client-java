@@ -1,0 +1,35 @@
+net.sf.ehcache:ehcache-core:jar:2.5.1
+The open source Ehcache project is licensed under the Apache 2.0 License.
+http://ehcache.org/about/license
+
+org.slf4j:slf4j-api:jar:1.6.4
+SLF4J source code and binaries are distributed under the MIT license.
+http://www.slf4j.org/license.html
+
+ch.qos.logback:logback-core:jar:1.0.0
+ch.qos.logback:logback-classic:jar:1.0.0
+LGPL 2.1
+http://logback.qos.ch/license.html
+http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+
+org.codehaus.jackson:jackson-core-asl:jar:1.9.5
+org.codehaus.jackson:jackson-mapper-asl:jar:1.9.5
+Jackson can be used for any purpose, but to (re)distribute it,  distributors
+(such as libraries and frameworks that use Jackson) will need to
+choose which License they want to apply to distribution, and to use appropriate
+jars that enclose license documentation.
+No work needed beyond choosing the appropriate jar(s).
+Currently two Open Source licenses are available for use:
+* Apache License 2.0 (AL 2.0)
+* Lesser/Library General Public License (LGPL 2.1)
+
+org.mockito:mockito-core:jar:1.9.0
+The MIT License
+http://code.google.com/p/mockito/wiki/License
+
+org.hamcrest:hamcrest-core:jar:1.1
+New BSD License
+http://www.opensource.org/licenses/bsd-license.php
+
+org.objenesis:objenesis:jar:1.0
+Objenesis is open source, under the Apache 2.0 license.

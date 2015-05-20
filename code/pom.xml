@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.scientiamobile.wurflcloud</groupId>
+    <artifactId>client-java</artifactId>
+    <version>1.0.3</version>
+    <packaging>jar</packaging>
+
+    <name>wurfl-cloud-client</name>
+    <url>http://www.scientiamobile.com/cloud</url>
+    <description>Wireless Universal Resource File Cloud Client</description>
+    <inceptionYear>2015</inceptionYear>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+            <distribution>repo</distribution>
+        </license>
+        <license>
+            <name>GNU General Public License v2+</name>
+            <url>http://www.gnu.org/licenses/gpl-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>ScientiaMobile Inc.</name>
+        <url>http://www.scientiamobile.com</url>
+    </organization>
+
+    <!-- Developers -->
+    <developers>
+        <developer>
+            <id>luca.passani</id>
+            <name>Luca Passani</name>
+            <email>support@scientiamobile.com</email>
+            <organization>ScientiaMobile, Inc. Reston, VA, USA</organization>
+            <roles>
+                <role>Project Manager</role>
+                <role>Developer</role>
+            </roles>
+            <timezone>-5</timezone>
+        </developer>
+    </developers>
+
+    <!-- Distribution Management for maven.scientiamobile.com -->
+    <distributionManagement>
+        <repository>
+            <id>cloud-repository</id>
+            <name>ScientiaMobile Repository</name>
+            <url>http://maven.scientiamobile.com:8081/nexus/content/repositories/cloud-repository</url>
+        </repository>
+    </distributionManagement>
+
+    <!-- Properties -->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <testng.version>5.14.10</testng.version>
+        <logback.version>1.0.0</logback.version>
+        <slf4j.version>1.6.4</slf4j.version>
+        <jackson.version>1.9.5</jackson.version>
+    </properties>
+    
+    <!-- Dependencies -->
+    <dependencies>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.4</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>net.sf.ehcache</groupId>
+            <artifactId>ehcache-core</artifactId>
+            <version>2.5.1</version>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-core-asl</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
+            <version>${logback.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${logback.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
+            <scope>test</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>1.9.0</version>
+        </dependency>
+    </dependencies>
+
+    <!-- Build -->
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-javadoc-plugin</artifactId>
+                    <version>2.8.1</version>
+                </plugin>
+                <plugin>
+                    <groupId>com.mycila.maven-license-plugin</groupId>
+                    <artifactId>maven-license-plugin</artifactId>
+                    <version>1.9.0</version>
+                    <configuration>
+                        <header>src/main/etc/header.txt</header>
+                        <excludes>
+                            <exclude>src/main/assembly/**/header-*.txt</exclude>
+                            <exclude>.idea/**/*</exclude>
+                            <exclude>**/*.bak</exclude>
+                            <exclude>**/*.gz</exclude>
+                            <exclude>**/*.zip</exclude>
+                            <exclude>**/*.bz2</exclude>
+                            <exclude>**/.*</exclude>
+                            <exclude>**/*LICENSE*.txt</exclude>
+                            <exclude>**/CHANGELOG*</exclude>
+                            <exclude>logs/**.*</exclude>
+                        </excludes>
+                        <properties>
+                            <years>${project.inceptionYear}</years>
+                            <organization.name>${project.organization.name}</organization.name>
+                            <organization.url>${project.organization.url}</organization.url>
+                            <organization.email>support@scientiamobile.com</organization.email>
+                        </properties>
+                        <mapping>
+                            <yml>SCRIPT_STYLE</yml>
+                            <mdxml>XML_STYLE</mdxml>
+                        </mapping>
+                    </configuration>
+                </plugin>
+
+            </plugins>
+        </pluginManagement>
+
+        <plugins>
+
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.5</source>
+                    <target>1.5</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>2.4.2</version>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-eclipse-plugin</artifactId>
+                <version>2.8</version>
+                <configuration>
+                    <downloadSources>true</downloadSources>
+                    <downloadJavadocs>true</downloadJavadocs>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.9</version>
+                <configuration>
+                
+                    <systemPropertyVariables>
+                        <wurflcloudversion>${project.version}</wurflcloudversion>
+                    </systemPropertyVariables>      
+                    
+                    <groups>unit,func</groups>
+                    <argLine>-Xmx787m</argLine>
+                    <properties>
+                        <property>
+                            <name>usedefaultlisteners</name>
+                            <key>false</key>
+                        </property>
+                    </properties>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>2.1</version>
+                <configuration>
+                    <outputEncoding>UTF-8</outputEncoding>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+            </plugin>
+
+        </plugins>
+    </build>
+
+    <reporting>
+        <plugins>
+            <plugin>
+                <artifactId>maven-javadoc-plugin</artifactId>
+
+            </plugin>
+            <plugin>
+                <artifactId>maven-surefire-report-plugin</artifactId>
+                <version>2.5</version>
+            </plugin>
+            <plugin>
+                <artifactId>maven-pmd-plugin</artifactId>
+                <version>2.5</version>
+            </plugin>
+            <plugin>
+                <artifactId>maven-clover-plugin</artifactId>
+                <version>2.4</version>
+            </plugin>
+            <plugin>
+                <artifactId>maven-jxr-plugin</artifactId>
+                <version>2.1</version>
+            </plugin>
+            <plugin>
+                <artifactId>maven-changelog-plugin</artifactId>
+                <version>2.1</version>
+            </plugin>
+
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>findbugs-maven-plugin</artifactId>
+                <configuration>
+                    <threshold>Normal</threshold>
+                </configuration>
+            </plugin>
+        </plugins>
+    </reporting>
+
+    <profiles>
+
+        <profile>
+            <id>release</id>
+            <build>
+                <plugins>
+
+                    <!-- check for license header in all (but excluded) files -->
+                    <plugin>
+                        <groupId>com.mycila.maven-license-plugin</groupId>
+                        <artifactId>maven-license-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <phase>test</phase>
+                                <goals>
+                                    <goal>check</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-source-plugin</artifactId>
+                        <!-- <version>2.2.1</version> <configuration> <source>1.5</source> 
+                            <target>1.5</target> <encoding>UTF-8</encoding> </configuration> parte del 
+                            source plugin -->
+                        <executions>
+                            <execution>
+                                <id>attach-sources</id>
+                                <!-- <phase>verify</phase> -->
+                                <goals>
+                                    <goal>jar</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+
+                    <plugin>
+                        <!--<groupId>org.apache.maven.plugins</groupId> -->
+                        <artifactId>maven-javadoc-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>attach-javadocs</id>
+                                <phase>package</phase>
+                                <goals>
+                                    <goal>jar</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        
+    </profiles>
+
+</project>

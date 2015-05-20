@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.scientiamobile.wurflcloud</groupId>
+    <artifactId>client-example</artifactId>
+    <version>1.0.3</version>
+    <packaging>war</packaging>
+
+    <name>WURFL Cloud Client example webapp</name>
+    <description>WURFL Cloud Client example webapp</description>
+    <inceptionYear>2011</inceptionYear>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+            <distribution>repo</distribution>
+        </license>
+        <license>
+            <name>GNU General Public License v2+</name>
+            <url>http://www.gnu.org/licenses/gpl-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>ScientiaMobile Inc.</name>
+        <url>http://www.scientiamobile.com</url>
+    </organization>
+
+    <!-- Developers  -->
+    <developers>
+        <developer>
+            <id>luca.passani</id>
+            <name>Luca Passani</name>
+            <email>support@scientiamobile.com</email>
+            <organization>ScientiaMobile, Inc. Reston, VA, USA</organization>
+            <roles>
+                <role>Project Manager</role>
+                <role>Developer</role>
+            </roles>
+            <timezone>-5</timezone>
+        </developer>
+    </developers>
+
+    <!-- Properties -->
+    <properties>
+        <!--<spring.version>2.5.6</spring.version>-->
+        <wurfl.cloud.version>${project.version}</wurfl.cloud.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>servlet-api</artifactId>
+                <version>2.4</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>javax.servlet.jsp</groupId>
+                <artifactId>jsp-api</artifactId>
+                <version>2.0</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>jstl</artifactId>
+                <version>1.1.2</version>
+                <scope>compile</scope>
+            </dependency>
+            <dependency>
+                <groupId>taglibs</groupId>
+                <artifactId>standard</artifactId>
+                <version>1.1.2</version>
+                <scope>compile</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.scientiamobile.wurflcloud</groupId>
+                <artifactId>client-java</artifactId>
+                <version>${wurfl.cloud.version}</version>
+
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>jsp-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>taglibs</groupId>
+            <artifactId>standard</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.scientiamobile.wurflcloud</groupId>
+            <artifactId>client-java</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+
+        <plugins>
+            <plugin>
+                <!-- NOTE: We don't need a groupId specification because the group is
+                    org.apache.maven.plugins ...which is assumed by default.
+                -->
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>2.2.1</version>
+                <configuration>
+                    <descriptors>
+                        <descriptor>src/main/assembly/project-assembly.xml</descriptor>
+                    </descriptors>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id>
+                        <!-- this is used for inheritance merges -->
+                        <phase>package</phase>
+                        <!-- bind to the packaging phase -->
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.5</source>
+                    <target>1.5</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-eclipse-plugin</artifactId>
+                <configuration>
+                    <downloadSources>true</downloadSources>
+                    <downloadJavadocs>false</downloadJavadocs>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>maven-jetty-plugin</artifactId>
+                <configuration>
+                    <scanIntervalSeconds>10</scanIntervalSeconds>
+                </configuration>
+            </plugin>
+
+        </plugins>
+    </build>
+</project>

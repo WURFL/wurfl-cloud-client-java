@@ -1,0 +1,8 @@
+1.0.3
+Open source release
+
+1.0.2
+Add: specific headers filtering to avoid network errors
+
+1.0.1
+Add: cloud client now supports proxy configuration
