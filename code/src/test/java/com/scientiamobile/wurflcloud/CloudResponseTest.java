@@ -20,8 +20,9 @@ import java.io.IOException;
 import static org.testng.Assert.assertNotNull;
 
 /**
+ * Date: 24/07/11
+ *
  * @version $Id$
- * @since 2.0
  */
 @Test
 public class CloudResponseTest extends Loggable {

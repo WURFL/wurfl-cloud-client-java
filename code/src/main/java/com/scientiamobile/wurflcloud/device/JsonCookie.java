@@ -16,8 +16,6 @@ import java.util.Map;
 
 /**
  * Bean serialized from/to a cookie.
- *
- * @version $Id$
  */
 public class JsonCookie {
     private Map<String, Object> capabilities;

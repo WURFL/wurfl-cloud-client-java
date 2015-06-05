@@ -12,8 +12,9 @@
 package com.scientiamobile.wurflcloud.utils;
 
 /**
+ * Date: 14/07/11
+ *
  * @version $Id$
- * @since 2.0
  */
 public class Base64 {
 

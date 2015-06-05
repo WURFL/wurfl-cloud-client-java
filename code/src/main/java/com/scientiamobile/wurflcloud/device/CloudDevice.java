@@ -17,8 +17,6 @@ import com.scientiamobile.wurflcloud.ResponseType;
 
 /**
  * Object filled by wurfl cloud response, by mean of {@link com.scientiamobile.wurflcloud.CloudResponse}
- *
- * @version $Id$
  */
 public class CloudDevice extends AbstractDevice {
 

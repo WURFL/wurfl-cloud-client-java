@@ -1,8 +1,5 @@
 package my.wurflcloud.example;
 
-/**
- *         $Id$
- */
 public class Info {
 
 

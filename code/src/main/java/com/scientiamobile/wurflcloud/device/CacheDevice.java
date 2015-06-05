@@ -14,8 +14,7 @@ package com.scientiamobile.wurflcloud.device;
 import com.scientiamobile.wurflcloud.ResponseType;
 
 /**
- * @since 1.0
- * @version $Id$
+ * Represents a cached {@link AbstractDevice}.
  */
 public class CacheDevice extends AbstractDevice {
 

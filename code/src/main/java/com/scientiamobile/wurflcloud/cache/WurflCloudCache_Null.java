@@ -17,18 +17,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * **********************************************************************
- * <p/>
- * Copyright (c) 2015 ScientiaMobile Inc.
- * __________________
- * <p/>
- * 2015 ScientiaMobile Inc.
- * <p/>
- * The WURFL Cloud Client is intended to be used in both open-source and
- * commercial environments. To allow its use in as many situations as possible,
- * the WURFL Cloud Client is dual-licensed. You may choose to use the WURFL
- * Cloud Client under either the GNU GENERAL PUBLIC LICENSE, Version 2.0, or
- * the MIT License.
+ * Cache implementation with no specific behavior.
  */
 public class WurflCloudCache_Null extends AbstractWurflCloudCache {
 

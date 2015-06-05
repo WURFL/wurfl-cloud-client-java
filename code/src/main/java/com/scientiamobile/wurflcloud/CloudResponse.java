@@ -18,7 +18,6 @@ import java.util.Map;
 /**
  * Bean which is automatically filled by json engine.
  *
- *        $Id$
  */
 public class CloudResponse extends Loggable implements Serializable {
 	private static final long serialVersionUID = 2L;

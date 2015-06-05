@@ -13,9 +13,9 @@ package com.scientiamobile.wurflcloud.utils;
 
 /**
  * Simple username-password bean.
+ * Date: 26/07/11
  *
  * @version $Id$
- * @since 2.0
  */
 public class Credentials {
     private final String password;

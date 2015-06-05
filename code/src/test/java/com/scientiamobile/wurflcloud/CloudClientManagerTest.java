@@ -17,7 +17,8 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertTrue;
 
 /**
- *         $Id$
+ * Date: 03/08/11
+ *
  */
 @Test(groups = "connected")
 public class CloudClientManagerTest extends Loggable {

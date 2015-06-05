@@ -20,10 +20,7 @@ import com.scientiamobile.wurflcloud.Loggable;
 import com.scientiamobile.wurflcloud.ResponseType;
 
 /**
- * <p/>
  * Device abstraction.
- *
- *         $Id$
  */
 public class AbstractDevice extends Loggable {
     protected final Map<String, Object> capabilityMap;

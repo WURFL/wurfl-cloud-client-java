@@ -25,7 +25,8 @@ import com.scientiamobile.wurflcloud.utils.Constants;
 
 
 /**
- * @version $Id$
+ * Date: 20/07/11
+ *
  */
 @Test(groups = "unit")
 public class CloudClientInvalidCapabilityTest extends Loggable{

@@ -14,7 +14,7 @@ package com.scientiamobile.wurflcloud;
 import com.scientiamobile.wurflcloud.utils.Credentials;
 
 /**
- * @version $Id$
+ * AuthenticationManager interface
  */
 public interface IAuthenticationManager {
     /**
