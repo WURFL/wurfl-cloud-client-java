@@ -36,8 +36,6 @@ import com.scientiamobile.wurflcloud.utils.Credentials;
 
 /**
  * WURFL Cloud Client Manager.
- * It's the general responsible for client managing, in singleton fashion.
- * It creates a fresh new CloudClient instance, for every request.
  */
 public class CloudClientManager extends Loggable implements CloudListener, ICloudClientManager, Serializable {
 	private static final long serialVersionUID = 2L;
@@ -138,23 +136,35 @@ public class CloudClientManager extends Loggable implements CloudListener, IClou
         return clientVersion;
     }
 
+    private AbstractDevice detectDevice(CloudClient client) {
+        read.lock();
+        AbstractDevice dev = null;
+        try {
+			dev = client.detectDevice();
+        } catch (SocketTimeoutException e) {
+        	throw new WURFLCloudClientException("Unable to contact server: socket timeout", -1);
+		} catch (IOException e) {
+			throw new WURFLCloudClientException("Unable to contact server: connection error", -1);
+		} finally {
+            read.unlock();
+        }
+    	return dev;
+    }
+    
+	/**
+     * {@inheritDoc}
+     */
+    public AbstractDevice getDeviceFromUserAgent(String userAgent, String... search_capabilities) {
+        CloudClient cc = new CloudClient(new DefaultCloudRequest(userAgent), null, config, (search_capabilities != null && search_capabilities.length > 0) ? search_capabilities : parsedCapabilities, credentials, cache, this, proxy);
+        return detectDevice(cc);
+    }
+    
 	/**
      * {@inheritDoc}
      */
     public AbstractDevice getDeviceFromRequest(HttpServletRequest request, HttpServletResponse response, String... search_capabilities) {
-        CloudClient cc = new CloudClient(request, response, config, (search_capabilities != null && search_capabilities.length > 0) ? search_capabilities : parsedCapabilities, credentials, cache, this, proxy);
-        read.lock();
-        try {
-            try {
-				return cc.detectDevice();
-            } catch (SocketTimeoutException e) {
-            	throw new WURFLCloudClientException("Unable to contact server: socket timeout", -1);
-			} catch (IOException e) {
-				throw new WURFLCloudClientException("Unable to contact server: connection error", -1);
-			}
-        } finally {
-            read.unlock();
-        }
+        CloudClient cc = new CloudClient(new DefaultCloudRequest(request), response, config, (search_capabilities != null && search_capabilities.length > 0) ? search_capabilities : parsedCapabilities, credentials, cache, this, proxy);
+        return detectDevice(cc);
     }
 
     /**
@@ -229,7 +239,7 @@ public class CloudClientManager extends Loggable implements CloudListener, IClou
         HttpServletResponse response = mock(HttpServletResponse.class);
 
         // Determine the HTTP method to use and grab the response from the server
-        CloudClient client = new CloudClient(request, response, config, new String[0], credentials, cache, this, proxy);
+        CloudClient client = new CloudClient(new DefaultCloudRequest(request), response, config, new String[0], credentials, cache, this, proxy);
         return client.testCall(Constants.Encoding.PLAIN);
     }
 

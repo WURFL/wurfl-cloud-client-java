@@ -32,14 +32,6 @@ import com.scientiamobile.wurflcloud.utils.Constants;
 
 /**
  * Entry point for Cloud Client Application.
- * It looks for a 'wurfcloud.properties' file, in the root of classpath.
- * This file is optional, and it is significant only in premium version.
- * There you configure searched capabilities, cache type and so on.
- * Searched capabilities are optional, from version 2.0.
- * If you query for unauthorized capabilities, an exception will be raised.
- * This is an application singleton, which give access to client functionality.
- * <p/>
- * @version $Id$
  */
 public class CloudClientLoader extends Loggable implements Constants, Serializable {
 	private static final long serialVersionUID = 2L;

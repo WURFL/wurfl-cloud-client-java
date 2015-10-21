@@ -17,8 +17,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 /**
- * @since 2.0
- *        $Id$
+ * Date: 27/07/11
+ *
  */
 @Test(groups = "connected")
 public class CloudClientLoaderTest {

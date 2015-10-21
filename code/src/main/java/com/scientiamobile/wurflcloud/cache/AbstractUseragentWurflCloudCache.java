@@ -11,14 +11,10 @@
  */
 package com.scientiamobile.wurflcloud.cache;
 
+import com.scientiamobile.wurflcloud.CloudRequest;
 import com.scientiamobile.wurflcloud.ICloudClientRequest;
 import com.scientiamobile.wurflcloud.device.AbstractDevice;
 
-import javax.servlet.http.HttpServletRequest;
-
-/**
- * @version $Id$
- */
 public abstract class AbstractUseragentWurflCloudCache extends AbstractWurflCloudCache {
 
 	/**
@@ -27,7 +23,7 @@ public abstract class AbstractUseragentWurflCloudCache extends AbstractWurflClou
 	 * @return A {@link AbstractDevice} instance, or null if there's no such device cached
 	 */
 	@Override
-    public final AbstractDevice getDevice(HttpServletRequest request, ICloudClientRequest client) {
+    public final AbstractDevice getDevice(CloudRequest request, ICloudClientRequest client) {
         if (request == null) return null;
         String userAgent = request.getHeader(USER_AGENT_LC);
         return getDeviceFromUserAgent(userAgent);

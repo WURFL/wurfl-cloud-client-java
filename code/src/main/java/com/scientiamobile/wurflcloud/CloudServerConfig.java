@@ -11,8 +11,6 @@
  */
 package com.scientiamobile.wurflcloud;
 
-
-
 /**
  * Abstraction of a server, in a server pool structure.
  */

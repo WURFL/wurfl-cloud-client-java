@@ -12,10 +12,7 @@
 package com.scientiamobile.wurflcloud;
 
 /**
- * listener for update, receiving a cloud response.
- * At this moment the CloudClientManager only is listener
- *
- *         $Id$
+ * Listener for update, receiving a cloud response.
  */
 public interface CloudListener {
 	

@@ -19,8 +19,6 @@ import org.testng.annotations.Test;
 /**
  * Date: 06/05/15
  *
- * @author andrea.galasso@codemachine.it
- *          $Id$
  */
 @Test(groups = "connected")
 public class CloudClientInvalidApiKeyTest extends Loggable {

@@ -14,9 +14,6 @@ import com.scientiamobile.wurflcloud.CloudClientLoader;
 import com.scientiamobile.wurflcloud.ICloudClientManager;
 import com.scientiamobile.wurflcloud.device.AbstractDevice;
 
-/**
- *         $Id$
- */
 public class MyCloudClientServlet extends HttpServlet {
 	private static final long serialVersionUID = -6370538869254374459L;
 	private final Logger logger = Logger.getLogger(getClass().getName());

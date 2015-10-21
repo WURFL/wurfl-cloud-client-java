@@ -17,18 +17,19 @@ import java.net.URLEncoder;
 import java.util.HashMap;
 
 import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.codehaus.jackson.map.ObjectMapper;
 
+import com.scientiamobile.wurflcloud.CloudRequest;
 import com.scientiamobile.wurflcloud.ICloudClientRequest;
 import com.scientiamobile.wurflcloud.device.AbstractDevice;
 import com.scientiamobile.wurflcloud.device.CookieDevice;
 import com.scientiamobile.wurflcloud.device.JsonCookie;
 
 /**
- * @version $Id$
+ * Cache implementation using Cookies.
+ *
  */
 public class SimpleCookieCache extends AbstractWurflCloudCache {
 	
@@ -49,10 +50,13 @@ public class SimpleCookieCache extends AbstractWurflCloudCache {
         return true;
     }
 
-    public AbstractDevice getDevice(HttpServletRequest request, ICloudClientRequest client) {
+    public AbstractDevice getDevice(CloudRequest request, ICloudClientRequest client) {
         if (request == null) throw new IllegalArgumentException("request cannot be null");
         AbstractDevice ret = null;
-        Cookie[] cookies = request.getCookies();
+        Cookie[] cookies = null;
+        try {
+			cookies = request.getCookies();
+		} catch (IllegalStateException e) {}
         if (cookies == null) return null;
         for (int i = 0; i < cookies.length; i++) {
             Cookie cookie = cookies[i];
@@ -112,8 +116,13 @@ public class SimpleCookieCache extends AbstractWurflCloudCache {
         }
         Cookie cookie = new Cookie(WURFL_COOKIE_NAME, cookieVal);
         cookie.setMaxAge(COOKIE_CACHE_EXPIRATION);
-        response.addCookie(cookie);
-        logger.debug(WURFL_COOKIE_NAME + " cookie added to response: " + cookie.getValue());
+        if (response != null) {
+            response.addCookie(cookie);
+            logger.debug(WURFL_COOKIE_NAME + " cookie added to response: " + cookie.getValue());
+        } else {
+        	// TODO: Check message
+        	logger.warn("Trying to save cookie on a null response. Maybe you're trying to use a CookieCache while querying the cloud with a simple user agent string.");
+        }
         return true;
     }
 

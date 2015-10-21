@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * @version $Id$
+ * CloudClientManager interface
  */
 public interface ICloudClientManager {
     String getClientVersion();
@@ -30,6 +30,14 @@ public interface ICloudClientManager {
      * @return A {@link AbstractDevice} instance
      */
     AbstractDevice getDeviceFromRequest(HttpServletRequest request, HttpServletResponse response, String... search_capabilities);
+
+    /**
+     * Retrieves a {@link AbstractDevice} instance given the user agent and an optional array of capabilities
+     * @param userAgent The user agent string
+     * @param search_capabilities Array of capabilities that you would like to retrieve, optional
+     * @return A {@link AbstractDevice} instance
+     */
+    AbstractDevice getDeviceFromUserAgent(String userAgent, String... search_capabilities);
 
     /**
      * Checks if local cache is still valid based on the date that the WURFL Cloud Server

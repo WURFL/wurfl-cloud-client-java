@@ -17,7 +17,7 @@ import com.scientiamobile.wurflcloud.ResponseType;
 import java.util.Map;
 
 /**
- * @version $Id$
+ * Represents a {@link AbstractDevice} retrieved from a Cookie.
  */
 public class CookieDevice extends AbstractDevice{
 	

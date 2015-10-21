@@ -12,8 +12,7 @@
 package com.scientiamobile.wurflcloud;
 
 /**
- * Response  types.
- *        $Id$
+ * Response types.
  */
 public enum ResponseType {
     cloud, cache, cookie, recovery

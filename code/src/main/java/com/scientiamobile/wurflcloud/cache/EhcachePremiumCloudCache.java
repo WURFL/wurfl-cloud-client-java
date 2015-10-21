@@ -21,7 +21,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.Map;
 
 /**
- *         $Id$
+ * Cache implementation using Java {@linkplain http://ehcache.org/} Ehcache implementation.
  */
 public class EhcachePremiumCloudCache extends AbstractUseragentWurflCloudCache {
 

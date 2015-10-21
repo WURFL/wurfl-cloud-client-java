@@ -16,8 +16,8 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 /**
- * @since 2.0
- *        $Id$
+ * Date: 16/07/11
+ *
  */
 public class AeSimpleMD5 {
 

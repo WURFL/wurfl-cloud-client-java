@@ -11,22 +11,36 @@
  */
 package com.scientiamobile.wurflcloud;
 
+import java.util.Enumeration;
+
 import javax.servlet.http.Cookie;
 
 /**
- * @version $Id$
+ * CloudRequest interface
  */
 public interface CloudRequest {
 	
 	/**
-	 * Retrieves the user agent
-	 * @return The user agent
+	 * Returns all the header names
+	 * @return The header names
 	 */
-    String getUserAgent();
+    Enumeration<String> getHeaderNames();
+    
+    /**
+     * Gets the header value associated to the requested header name
+     * @param name The requested header name
+     * @return The header value
+     */
+    String getHeader(String name);
+    
+    /**
+     * Returns the Internet Protocol (IP) address of the client or last proxy that sent the request
+     * @return The IP address of the client or last proxy that sent the request
+     */
+    String getRemoteAddr();
 
     /**
-     * Retrieves the Cloud cookie
-     * @return The @{link Cookie} instance
+     * @return The stored {@link Cookie} array, if available
      */
-    Cookie getCloudCookie();
+	Cookie[] getCookies();
 }

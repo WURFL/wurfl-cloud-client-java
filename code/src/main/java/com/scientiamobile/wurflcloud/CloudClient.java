@@ -27,7 +27,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.zip.GZIPInputStream;
 
-import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.codehaus.jackson.map.ObjectMapper;
@@ -44,8 +43,6 @@ import com.scientiamobile.wurflcloud.utils.Credentials;
 
 
 /**
- * Date: 22/07/11
- * <p/>
  * Cloud thin client, associated to every request.
  */
 public class CloudClient extends Loggable implements ICloudClientRequest, Constants, Serializable {
@@ -82,7 +79,7 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
     /**
      * The incoming request, not propagated to the Cloud Server!
      */
-    private final HttpServletRequest request;
+    private final CloudRequest request;
     
     /**
      * The response that will be served to the client application.
@@ -111,7 +108,7 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
      * @param recoveryManager
      * @param clientManager
      */
-    protected CloudClient(HttpServletRequest request, HttpServletResponse response, CloudClientConfig cfg, String[] searchCapabilities, Credentials credentials, IWurflCloudCache cache, CloudClientManager clientManager, Proxy proxy) {
+    protected CloudClient(CloudRequest request, HttpServletResponse response, CloudClientConfig cfg, String[] searchCapabilities, Credentials credentials, IWurflCloudCache cache, CloudClientManager clientManager, Proxy proxy) {
         this.response = response;
         this.request = request;
         this.searchCapabilities = searchCapabilities;

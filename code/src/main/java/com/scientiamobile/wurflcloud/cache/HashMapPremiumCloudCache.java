@@ -19,8 +19,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * @version $Id$
- * @since 2.0
+ * Cache implementation using HashMap
  */
 public final class HashMapPremiumCloudCache extends AbstractUseragentWurflCloudCache {
 

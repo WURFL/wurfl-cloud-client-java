@@ -11,9 +11,6 @@
  */
 package com.scientiamobile.wurflcloud.exc;
 
-/**
- * @version $Id$
- */
 public class FatalException extends RuntimeException {
 	private static final long serialVersionUID = 1L;
 

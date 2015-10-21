@@ -15,10 +15,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * <p/>
- * Facility logging superclass.
- *
- * @version $Id$
+ * Facility logging base class
  */
 public abstract class Loggable {
     protected final Logger logger = LoggerFactory.getLogger(getClass());

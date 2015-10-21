@@ -14,17 +14,17 @@ package com.scientiamobile.wurflcloud.utils;
 import com.scientiamobile.wurflcloud.CloudServerConfig;
 
 /**
+ * Date: 14/07/11
  * Constants for wurflcloud.
  *
  * @version $Id$
  */
-
 public interface Constants {
 
     /**
      * The version of this client
      */
-    String CLIENT_VERSION = "1.0.3";
+    String CLIENT_VERSION = "1.0.4";
 
     /**
      * Accepted encoding enum.

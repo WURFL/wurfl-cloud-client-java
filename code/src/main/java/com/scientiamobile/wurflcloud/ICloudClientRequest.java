@@ -15,7 +15,6 @@ import com.scientiamobile.wurflcloud.device.AbstractDevice;
 
 /**
  *  The client request interface
- * @version $Id$
  */
 public interface ICloudClientRequest {
 	

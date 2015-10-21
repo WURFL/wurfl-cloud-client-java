@@ -15,7 +15,7 @@ import java.util.EventObject;
 
 /**
  * Thin response event.
- *         $Id$
+ *
  */
 public class CloudEvent extends EventObject {
 	private static final long serialVersionUID = 1L;
