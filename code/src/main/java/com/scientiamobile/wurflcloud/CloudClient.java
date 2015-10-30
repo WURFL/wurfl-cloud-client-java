@@ -339,9 +339,11 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
     		connection = new URL(request).openConnection();
     	}
 		
-		int timeout = 10000;
-    	logger.debug("Setting connection timeout: " + timeout);
-    	connection.setConnectTimeout(timeout);
+		logger.debug("Setting connection timeout: " + config.connectionTimeout + " mSec");
+		connection.setConnectTimeout(config.connectionTimeout);
+
+		logger.debug("Setting read timeout: " + config.readTimeout + " mSec");
+		connection.setReadTimeout(config.readTimeout);
     	
     	if (Constants.API_TYPE.equals(Constants.API_HTTP) && connection instanceof HttpURLConnection) {
     		logger.info("Explicitly setting connection method to GET");

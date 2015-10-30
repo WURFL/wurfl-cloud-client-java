@@ -54,6 +54,12 @@ public class CloudClientConfig extends Loggable implements Serializable {
     protected boolean autoPurge = false;
 
     /**
+     * The timeouts on connections
+     */
+    protected int connectionTimeout = Constants.DEFAULT_CONNECTION_TIMEOUT;
+    protected int readTimeout = Constants.DEFAULT_READ_TIMEOUT;
+
+    /**
      * Protected, created by application.
      */
     protected CloudClientConfig() {
@@ -81,6 +87,7 @@ public class CloudClientConfig extends Loggable implements Serializable {
      */
     public void clearServers() {
         wcloud_servers.clear();
+        current_server = null;
     }
 
     /**

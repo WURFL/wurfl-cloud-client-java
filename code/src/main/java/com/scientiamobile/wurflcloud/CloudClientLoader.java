@@ -178,6 +178,42 @@ public class CloudClientLoader extends Loggable implements Constants, Serializab
             logger.info("setting 'compression' to " + property);
             config.compression = Boolean.valueOf(property);
 
+            property = properties.getProperty(CONNECTION_TIMEOUT_PROP);
+            if (property != null) {
+                try {
+                    int timeout = Integer.parseInt(property);
+                    if ( timeout >= 0 ) {
+                        logger.info("setting 'connection_timeout' to " + timeout + " mSec");
+                        config.connectionTimeout = timeout;
+                    }
+                    else {
+                        logger.warn("Unable to load '" + CONNECTION_TIMEOUT_PROP + "' property (not an integer value >= 0) , using default (" + DEFAULT_CONNECTION_TIMEOUT + " mSec)");
+                        config.connectionTimeout = DEFAULT_CONNECTION_TIMEOUT;
+                    }
+                } catch(NumberFormatException e){
+                    logger.warn("Unable to load '" + CONNECTION_TIMEOUT_PROP + "' property (not a valid integer value) , using default (" + DEFAULT_CONNECTION_TIMEOUT + " mSec)");
+                    config.connectionTimeout = DEFAULT_CONNECTION_TIMEOUT;
+                }
+            }
+
+            property = properties.getProperty(READ_TIMEOUT_PROP);
+            if (property != null) {
+                try {
+                    int timeout = Integer.parseInt(property);
+                    if ( timeout >= 0 ) {
+                        logger.info("setting 'read_timeout' to " + timeout + " mSec");
+                        config.readTimeout = timeout;
+                    }
+                    else {
+                        logger.warn("Unable to load '" + READ_TIMEOUT_PROP + "' property (not an integer value >= 0) , using default (" + DEFAULT_CONNECTION_TIMEOUT + " mSec)");
+                        config.readTimeout = DEFAULT_READ_TIMEOUT;
+                    }
+                } catch(NumberFormatException e){
+                    logger.warn("Unable to load '" + READ_TIMEOUT_PROP + "' property (not a valid integer value) , using default (" + DEFAULT_CONNECTION_TIMEOUT + " mSec)");
+                    config.readTimeout = DEFAULT_READ_TIMEOUT;
+                }
+            }
+
             property = properties.getProperty(CACHE + ".autoPurge");
             if (property == null) {
                 logger.warn("Unable to load 'autoPurge' property, setting default");

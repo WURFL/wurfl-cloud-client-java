@@ -24,7 +24,7 @@ public interface Constants {
     /**
      * The version of this client
      */
-    String CLIENT_VERSION = "1.0.4";
+    String CLIENT_VERSION = "1.0.5";
 
     /**
      * Accepted encoding enum.
@@ -124,6 +124,10 @@ public interface Constants {
 
     String COMPRESSION = PREFIX + "compression";
     
+    String CONNECTION_TIMEOUT_PROP = PREFIX + "connTimeout";
+
+    String READ_TIMEOUT_PROP = PREFIX + "readTimeout";
+
     /**
      * Proxy
      */
@@ -138,6 +142,12 @@ public interface Constants {
     public static final int DEFAULT_CAPACITY = 60000;
     public static final float DEFAULT_LOAD_FACTOR = .75f;
     public static final int DEFAULT_CONCURRENT_WRITES = 16;
+
+    /**
+     * Default timeout values on connections
+     */
+    int DEFAULT_CONNECTION_TIMEOUT = 5000;
+    int DEFAULT_READ_TIMEOUT = 10000;
 
     /**
      * lowercase userAgent header
