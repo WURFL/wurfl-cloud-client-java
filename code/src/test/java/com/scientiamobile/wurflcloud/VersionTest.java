@@ -19,17 +19,17 @@ import com.scientiamobile.wurflcloud.utils.Constants;
 
 @Test(groups = "unit")
 public class VersionTest extends Loggable {
-	
-	/**
-	 * Ensures that the version reported in pom.xml matches the
-	 * String value returned from Constants.CLIENT_VERSION
-	 */
-	@Test
-	public void versionReadTest() {
-		String versionStr = System.getProperty("wurflcloudversion");
-		logger.debug("Version read from pom.xml: " + versionStr);
-		logger.debug("Version read from Constants.java: " + Constants.CLIENT_VERSION);
-		Assert.assertEquals(versionStr, Constants.CLIENT_VERSION);
-	}
+    
+    /**
+     * Ensures that the version reported in pom.xml matches the
+     * String value returned from Constants.CLIENT_VERSION
+     */
+    @Test
+    public void versionReadTest() {
+        String versionStr = System.getProperty("wurflcloudversion");
+        logger.debug("Version read from pom.xml: " + versionStr);
+        logger.debug("Version read from Constants.java: " + Constants.CLIENT_VERSION);
+        Assert.assertEquals(versionStr, Constants.CLIENT_VERSION);
+    }
 
 }

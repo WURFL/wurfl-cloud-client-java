@@ -20,9 +20,9 @@ import java.util.Map;
  *
  */
 public class CloudResponse extends Loggable implements Serializable {
-	private static final long serialVersionUID = 2L;
-	
-	private String apiVersion;
+    private static final long serialVersionUID = 2L;
+
+    private String apiVersion;
     private long mtime;
     private String id;
     private Map<String, Object> capabilities;

@@ -17,12 +17,12 @@ import com.scientiamobile.wurflcloud.device.AbstractDevice;
  *  The client request interface
  */
 public interface ICloudClientRequest {
-	
-	/**
+
+    /**
      * Perform a request to the Cloud for a specific device and check if the caller is authorized to get a certain capability
      * @param capabilityName The requested capability name 
      * @param device The device to be used with the query
      * @return The capability value, or null if the caller isn't authorized to get the requested capability
-	 */
-	Object queryCloudForCapability(String capabilityName, AbstractDevice device);
+     */
+    Object queryCloudForCapability(String capabilityName, AbstractDevice device);
 }

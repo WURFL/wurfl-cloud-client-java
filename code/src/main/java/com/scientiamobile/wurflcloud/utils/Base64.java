@@ -51,7 +51,6 @@ public class Base64 {
         }
         return splitLines(encoded.substring(0, encoded.length() -
                 paddingCount) + "==".substring(0, paddingCount));
-
     }
 
     public static String splitLines(String string) {
@@ -64,7 +63,6 @@ public class Base64 {
 
         }
         return lines;
-
     }
 
     public static void main(String[] args) {
@@ -75,7 +73,6 @@ public class Base64 {
             System.out.println(encode(args[i]));
 
         }
-
     }
 
 }

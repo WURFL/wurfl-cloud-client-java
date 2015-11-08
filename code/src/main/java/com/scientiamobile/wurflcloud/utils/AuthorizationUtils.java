@@ -39,10 +39,10 @@ public class AuthorizationUtils {
      * @return The constructed build domain inner path
      */
     public static String buildRequestPath(String[] search_capabilities) {
-    	// build capabilities
-    	StringBuilder sb = new StringBuilder();
+        // build capabilities
+        StringBuilder sb = new StringBuilder();
         if (search_capabilities != null) {
-        	char delimiter = ',';
+            char delimiter = ',';
             for (int i = 0; i < search_capabilities.length; i++) {
                 final String s = search_capabilities[i];
                 if (s != null && s.length() > 0)

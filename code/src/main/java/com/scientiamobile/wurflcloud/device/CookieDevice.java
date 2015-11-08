@@ -20,13 +20,13 @@ import java.util.Map;
  * Represents a {@link AbstractDevice} retrieved from a Cookie.
  */
 public class CookieDevice extends AbstractDevice{
-	
-	/**
-	 * Builds an AbstractDevice object using "cookie" as response type.
-	 * @param capabilities The map of queried capabilities
-	 * @param id The device identifier
-	 * @param clientRequest The client request
-	 */
+
+    /**
+     * Builds an AbstractDevice object using "cookie" as response type.
+     * @param capabilities The map of queried capabilities
+     * @param id The device identifier
+     * @param clientRequest The client request
+     */
     public CookieDevice(Map<String, Object> capabilities, String id, ICloudClientRequest clientRequest) {
         super(capabilities, ResponseType.cookie, id, null, clientRequest);
     }

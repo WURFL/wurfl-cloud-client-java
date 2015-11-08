@@ -1,3 +1,9 @@
+1.0.5
+Add: Make connection and read timeouts configurable in `wurflcloud.properties` file
+
+1.0.4
+Add: `getDeviceFromUserAgent` method
+
 1.0.3
 Open source release
 

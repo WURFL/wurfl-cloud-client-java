@@ -12,9 +12,9 @@
 package com.scientiamobile.wurflcloud.exc;
 
 public class UnreachableServerException extends RuntimeException {
-	private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
 
-	public UnreachableServerException(String s) {
+    public UnreachableServerException(String s) {
         super(s);
     }
 }

@@ -16,15 +16,15 @@ import com.scientiamobile.wurflcloud.ICloudClientRequest;
 import com.scientiamobile.wurflcloud.ResponseType;
 
 /**
- * Object filled by wurfl cloud response, by mean of {@link com.scientiamobile.wurflcloud.CloudResponse}
+ * Object filled by WURFL cloud response, by mean of {@link com.scientiamobile.wurflcloud.CloudResponse}
  */
 public class CloudDevice extends AbstractDevice {
 
-	/**
-	 * Builds an AbstractDevice object using "cloud" as response type.
-	 * @param response The CloudResponse object to use
-	 * @param clientRequest The client request
-	 */
+    /**
+     * Builds an AbstractDevice object using "cloud" as response type.
+     * @param response The CloudResponse object to use
+     * @param clientRequest The client request
+     */
     public CloudDevice(CloudResponse response, ICloudClientRequest clientRequest) {
         super(response.getCapabilities(), ResponseType.cloud, response.getId(), response.getErrors(), clientRequest);
     }

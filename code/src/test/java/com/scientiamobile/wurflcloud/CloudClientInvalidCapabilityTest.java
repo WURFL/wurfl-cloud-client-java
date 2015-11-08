@@ -25,7 +25,6 @@ import com.scientiamobile.wurflcloud.utils.Constants;
 
 
 /**
- * Date: 20/07/11
  *
  */
 @Test(groups = "unit")
@@ -52,9 +51,9 @@ public class CloudClientInvalidCapabilityTest extends Loggable{
         boolean passed = false;
         try {
             ICloudClient.getDeviceFromRequest(request, response, capabilities);
-		} catch (IllegalArgumentException e) {
-			passed = true;
-		}
+        } catch (IllegalArgumentException e) {
+            passed = true;
+        }
         
         Assert.assertTrue(passed);
     }

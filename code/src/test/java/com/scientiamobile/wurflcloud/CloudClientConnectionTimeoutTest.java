@@ -20,8 +20,6 @@ import com.scientiamobile.wurflcloud.device.AbstractDevice;
 import com.scientiamobile.wurflcloud.exc.WURFLCloudClientException;
 import com.scientiamobile.wurflcloud.cache.WurflCloudCache_Null;
 /**
- * Date: 29/10/15
- *
  * @version $Id$
  */
 @Test(groups = "unit")
@@ -41,29 +39,29 @@ public class CloudClientConnectionTimeoutTest extends Loggable{
 
     @BeforeClass
     public void setup() throws Exception {
-    	
-    	cfg = new CloudClientConfig();
-    	cfg.clearServers();
-    	cfg.addCloudServer("timeout_server", "8.8.8.8", 10);
-    	cfg.apiKey = "XXXXXX:YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY";
-    	cfg.connectionTimeout = 2000;
-    	am = new AuthenticationManager(cfg);
-    	ccm = new CloudClientManager(am, cfg, new WurflCloudCache_Null(), null);
-    	
+        
+        cfg = new CloudClientConfig();
+        cfg.clearServers();
+        cfg.addCloudServer("timeout_server", "8.8.8.8", 10);
+        cfg.apiKey = "XXXXXX:YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY";
+        cfg.connectionTimeout = 2000;
+        am = new AuthenticationManager(cfg);
+        ccm = new CloudClientManager(am, cfg, new WurflCloudCache_Null(), null);
+        
     }
 
     @Test 
     public void testClient() {
-    	/**
-    	 * Mantaining compatibility with Junit version < 4
-    	 */
-		boolean excThrown = false;
-		try {
-	        device = ccm.getDeviceFromUserAgent(ua, capabilities);			
-		}
-		catch (WURFLCloudClientException exc) {
-			excThrown = true;			
-		}
-		assertTrue(excThrown);
+        /**
+         * Mantaining compatibility with Junit version < 4
+         */
+        boolean excThrown = false;
+        try {
+            device = ccm.getDeviceFromUserAgent(ua, capabilities);
+        }
+        catch (WURFLCloudClientException exc) {
+            excThrown = true;
+        }
+        assertTrue(excThrown);
     }
 }

@@ -18,9 +18,9 @@ import java.util.EventObject;
  *
  */
 public class CloudEvent extends EventObject {
-	private static final long serialVersionUID = 1L;
-	
-	private final long mtime;
+    private static final long serialVersionUID = 1L;
+
+    private final long mtime;
     private final String apiVersion;
 
     public CloudEvent(Object o, long mtime, String apiVersion) {

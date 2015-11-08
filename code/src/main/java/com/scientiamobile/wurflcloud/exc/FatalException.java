@@ -12,9 +12,9 @@
 package com.scientiamobile.wurflcloud.exc;
 
 public class FatalException extends RuntimeException {
-	private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
 
-	public FatalException(String s, Throwable throwable) {
+    public FatalException(String s, Throwable throwable) {
         super(s, throwable);
     }
 }

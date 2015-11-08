@@ -91,7 +91,7 @@ public final class HashMapPremiumCloudCache extends AbstractUseragentWurflCloudC
         if (device == null) {
             incrementMiss();
         } else {
-        	incrementHit();
+            incrementHit();
         }
         return device;
     }
@@ -101,7 +101,7 @@ public final class HashMapPremiumCloudCache extends AbstractUseragentWurflCloudC
         if (device == null) {
             incrementMiss();
         } else {
-        	incrementHit();
+            incrementHit();
         }
         return device;
     }

@@ -18,10 +18,10 @@ import com.scientiamobile.wurflcloud.ResponseType;
  */
 public class CacheDevice extends AbstractDevice {
 
-	/**
-	 * Builds an AbstractDevice object using "cache" as response type.
-	 * @param d The device to use
-	 */
+    /**
+     * Builds an AbstractDevice object using "cache" as response type.
+     * @param d The device to use
+     */
     public CacheDevice(AbstractDevice device) {
         super(device.getCapabilities(), ResponseType.cache, device.getId(), device.getErrors());
     }

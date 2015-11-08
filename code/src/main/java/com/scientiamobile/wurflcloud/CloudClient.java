@@ -46,15 +46,15 @@ import com.scientiamobile.wurflcloud.utils.Credentials;
  * Cloud thin client, associated to every request.
  */
 public class CloudClient extends Loggable implements ICloudClientRequest, Constants, Serializable {
-	private static final long serialVersionUID = 2L;
-	
-	private static final Set<String> FILTERED_HEADERS = new HashSet<String>();
-	static {
-		FILTERED_HEADERS.add("content-length");
-		FILTERED_HEADERS.add("content-type");
-	}
-	
-	private final CloudClientConfig config;
+    private static final long serialVersionUID = 2L;
+    
+    private static final Set<String> FILTERED_HEADERS = new HashSet<String>();
+    static {
+        FILTERED_HEADERS.add("content-length");
+        FILTERED_HEADERS.add("content-type");
+    }
+    
+    private final CloudClientConfig config;
     private final String[] searchCapabilities;
     private final Credentials credentials;
     private final IWurflCloudCache cache;
@@ -148,16 +148,16 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
                 String headerNameLC = headerName.toLowerCase();
                 logger.info("putting " + headerNameLC);
                 if (USER_AGENT_LC.equals(headerNameLC)) {
-                	userAgent = request.getHeader(headerName);
+                    userAgent = request.getHeader(headerName);
                 }
                 reqHeaders.put(headerNameLC, request.getHeader(headerName));
             }
         }
 
         if (userAgent.length() == 0) {
-        	logger.warn("The user agent is empty.");
+            logger.warn("The User-Agent is empty.");
         } else if (userAgent.length() > Constants.USER_AGENT_MAX_LENGTH) {
-        	userAgent = userAgent.substring(0, Constants.USER_AGENT_MAX_LENGTH);
+            userAgent = userAgent.substring(0, Constants.USER_AGENT_MAX_LENGTH);
         }
         
         logger.info(USER_AGENT_LC + ": " + userAgent);
@@ -167,9 +167,9 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
         if (ip != null) {
             String fwd = reqHeaders.get(X_FORWARDED_FOR_LC);
             if (fwd != null) {
-            	addRequestHeader(X_FORWARDED_FOR, ip + ", " + fwd);
+                addRequestHeader(X_FORWARDED_FOR, ip + ", " + fwd);
             } else {
-            	addRequestHeader(X_FORWARDED_FOR, ip);
+                addRequestHeader(X_FORWARDED_FOR, ip);
             }
         } else {
             String remoteAddr = request.getRemoteAddr();
@@ -179,19 +179,19 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
         // add X-Accept
         String accept = reqHeaders.get(ACCEPT_LC);
         if (accept != null) {
-        	addRequestHeader(X_ACCEPT, accept);
+            addRequestHeader(X_ACCEPT, accept);
         }
         
         // add X-Wap-Profile
         String xWapProfile = reqHeaders.get(X_WAP_PROFILE_LC);
         if (xWapProfile != null) {
-        	addRequestHeader(X_WAP_PROFILE, xWapProfile);
+            addRequestHeader(X_WAP_PROFILE, xWapProfile);
         }
         
         String reqPath = AuthorizationUtils.buildRequestPath(searchCapabilities);
 
         addOtherHeaders(reqPath);
-        logger.info("headers map at initialize end: " + reqHeaders);
+        logger.info("Headers map at initialize end: " + reqHeaders);
         return reqPath;
     }
 
@@ -216,10 +216,10 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
         Map<String, Long> counters = cache.getCounters();
         StringBuilder sb = new StringBuilder();
         for (Map.Entry<String, Long> cacheItem : counters.entrySet()) {
-        	sb.append(cacheItem.getKey()).append(":").append(cacheItem.getValue()).append(",");
+            sb.append(cacheItem.getKey()).append(":").append(cacheItem.getValue()).append(",");
         }
         if (sb.length() > 0) {
-        	sb.setLength(sb.length() - 1);
+            sb.setLength(sb.length() - 1);
         }
 
         addRequestHeader("X-Cloud-Counters", sb.toString());
@@ -263,15 +263,15 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
         String host = config.getCloudHost().host;
         String reqPath = AuthorizationUtils.buildRequestPath(new String[]{"is_wireless_device"});
         String reqString = api_type + "://" + host + reqPath;
-        logger.info("request: " + reqString);
+        logger.info("Request: " + reqString);
 
         try {
-        	URLConnection connection;
-        	if (proxy != null) {
-        		connection = new URL(reqString).openConnection(proxy);
-        	} else {
-        		connection = new URL(reqString).openConnection();
-        	}
+            URLConnection connection;
+            if (proxy != null) {
+                connection = new URL(reqString).openConnection(proxy);
+            } else {
+                connection = new URL(reqString).openConnection();
+            }
             logger.info(connection.toString());
             switch (enc) {
                 case GZIP:
@@ -304,11 +304,11 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
      * @throws WURFLCloudClientException If the parser could not read the passed raw data
      */
     private CloudResponse processResponse(String rawData) {
-    	try {
-    		return mapper.readValue(rawData, CloudResponse.class);
-    	} catch (IOException e) {
-    		throw new WURFLCloudClientException("", HTTP_ERROR_JSON_KEY);
-    	}
+        try {
+            return mapper.readValue(rawData, CloudResponse.class);
+        } catch (IOException e) {
+            throw new WURFLCloudClientException("", HTTP_ERROR_JSON_KEY);
+        }
     }
     
     /**
@@ -320,7 +320,7 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
         String api_type = Constants.API_TYPE;
         String host = config.getCloudHost().host;
         String reqString = api_type + "://" + host + reqPath;
-        logger.info("request: " + reqString);
+        logger.info("Request: " + reqString);
         return reqString;
     }
 
@@ -331,51 +331,51 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
      * @return
      */
     private URLConnection setupUrlConnection(String request) throws IOException {
-    	URLConnection connection = null;
+        URLConnection connection = null;
 
-		if (proxy != null) {
-    		connection = new URL(request).openConnection(proxy);
-    	} else {
-    		connection = new URL(request).openConnection();
-    	}
-		
-		logger.debug("Setting connection timeout: " + config.connectionTimeout + " mSec");
-		connection.setConnectTimeout(config.connectionTimeout);
+        if (proxy != null) {
+            connection = new URL(request).openConnection(proxy);
+        } else {
+            connection = new URL(request).openConnection();
+        }
+        
+        logger.debug("Setting connection timeout: " + config.connectionTimeout + " mSec");
+        connection.setConnectTimeout(config.connectionTimeout);
 
-		logger.debug("Setting read timeout: " + config.readTimeout + " mSec");
-		connection.setReadTimeout(config.readTimeout);
-    	
-    	if (Constants.API_TYPE.equals(Constants.API_HTTP) && connection instanceof HttpURLConnection) {
-    		logger.info("Explicitly setting connection method to GET");
-    		((HttpURLConnection)connection).setRequestMethod("GET");
-    	}
-    	
+        logger.debug("Setting read timeout: " + config.readTimeout + " mSec");
+        connection.setReadTimeout(config.readTimeout);
+        
+        if (Constants.API_TYPE.equals(Constants.API_HTTP) && connection instanceof HttpURLConnection) {
+            logger.info("Explicitly setting connection method to GET");
+            ((HttpURLConnection)connection).setRequestMethod("GET");
+        }
+        
         logger.info(connection.toString());
         logger.info("Incoming connection headers count: " + reqHeaders.size());
         for (Map.Entry<String, String> entry : reqHeaders.entrySet()) {
-        	if (FILTERED_HEADERS.contains(entry.getKey().toLowerCase())) {
-        		logger.info("filtering entry: " + entry);
-        	} else {
-	            logger.info("   adding entry: " + entry);
-	            connection.setRequestProperty(entry.getKey(), entry.getValue());
-        	}
+            if (FILTERED_HEADERS.contains(entry.getKey().toLowerCase())) {
+                logger.info("filtering entry: " + entry);
+            } else {
+                logger.info("   adding entry: " + entry);
+                connection.setRequestProperty(entry.getKey(), entry.getValue());
+            }
         }
         
         Map<String, List<String>> headers = connection.getRequestProperties();
-        logger.info("Outgouing connection headers count: " + headers.size());
+        logger.info("Outgoing connection headers count: " + headers.size());
         for (Map.Entry<String, List<String>> entry : headers.entrySet()) {
-        	logger.info("Outgoing Header: " + entry.getKey() + " -> " + entry.getValue());
+            logger.info("Outgoing Header: " + entry.getKey() + " -> " + entry.getValue());
         }
 
-    	return connection;
+        return connection;
     }
     
     /**
      * {@inheritDoc}
      */
     public Object queryCloudForCapability(String capabilityName, AbstractDevice device) {
-    	String reqString = buildRequestURL();
-    	Object cap = null;
+        String reqString = buildRequestURL();
+        Object cap = null;
         try {
             URLConnection connection = setupUrlConnection(reqString);
             
@@ -386,7 +386,7 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
             updateCache(device, response.getMtime());
             cap = response.getCapabilities().get(capabilityName);
             if (cap == null) {
-            	throw new IllegalArgumentException("You're not authorized to retrieve the capability \'" + capabilityName + "\'");
+                throw new IllegalArgumentException("You're not authorized to retrieve the capability \'" + capabilityName + "\'");
             }
         } catch (IOException e) {
             logger.error(e.toString());
@@ -402,17 +402,17 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
      * @throws IOException 
      */
     public AbstractDevice detectDevice() throws IOException {
-		AbstractDevice device = cache.getDevice(request, this);
+        AbstractDevice device = cache.getDevice(request, this);
         if (device != null) {
             //check if capabilities search is changed
             if (searchCapabilities != null && searchCapabilities.length > 0) {
                 Map<String, Object> capabilities = device.getCapabilities();
                 for (String searchCapability : searchCapabilities) {
-                	if (!capabilities.containsKey(searchCapability)) {
-                		device = null;
+                    if (!capabilities.containsKey(searchCapability)) {
+                        device = null;
                         logger.info("capability not found, must query Cloud: " + searchCapability);
                         break;
-                	}
+                    }
                 }
             }
         }
@@ -430,7 +430,7 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
             if (searchCapabilities != null && searchCapabilities.length > 0) {
                 Map<String, Object> capabilities = cloudResponse.getCapabilities();
                 for (String searchCapability : searchCapabilities) {
-                	if (capabilities.get(searchCapability) == null) {
+                    if (capabilities.get(searchCapability) == null) {
                         throw new IllegalArgumentException("The requested capability '" + searchCapability + "' is invalid or you are not subscribed to it.");
                     }
                 }
@@ -444,24 +444,24 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
     }
     
     private void checkHttpConnectionOrThrow(URLConnection connection) throws IOException {
-    	int httpResponseCode = HTTP_ERROR_UNREACHABLE;
+        int httpResponseCode = HTTP_ERROR_UNREACHABLE;
         if (connection instanceof HttpURLConnection) {
-        	httpResponseCode = ((HttpURLConnection)connection).getResponseCode();
+            httpResponseCode = ((HttpURLConnection)connection).getResponseCode();
         }
         
         if (httpResponseCode >= 400) {
             switch (httpResponseCode) {
-				case HTTP_ERROR_INVALID_KEY:
-					throw new WURFLCloudClientException("Invalid API key", httpResponseCode);
-				case HTTP_ERROR_MISSING_KEY:
-					throw new WURFLCloudClientException("No API key was provided", httpResponseCode);
-				case HTTP_ERROR_EXPIRED_KEY:
-					throw new WURFLCloudClientException("API key is expired or revoked", httpResponseCode);
-				default:
-					throw new UnreachableServerException("The WURFL Cloud service returned an unexpected response: " + httpResponseCode);
-			}
+                case HTTP_ERROR_INVALID_KEY:
+                    throw new WURFLCloudClientException("Invalid API key", httpResponseCode);
+                case HTTP_ERROR_MISSING_KEY:
+                    throw new WURFLCloudClientException("No API key was provided", httpResponseCode);
+                case HTTP_ERROR_EXPIRED_KEY:
+                    throw new WURFLCloudClientException("API key is expired or revoked", httpResponseCode);
+                default:
+                    throw new UnreachableServerException("The WURFL Cloud service returned an unexpected response: " + httpResponseCode);
+            }
         }
-    	logger.info("URLConnection to cloud returned correctly");
+        logger.info("URLConnection to cloud returned correctly");
     }
 
     /**
@@ -476,7 +476,7 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
 
         CloudEvent evt = new CloudEvent(this, mtime, apiVersion);
         for (CloudListener listener : listeners) {
-        	listener.processEvent(evt);
+            listener.processEvent(evt);
         }
         return mtime;
     }
@@ -494,19 +494,19 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
         logger.info("Trying to get InputStream from Connection...");
         InputStream is = connection.getInputStream();
         if (is == null) {
-        	logger.error("Failed, InputStream is NULL");
+            logger.error("Failed, InputStream is NULL");
         } else {
-        	logger.info("InputStream received");
+            logger.info("InputStream received");
         }
         InputStreamReader in = new InputStreamReader(getStream(getEncodingType(connection), is));
         int read;
         do {
-        	logger.debug("Trying to read " + buffer.length + " bytes...");
+            logger.debug("Trying to read " + buffer.length + " bytes...");
             read = in.read(buffer, 0, buffer.length);
             if (read >= 0) {
-            	logger.debug(read + " bytes received");
+                logger.debug(read + " bytes received");
             } else {
-            	logger.info("EOF received");
+                logger.info("EOF received");
             }
             if (read > 0) {
                 out.append(buffer, 0, read);
@@ -528,9 +528,9 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
     private Encoding getEncodingType(URLConnection connection) {
         String encoding = connection.getHeaderField("Content-Encoding");
         if (encoding != null && encoding.equals("gzip")) {
-        	return Encoding.GZIP;
+            return Encoding.GZIP;
         }
-    	return Encoding.PLAIN;
+        return Encoding.PLAIN;
     }
 
     /**
@@ -551,10 +551,10 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
     }
 
     private void updateCache(AbstractDevice device, long mtime) {
-    	String userAgent = request.getHeader(USER_AGENT_LC);
-    	if (userAgent == null || userAgent.length() == 0) {
-    		userAgent = request.getHeader("User-Agent");
-    	}
+        String userAgent = request.getHeader(USER_AGENT_LC);
+        if (userAgent == null || userAgent.length() == 0) {
+            userAgent = request.getHeader("User-Agent");
+        }
         cache.setDevice(response, userAgent, new CacheDevice(device));
         cache.setMtime(mtime);
     }

@@ -28,7 +28,7 @@ public class EhcachePremiumCloudCache extends AbstractUseragentWurflCloudCache {
     private final Cache cache;
 
     public EhcachePremiumCloudCache() {
-    	CacheManager manager = new CacheManager();
+        CacheManager manager = new CacheManager();
         cache = manager.getCache("com.scientiamobile.wurflcloud.Device");
     }
 
