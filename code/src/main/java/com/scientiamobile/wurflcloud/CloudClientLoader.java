@@ -34,9 +34,9 @@ import com.scientiamobile.wurflcloud.utils.Constants;
  * Entry point for Cloud Client Application.
  */
 public class CloudClientLoader extends Loggable implements Constants, Serializable {
-	private static final long serialVersionUID = 2L;
-	
-	private final Properties properties = new Properties();
+    private static final long serialVersionUID = 2L;
+    
+    private final Properties properties = new Properties();
     private final CloudClientConfig config = new CloudClientConfig();
     private final ICloudClientManager managerI;
 
@@ -47,7 +47,7 @@ public class CloudClientLoader extends Loggable implements Constants, Serializab
      * @throws Exception
      */
     public CloudClientLoader() throws Exception {
-    	this (null, null, null);
+        this (null, null, null);
     }
     
     /**
@@ -56,7 +56,7 @@ public class CloudClientLoader extends Loggable implements Constants, Serializab
      * @throws Exception
      */
     public CloudClientLoader(String apiKey) throws Exception {
-    	this(apiKey, null, null);
+        this(apiKey, null, null);
     }    
     
     /**
@@ -68,7 +68,7 @@ public class CloudClientLoader extends Loggable implements Constants, Serializab
      * @throws Exception
      */
     public CloudClientLoader(String apiKey, String proxyIp, int proxyPort, Proxy.Type proxyType) throws Exception {
-    	this(apiKey, new Proxy(proxyType, new InetSocketAddress(proxyIp, proxyPort)));
+        this(apiKey, new Proxy(proxyType, new InetSocketAddress(proxyIp, proxyPort)));
     }
     
     /**
@@ -79,7 +79,7 @@ public class CloudClientLoader extends Loggable implements Constants, Serializab
      * @throws Exception
      */
     public CloudClientLoader(String proxyIp, int proxyPort, Proxy.Type proxyType) throws Exception {
-    	this(null, new Proxy(proxyType, new InetSocketAddress(proxyIp, proxyPort)));
+        this(null, new Proxy(proxyType, new InetSocketAddress(proxyIp, proxyPort)));
     }
     
     /**
@@ -88,7 +88,7 @@ public class CloudClientLoader extends Loggable implements Constants, Serializab
      * @throws Exception
      */
     public CloudClientLoader(Proxy proxy) throws Exception {
-    	this(null, null, proxy);
+        this(null, null, proxy);
     }
     
     /**
@@ -98,7 +98,7 @@ public class CloudClientLoader extends Loggable implements Constants, Serializab
      * @throws Exception
      */
     public CloudClientLoader(String apiKey, Proxy proxy) throws Exception {
-    	this(apiKey, null, proxy);
+        this(apiKey, null, proxy);
     }
 
     /**
@@ -108,7 +108,7 @@ public class CloudClientLoader extends Loggable implements Constants, Serializab
      * @throws Exception
      */
     public CloudClientLoader(String apiKey, String propertiesFile) throws Exception {
-    	this(apiKey, propertiesFile, null);
+        this(apiKey, propertiesFile, null);
     }    
     
     /**
@@ -121,7 +121,7 @@ public class CloudClientLoader extends Loggable implements Constants, Serializab
      * @throws Exception
      */
     public CloudClientLoader(String apiKey, String propertiesFile, String proxyIp, int proxyPort, Proxy.Type proxyType) throws Exception {
-    	this(apiKey, propertiesFile, new Proxy(proxyType, new InetSocketAddress(proxyIp, proxyPort)));
+        this(apiKey, propertiesFile, new Proxy(proxyType, new InetSocketAddress(proxyIp, proxyPort)));
     }
     
     /**
@@ -133,7 +133,7 @@ public class CloudClientLoader extends Loggable implements Constants, Serializab
      */
     public CloudClientLoader(String apiKey, String propertiesFile, Proxy proxy) throws Exception {
 
-    	IWurflCloudCache cache = null;
+        IWurflCloudCache cache = null;
         String[] capabilities = new String[0];
 
         if (apiKey != null && apiKey.length() > 0) {
@@ -141,14 +141,14 @@ public class CloudClientLoader extends Loggable implements Constants, Serializab
         }
         
         if (propertiesFile == null) {
-        	propertiesFile = WURFL_CLOUD_CONFIG_FILE;
+            propertiesFile = WURFL_CLOUD_CONFIG_FILE;
         }
 
         try {
             InputStream stream = getClass().getResourceAsStream(propertiesFile);
             
             if (stream == null) {
-            	stream = new FileInputStream(new File(propertiesFile));
+                stream = new FileInputStream(new File(propertiesFile));
             }
             
             properties.load(stream);
@@ -157,7 +157,7 @@ public class CloudClientLoader extends Loggable implements Constants, Serializab
             if (apiKey == null || apiKey.length() == 0) {
                 String key = properties.getProperty(APIKEY);
                 if (key == null || key.length() == 0) {
-                    throw new IllegalArgumentException("You must supply a not empty Cloud Client API key");
+                    throw new IllegalArgumentException("Your API key cannot be empty");
                 }
                 config.apiKey = key;
             }
@@ -167,7 +167,7 @@ public class CloudClientLoader extends Loggable implements Constants, Serializab
                 logger.warn("Unable to load '" + CACHE + "' property, setting default cache");
                 property = defaultCacheType();
             }
-            logger.info("setting cache type to " + property);
+            logger.info("Setting cache type to " + property);
             cache = getStrategyCache(property);
             
             property = properties.getProperty(COMPRESSION);
@@ -175,59 +175,95 @@ public class CloudClientLoader extends Loggable implements Constants, Serializab
                 logger.warn("Unable to load '" + COMPRESSION + "' property, setting default");
                 property = defaultCompression();
             }
-            logger.info("setting 'compression' to " + property);
+            logger.info("Setting 'compression' to " + property);
             config.compression = Boolean.valueOf(property);
+
+            property = properties.getProperty(CONNECTION_TIMEOUT_PROP);
+            if (property != null) {
+                try {
+                    int timeout = Integer.parseInt(property);
+                    if ( timeout >= 0 ) {
+                        logger.info("Setting 'connection_timeout' to " + timeout + " mSec");
+                        config.connectionTimeout = timeout;
+                    }
+                    else {
+                        logger.warn("Unable to load '" + CONNECTION_TIMEOUT_PROP + "' property (not an integer value >= 0) , using default (" + DEFAULT_CONNECTION_TIMEOUT + " mSec)");
+                        config.connectionTimeout = DEFAULT_CONNECTION_TIMEOUT;
+                    }
+                } catch(NumberFormatException e){
+                    logger.warn("Unable to load '" + CONNECTION_TIMEOUT_PROP + "' property (not a valid integer value) , using default (" + DEFAULT_CONNECTION_TIMEOUT + " mSec)");
+                    config.connectionTimeout = DEFAULT_CONNECTION_TIMEOUT;
+                }
+            }
+
+            property = properties.getProperty(READ_TIMEOUT_PROP);
+            if (property != null) {
+                try {
+                    int timeout = Integer.parseInt(property);
+                    if ( timeout >= 0 ) {
+                        logger.info("Setting 'read_timeout' to " + timeout + " mSec");
+                        config.readTimeout = timeout;
+                    }
+                    else {
+                        logger.warn("Unable to load '" + READ_TIMEOUT_PROP + "' property (not an integer value >= 0) , using default (" + DEFAULT_CONNECTION_TIMEOUT + " mSec)");
+                        config.readTimeout = DEFAULT_READ_TIMEOUT;
+                    }
+                } catch(NumberFormatException e){
+                    logger.warn("Unable to load '" + READ_TIMEOUT_PROP + "' property (not a valid integer value) , using default (" + DEFAULT_CONNECTION_TIMEOUT + " mSec)");
+                    config.readTimeout = DEFAULT_READ_TIMEOUT;
+                }
+            }
 
             property = properties.getProperty(CACHE + ".autoPurge");
             if (property == null) {
                 logger.warn("Unable to load 'autoPurge' property, setting default");
                 property = String.valueOf(DEFAULT_AUTO_PURGE);
             }
-            logger.info("setting 'autoPurge' to " + property);
+            logger.info("Setting 'autoPurge' to " + property);
             config.autoPurge = Boolean.valueOf(property);
 
             List<String> capList = new ArrayList<String>();
             for (Object propertyObject : properties.keySet()) {
-            	String propertyString = (String) propertyObject;
-            	if (propertyString.startsWith(CAPABILITY_PREFIX)) {
+                String propertyString = (String) propertyObject;
+                if (propertyString.startsWith(CAPABILITY_PREFIX)) {
                     capList.add(properties.getProperty(propertyString));
                 }
             }
 
             if (capList.size() == 0) {
-                logger.debug("no capabilities in config, server will give back all authorized ones");
+                logger.debug("No capabilities listed in config, server will give back all authorized ones");
             } else {
-            	capabilities = capList.toArray(new String[]{});
+                capabilities = capList.toArray(new String[]{});
             }
             
             // Proxy
             if (proxy == null) { // ignore if passed programmatically
-            	String address = properties.getProperty(PROXY_URL);
-            	
-            	if (address != null) {
-	            	String portStr = properties.getProperty(PROXY_PORT);
-	            	String typeStr = properties.getProperty(PROXY_TYPE);
-	            	
-	            	try {
-	            		int port = Integer.valueOf(portStr);
-	            		Proxy.Type type = Proxy.Type.valueOf(typeStr);
-	            		
-	            		try {
-	            			proxy = new Proxy(type, new InetSocketAddress(address, port));
-	            			logger.info("wurfl-cloud initialized with proxy from properties file on " + address + ":" + portStr + " of type " + proxy.type().toString());
-	            			
-	            		} catch (IllegalArgumentException e) {
-	                		logger.warn("unable to setup proxy from properties file; invalid values: " + e.getLocalizedMessage());
-	                	}            			
-	            		
-	            	} catch (NumberFormatException e) {
-	            		logger.warn("unable to setup proxy from properties file; invalid port: " + portStr);
-	            	} catch (IllegalArgumentException e) {
-	            		logger.warn("unable to setup proxy from properties file; invalid proxy type: " + typeStr +  " - see java.net.Proxy.Type javadoc for valid values");
-	            	} catch (NullPointerException e) {
-	            		logger.warn("unable to setup proxy from properties file; invalid proxy type: " + typeStr +  " - see java.net.Proxy.Type javadoc for valid values");
-	            	}
-            	}
+                String address = properties.getProperty(PROXY_URL);
+                
+                if (address != null) {
+                    String portStr = properties.getProperty(PROXY_PORT);
+                    String typeStr = properties.getProperty(PROXY_TYPE);
+                    
+                    try {
+                        int port = Integer.valueOf(portStr);
+                        Proxy.Type type = Proxy.Type.valueOf(typeStr);
+                        
+                        try {
+                            proxy = new Proxy(type, new InetSocketAddress(address, port));
+                            logger.info("WURFL-cloud initialized with proxy from properties file on " + address + ":" + portStr + " of type " + proxy.type().toString());
+                            
+                        } catch (IllegalArgumentException e) {
+                            logger.warn("Unable to setup proxy from properties file; invalid values: " + e.getLocalizedMessage());
+                        }
+                        
+                    } catch (NumberFormatException e) {
+                        logger.warn("Unable to setup proxy from properties file; invalid port: " + portStr);
+                    } catch (IllegalArgumentException e) {
+                        logger.warn("Unable to setup proxy from properties file; invalid proxy type: " + typeStr +  " - see java.net.Proxy.Type javadoc for valid values");
+                    } catch (NullPointerException e) {
+                        logger.warn("Unable to setup proxy from properties file; invalid proxy type: " + typeStr +  " - see java.net.Proxy.Type javadoc for valid values");
+                    }
+                }
             }
             
             property = properties.getProperty(CACHE + ".reportInterval");
@@ -235,14 +271,14 @@ public class CloudClientLoader extends Loggable implements Constants, Serializab
                 logger.warn("Unable to load 'reportInterval' property, setting default");
                 property = String.valueOf(DEFAULT_REPORT_INTERVAL);
             }
-            logger.info("setting 'reportInterval' to " + property);
+            logger.info("Setting 'reportInterval' to " + property);
             config.reportInterval = Integer.valueOf(property);
             
         } catch (FileNotFoundException exception) {
-        	logger.warn("Configuration file not found at path: " + propertiesFile + ", proceeding with defaults");
+            logger.warn("Configuration file not found at path: " + propertiesFile + ", proceeding with defaults");
         } catch (NumberFormatException exception) {
-        	logger.warn("Could not parse cache's reportInterval parameter, not a valid integer value.");
-        	config.reportInterval = DEFAULT_REPORT_INTERVAL;
+            logger.warn("Could not parse cache's reportInterval parameter, not a valid integer value.");
+            config.reportInterval = DEFAULT_REPORT_INTERVAL;
         }
         
         if (cache == null) {

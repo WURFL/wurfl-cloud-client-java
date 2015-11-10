@@ -17,14 +17,13 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 /**
- * Date: 06/05/15
  *
  */
 @Test(groups = "connected")
 public class CloudClientInvalidApiKeyTest extends Loggable {
-	
-	private ICloudClientManager manager;
-	
+
+    private ICloudClientManager manager;
+
     @BeforeClass
     public void setup() throws Exception {
         CloudClientLoader loader = new CloudClientLoader(null, "/InvalidApiKey.properties");
@@ -33,8 +32,8 @@ public class CloudClientInvalidApiKeyTest extends Loggable {
 
     @Test
     public void testApiKeyFailure() {
-    	boolean res = manager.testCallWurflCloud();
-    	assertFalse(res);
+        boolean res = manager.testCallWurflCloud();
+        assertFalse(res);
     }
 
 }

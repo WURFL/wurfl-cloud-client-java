@@ -32,7 +32,7 @@ import com.scientiamobile.wurflcloud.device.JsonCookie;
  *
  */
 public class SimpleCookieCache extends AbstractWurflCloudCache {
-	
+
     /**
      * Default cookie cache expiration, in seconds.
      */
@@ -55,8 +55,8 @@ public class SimpleCookieCache extends AbstractWurflCloudCache {
         AbstractDevice ret = null;
         Cookie[] cookies = null;
         try {
-			cookies = request.getCookies();
-		} catch (IllegalStateException e) {}
+            cookies = request.getCookies();
+        } catch (IllegalStateException e) {}
         if (cookies == null) return null;
         for (int i = 0; i < cookies.length; i++) {
             Cookie cookie = cookies[i];
@@ -83,7 +83,7 @@ public class SimpleCookieCache extends AbstractWurflCloudCache {
         logger.debug("device: " + ret);
         return ret;
     }
-    
+
     public AbstractDevice getDeviceFromID(String key) {
         return null;
     }
@@ -120,8 +120,8 @@ public class SimpleCookieCache extends AbstractWurflCloudCache {
             response.addCookie(cookie);
             logger.debug(WURFL_COOKIE_NAME + " cookie added to response: " + cookie.getValue());
         } else {
-        	// TODO: Check message
-        	logger.warn("Trying to save cookie on a null response. Maybe you're trying to use a CookieCache while querying the cloud with a simple user agent string.");
+            // TODO: Check message
+            logger.warn("Trying to save cookie on a null response. Maybe you're trying to use a CookieCache while querying the cloud with a simple user agent string.");
         }
         return true;
     }

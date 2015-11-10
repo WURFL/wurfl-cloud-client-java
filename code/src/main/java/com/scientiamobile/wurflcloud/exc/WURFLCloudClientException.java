@@ -12,21 +12,21 @@
 package com.scientiamobile.wurflcloud.exc;
 
 public class WURFLCloudClientException extends RuntimeException {
-	private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
 
-	private final int httpResponseCode;
-	
-	public WURFLCloudClientException(String s, int httpResponseCode) {
+    private final int httpResponseCode;
+    
+    public WURFLCloudClientException(String s, int httpResponseCode) {
         super(s);
         this.httpResponseCode = httpResponseCode;
     }
-	
-	/**
-	 * Returns the HTTP response code received from the server, from the connection
-	 * which has thrown the exception
-	 * @return the HTTP response code
-	 */
-	public int getHttpResponseCode() {
-		return httpResponseCode;
-	}
+    
+    /**
+     * Returns the HTTP response code received from the server, from the connection
+     * which has thrown the exception
+     * @return the HTTP response code
+     */
+    public int getHttpResponseCode() {
+        return httpResponseCode;
+    }
 }
