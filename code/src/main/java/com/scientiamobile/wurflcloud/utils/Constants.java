@@ -24,7 +24,7 @@ public interface Constants {
     /**
      * The version of this client
      */
-    String CLIENT_VERSION = "1.0.5";
+    String CLIENT_VERSION = "1.0.6";
 
     /**
      * Accepted encoding enum.

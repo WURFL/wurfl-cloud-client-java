@@ -246,7 +246,7 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
      */
     private CloudClient setEncodingAccept() {
         if (config.compression) {
-            addRequestHeader("Accept-Encoding", Encoding.GZIP.val);
+            addRequestHeader("X-Accept-Encoding", Encoding.GZIP.val);
         }
         return this;
     }
@@ -275,7 +275,7 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
             logger.info(connection.toString());
             switch (enc) {
                 case GZIP:
-                    connection.addRequestProperty("Accept-Encoding", Encoding.GZIP.val);
+                    connection.addRequestProperty("X-Accept-Encoding", Encoding.GZIP.val);
                     break;
                 default:
             }
