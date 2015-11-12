@@ -20,8 +20,6 @@ import com.scientiamobile.wurflcloud.device.AbstractDevice;
 import com.scientiamobile.wurflcloud.exc.WURFLCloudClientException;
 import com.scientiamobile.wurflcloud.cache.WurflCloudCache_Null;
 /**
- * Date: 10/29/15
- *
  * @version $Id$
  */
 @Test(groups = "unit")
@@ -35,24 +33,24 @@ public class CloudClientReadTimeoutTest extends Loggable{
     
     @BeforeClass
     public void setup() throws Exception {
-    	
+        
         CloudClientLoader loader = new CloudClientLoader(null, "/CloudClientReadTimeoutTest.properties");
         ICloudClient = loader.getClientManager();
-    	
+        
     }
 
     @Test 
     public void testClient() {
-    	/**
-    	 * Mantaining compatibility with Junit version < 4
-    	 */
-		boolean excThrown = false;
-		try {
-	        device = ICloudClient.getDeviceFromUserAgent(ua, capabilities);			
-		}
-		catch (WURFLCloudClientException exc) {
-			excThrown = true;			
-		}
-		assertTrue(excThrown);
+        /**
+         * Mantaining compatibility with Junit version < 4
+         */
+        boolean excThrown = false;
+        try {
+            device = ICloudClient.getDeviceFromUserAgent(ua, capabilities);
+        }
+        catch (WURFLCloudClientException exc) {
+            excThrown = true;
+        }
+        assertTrue(excThrown);
     }
 }

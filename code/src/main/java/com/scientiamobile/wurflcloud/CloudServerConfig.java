@@ -27,19 +27,19 @@ public class CloudServerConfig {
 
     @Override
     public String toString() {
-    	StringBuilder sb = new StringBuilder();
-    	sb.append(this.getClass().getName())
-    			.append('@')
-    			.append(this.hashCode())
-    			.append('-')
-    			.append("nickname:")
-    			.append(nickname)
-    			.append('-')
-    			.append("host:")
-    			.append(host)
-    			.append('-')
-    			.append("weight:")
-    			.append(weight);
+        StringBuilder sb = new StringBuilder();
+        sb.append(this.getClass().getName())
+                .append('@')
+                .append(this.hashCode())
+                .append('-')
+                .append("nickname:")
+                .append(nickname)
+                .append('-')
+                .append("host:")
+                .append(host)
+                .append('-')
+                .append("weight:")
+                .append(weight);
         return sb.toString();
     }
 }

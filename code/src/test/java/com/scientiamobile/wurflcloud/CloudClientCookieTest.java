@@ -28,8 +28,6 @@ import static org.mockito.Mockito.when;
 
 
 /**
- * Date: 20/07/11
- *
  * @version $Id$
  */
 @Test(groups = "unit")

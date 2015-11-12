@@ -22,8 +22,8 @@ import static org.testng.Assert.assertTrue;
  */
 @Test(groups = "connected")
 public class CloudClientManagerTest extends Loggable {
-	
-	private ICloudClientManager ICloudClient;
+
+    private ICloudClientManager ICloudClient;
 
     @BeforeClass
     public void setup() throws Exception {
@@ -39,7 +39,7 @@ public class CloudClientManagerTest extends Loggable {
 
     @Test
     public void testValidateCache() {
-    	// this test passes if the cache autopurge property is set to true
+        // this test passes if the cache autopurge property is set to true
         boolean b = ICloudClient.validateCache();
         assertTrue(b);
     }

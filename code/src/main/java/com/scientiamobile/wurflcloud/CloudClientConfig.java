@@ -23,12 +23,12 @@ import com.scientiamobile.wurflcloud.utils.Constants;
  * Mantains Cloud client configuration.
  */
 public class CloudClientConfig extends Loggable implements Serializable {
-	private static final long serialVersionUID = 2L;
+    private static final long serialVersionUID = 2L;
 
     /**
      * The API Key is used to authenticate with the WURFL Cloud Service.  It can be found at in your account
      * at http://www.scientiamobile.com/myaccount
-     * The API Key is 39 characters in with the format: nnnnnn:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+     * The API Key is 39 characters with the format: nnnnnn:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
      * where 'n' is a number and 'x' is a letter or number
      */
     protected String apiKey = null;

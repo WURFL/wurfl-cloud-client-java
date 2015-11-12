@@ -23,12 +23,12 @@ import java.util.Map;
  * Cache interface.
  */
 public interface IWurflCloudCache extends Constants {
-	
+
     /**
      * Get the device capabilities for the given user agent from the cache provider
      */
     public AbstractDevice getDevice(CloudRequest request, ICloudClientRequest client);
-	
+    
     /**
      * Get the device for the given key from the cache provider
      * 

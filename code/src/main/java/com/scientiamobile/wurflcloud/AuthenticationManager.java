@@ -33,22 +33,22 @@ public class AuthenticationManager implements IAuthenticationManager {
     public Credentials splitApiKey() {
         String api_key = config.apiKey;
         if (api_key == null || api_key.length() == 0) {
-            throw new IllegalArgumentException("Api key must be not empty");
+            throw new IllegalArgumentException("API key must be not empty");
         }
         
         int indexOfColon = api_key.indexOf(':');
         if (indexOfColon < 0) {
-        	throw new IllegalArgumentException("Api key must contain a \':\' separator.");
+            throw new IllegalArgumentException("API key must contain a \':\' separator.");
         }
         
         String username = api_key.substring(0, indexOfColon);
         if (username.length() == 0) {
-        	throw new IllegalArgumentException("Api key username is empty.");
+            throw new IllegalArgumentException("API key username is empty.");
         }
         
         String pwd = api_key.substring(indexOfColon + 1);
         if (pwd.length() == 0) {
-        	throw new IllegalArgumentException("Api key password is empty.");
+            throw new IllegalArgumentException("API key password is empty.");
         }
         
         return new Credentials(username, pwd);

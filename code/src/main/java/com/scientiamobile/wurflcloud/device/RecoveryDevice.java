@@ -16,8 +16,6 @@ import com.scientiamobile.wurflcloud.ResponseType;
 import java.util.Map;
 
 /**
- * Date: 28/07/11
- *
  * @since 1.0
  * @version $Id$
  */

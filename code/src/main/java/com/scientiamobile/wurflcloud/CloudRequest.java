@@ -19,20 +19,20 @@ import javax.servlet.http.Cookie;
  * CloudRequest interface
  */
 public interface CloudRequest {
-	
-	/**
-	 * Returns all the header names
-	 * @return The header names
-	 */
+
+    /**
+     * Returns all the header names
+     * @return The header names
+     */
     Enumeration<String> getHeaderNames();
-    
+
     /**
      * Gets the header value associated to the requested header name
      * @param name The requested header name
      * @return The header value
      */
     String getHeader(String name);
-    
+
     /**
      * Returns the Internet Protocol (IP) address of the client or last proxy that sent the request
      * @return The IP address of the client or last proxy that sent the request
@@ -42,5 +42,5 @@ public interface CloudRequest {
     /**
      * @return The stored {@link Cookie} array, if available
      */
-	Cookie[] getCookies();
+    Cookie[] getCookies();
 }

@@ -15,24 +15,23 @@ import com.scientiamobile.wurflcloud.ICloudClientManager;
 import com.scientiamobile.wurflcloud.device.AbstractDevice;
 
 public class MyCloudClientServlet extends HttpServlet {
-	private static final long serialVersionUID = -6370538869254374459L;
-	private final Logger logger = Logger.getLogger(getClass().getName());
+    private static final long serialVersionUID = -6370538869254374459L;
+    private final Logger logger = Logger.getLogger(getClass().getName());
     private ICloudClientManager manager;
     private String[] capabilities;
 
     public void init() throws ServletException {
         super.init();
         CloudClientLoader loader;
-		try {
-			loader = new CloudClientLoader("nnnnnn:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"); // Place your API Key here
-			//loader = new CloudClientLoader(); // use this constructor to read all the configuration properties from wurflcloud.properties file (including the API Key)
-	        manager = loader.getClientManager();
-	        capabilities = loader.getSearchedCapabilities();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+        try {
+            loader = new CloudClientLoader("nnnnnn:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"); // Place your API Key here
+            manager = loader.getClientManager();
+            capabilities = loader.getSearchedCapabilities();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
-	
+    
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         doPost(req, resp);

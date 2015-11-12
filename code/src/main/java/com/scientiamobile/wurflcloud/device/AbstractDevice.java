@@ -45,7 +45,7 @@ public class AbstractDevice extends Loggable {
         capabilityMap = capabilities;
         this.clientRequest = clientRequest;
     }
-    
+
     /**
      * Convenience constructor which takes the queried capabilities, response type, device identifier and a map of errors
      * @param capabilities The capabilities queried for this AbstractDevice
@@ -56,21 +56,21 @@ public class AbstractDevice extends Loggable {
     public AbstractDevice(Map<String, Object> capabilities, ResponseType source, String id, Map<String, String> errors) {
         this(capabilities, source, id, errors, null);
     }
-    
+
     /**
      * Gets the capability value corresponding to the requested capability name. If this capability isn't already available locally the WURFL Cloud server will be queried for it.
      * @param capabilityName The requested capability name
      * @return The capability value.
      */
     public Object get(String capabilityName) {
-    	// check the stored capabilities for this device
-    	Object value = capabilityMap.get(capabilityName);
-    	if (value == null) {
-	   		// Must query the Cloud to check if the user is authorized to get the requested capability
-			logger.debug("Requested unauthorized capability \'" + capabilityName + "\'. Querying the Cloud..");
-			value = clientRequest.queryCloudForCapability(capabilityName, this);
-    	}
-		return value;
+        // check the stored capabilities for this device
+        Object value = capabilityMap.get(capabilityName);
+        if (value == null) {
+            // Must query the Cloud to check if the user is authorized to get the requested capability
+            logger.debug("Requested unauthorized capability \'" + capabilityName + "\'. Querying the Cloud..");
+            value = clientRequest.queryCloudForCapability(capabilityName, this);
+        }
+        return value;
     }
 
     /**

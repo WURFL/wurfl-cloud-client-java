@@ -15,11 +15,11 @@ package com.scientiamobile.wurflcloud;
  * Listener for update, receiving a cloud response.
  */
 public interface CloudListener {
-	
-	/**
-	 * Tells the listener when a specific {@link CloudEvent} has been raised.
-	 * @param {@link CloudEvent} The raised CloudEvent
-	 * 
-	 */
+
+    /**
+     * Tells the listener when a specific {@link CloudEvent} has been raised.
+     * @param {@link CloudEvent} The raised CloudEvent
+     * 
+     */
     void processEvent(CloudEvent evt);
 }

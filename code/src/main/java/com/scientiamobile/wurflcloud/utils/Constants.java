@@ -49,7 +49,7 @@ public interface Constants {
      * Default host name.
      */
     String DEFAULT_SERVER_HOST = "api.wurflcloud.com";
-    
+
     /**
      * Default Server Info
      */
@@ -177,12 +177,12 @@ public interface Constants {
      * X-Wap-Profile
      */
     String X_WAP_PROFILE = "X-Wap-Profile";
-    
+
     /**
      * X-Forwarded-For
      */
     String X_FORWARDED_FOR = "X-Forwarded-For";
-    
+
     /**
      * The max allowed length of the user-agent
      */
@@ -192,13 +192,13 @@ public interface Constants {
      * The HTTP Headers that will be examined to find the best User Agent, if one is not specified
      */
     String[] HEADERS = new String[] {
-    		"Device-Stock-UA",		// "HTTP_DEVICE_STOCK_UA",
-            "X-Device-User-Agent",	// "HTTP_X_DEVICE_USER_AGENT",
+            "Device-Stock-UA",      // "HTTP_DEVICE_STOCK_UA",
+            "X-Device-User-Agent",  // "HTTP_X_DEVICE_USER_AGENT",
             "X-Original-User-Agent",// "HTTP_X_ORIGINAL_USER_AGENT",
-            "X-Operamini-Phone-Ua",	// "HTTP_X_OPERAMINI_PHONE_UA",
-            "X-Skyfire-Phone",		// "HTTP_X_SKYFIRE_PHONE",
-            "X-Bolt-Phone-Ua",		// "HTTP_X_BOLT_PHONE_UA",
-            USER_AGENT_LC,			// "HTTP_USER_AGENT"
+            "X-Operamini-Phone-Ua", // "HTTP_X_OPERAMINI_PHONE_UA",
+            "X-Skyfire-Phone",      // "HTTP_X_SKYFIRE_PHONE",
+            "X-Bolt-Phone-Ua",      // "HTTP_X_BOLT_PHONE_UA",
+            USER_AGENT_LC,          // "HTTP_USER_AGENT"
     };
     
 }

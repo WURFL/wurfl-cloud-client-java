@@ -17,7 +17,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 /**
- * Date: 27/07/11
  *
  */
 @Test(groups = "connected")
@@ -28,7 +27,7 @@ public class CloudClientLoaderTest {
         new CloudClientLoader(null, "/DefaultTest.properties");
     }
     @Test
-      public void testConstructor(){
-          assertTrue(true);
-      }
+    public void testConstructor(){
+        assertTrue(true);
+    }
 }
