@@ -26,48 +26,57 @@ import com.scientiamobile.wurflcloud.utils.Constants;
  *
  */
 public final class DefaultCloudRequest implements CloudRequest {
-
-    private final Map<String, String> headers = new HashMap<String, String>();
-
-    public DefaultCloudRequest(HttpServletRequest servletRequest) throws IllegalArgumentException {
-        if (servletRequest == null) {
-            throw new IllegalArgumentException("ERROR: Servlet request cannot be null.");
-        }
-        String userAgentLC = servletRequest.getHeader(Constants.USER_AGENT_LC);
-        String userAgentUC = servletRequest.getHeader("User-Agent");
-        this.headers.put("user-agent", userAgentUC != null ? userAgentUC : userAgentLC);
+	
+	private final Map<String, String> headers = new HashMap<String, String>();
+	
+  private Cookie[] cookies = new Cookie[0];
+  
+  public DefaultCloudRequest(HttpServletRequest servletRequest) throws IllegalArgumentException {
+    
+    if (servletRequest == null) {
+      throw new IllegalArgumentException("Error: Servlet request cannot be null.");
     }
+    
+    String userAgentLC = servletRequest.getHeader(Constants.USER_AGENT_LC);
+    String userAgentUC = servletRequest.getHeader("User-Agent");
+    cookies = servletRequest.getCookies();
+    
+    this.headers.put("user-agent", userAgentUC != null ? userAgentUC : userAgentLC);
+  }
+	
+	public DefaultCloudRequest(String userAgent) throws IllegalArgumentException {
+		this.headers.put(Constants.USER_AGENT_LC, userAgent);
+	}
 
-    public DefaultCloudRequest(String userAgent) throws IllegalArgumentException {
-        this.headers.put(Constants.USER_AGENT_LC, userAgent);
-    }
+	/**
+	 * {@inheritDoc}
+	 */
+	public Enumeration<String> getHeaderNames() {
+		return new Vector<String>(headers.keySet()).elements();
+	}
 
-    /**
-     * {@inheritDoc}
-     */
-    public Enumeration<String> getHeaderNames() {
-        return new Vector<String>(headers.keySet()).elements();
-    }
+	/**
+	 * {@inheritDoc}
+	 */
+	public String getHeader(String name) {
+		return headers.get(name);
+	}
 
-    /**
-     * {@inheritDoc}
-     */
-    public String getHeader(String name) {
-        return headers.get(name);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public String getRemoteAddr() {
-        return null;
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public Cookie[] getCookies() {
-        throw new IllegalStateException("ERROR: Trying to get cookies from a CloudRequest which does not support cookie storage.");
-    }
+	/**
+	 * {@inheritDoc}
+	 */
+	public String getRemoteAddr() {
+		return null;
+	}
+	
+	/**
+	 * {@inheritDoc}
+	 */
+	public Cookie[] getCookies() {
+	  if (cookies == null) {
+	    throw new IllegalStateException("ERROR: Trying to get cookies from a CloudRequest which does not support cookie storage.");
+	  }
+	  return cookies;
+	}
 
 }
