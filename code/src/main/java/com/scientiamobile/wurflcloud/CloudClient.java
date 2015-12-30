@@ -20,6 +20,7 @@ import java.net.Proxy;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.Enumeration;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -27,6 +28,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.zip.GZIPInputStream;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.codehaus.jackson.map.ObjectMapper;
@@ -79,7 +81,7 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
     /**
      * The incoming request, not propagated to the Cloud Server!
      */
-    private final CloudRequest request;
+    private final HttpServletRequest request;
     
     /**
      * The response that will be served to the client application.
@@ -108,7 +110,7 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
      * @param recoveryManager
      * @param clientManager
      */
-    protected CloudClient(CloudRequest request, HttpServletResponse response, CloudClientConfig cfg, String[] searchCapabilities, Credentials credentials, IWurflCloudCache cache, CloudClientManager clientManager, Proxy proxy) {
+    protected CloudClient(HttpServletRequest request, HttpServletResponse response, CloudClientConfig cfg, String[] searchCapabilities, Credentials credentials, IWurflCloudCache cache, CloudClientManager clientManager, Proxy proxy) {
         this.response = response;
         this.request = request;
         this.searchCapabilities = searchCapabilities;
@@ -117,6 +119,19 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
         this.cache = cache;
         this.proxy = proxy;
         this.userAgent = "";
+        addCloudListener(clientManager);
+        reqPath = initialize();
+    }
+
+    protected CloudClient(String userAgent, HttpServletResponse response, CloudClientConfig cfg, String[] searchCapabilities, Credentials credentials, IWurflCloudCache cache, CloudClientManager clientManager, Proxy proxy) {
+        this.response = response;
+        this.request = null;
+        this.searchCapabilities = searchCapabilities;
+        this.config = cfg;
+        this.credentials = credentials;
+        this.cache = cache;
+        this.proxy = proxy;
+        this.userAgent = userAgent;
         addCloudListener(clientManager);
         reqPath = initialize();
     }
@@ -140,18 +155,44 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
             addReportDataToRequest();
         }
 
-        //All headers are set in lowercase, to clear various java server differences
-        Enumeration<?> headerNames = request.getHeaderNames();
-        if (headerNames != null) {
-            while (headerNames.hasMoreElements()) {
-                String headerName = (String) headerNames.nextElement();
-                String headerNameLC = headerName.toLowerCase();
-                logger.info("putting " + headerNameLC);
-                if (USER_AGENT_LC.equals(headerNameLC)) {
-                    userAgent = request.getHeader(headerName);
+        if (request != null) {
+            //All headers are set in lowercase, to clear various java server differences
+            Enumeration<?> headerNames = request.getHeaderNames();
+            HashMap<String, String> uaMap = new HashMap();
+            if (headerNames != null) {
+                while (headerNames.hasMoreElements()) {
+                    String headerName = (String) headerNames.nextElement();
+                    String headerNameLC = headerName.toLowerCase();
+                    
+                    if ( headerNameLC.compareTo(REMOTE_ADDR_LC) != 0 || 
+                    	headerNameLC.compareTo(X_FORWARDED_FOR_LC) != 0 || 
+                    	headerNameLC.compareTo(ACCEPT_LC) != 0 || 
+                    	headerNameLC.compareTo(X_WAP_PROFILE_LC) != 0 ||
+                    	headerNameLC.compareTo(X_REQUESTED_WITH_LC) != 0 ) {
+
+                    	logger.info("putting " + headerNameLC);
+	                    reqHeaders.put(headerNameLC, request.getHeader(headerName));
+                    }
+
+                    //check if header is one that contains ua info and store it temporarely
+                    for (String header : HEADERS) {
+                        if (headerNameLC.equalsIgnoreCase(header)) {
+                        	uaMap.put(headerNameLC, request.getHeader(headerName));
+                            break;
+                        } 
+                    }
                 }
-                reqHeaders.put(headerNameLC, request.getHeader(headerName));
-            }
+
+                //get the best user-agent value from headers stored before
+                for (String header : HEADERS) {
+                    if (uaMap.get(header.toLowerCase())!= null) {
+                    	userAgent = uaMap.get(header);
+                        break;
+                    } 
+                }
+            }        	
+        } else {
+        	reqHeaders.put(USER_AGENT_LC, userAgent);
         }
 
         if (userAgent.length() == 0) {
@@ -172,7 +213,11 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
                 addRequestHeader(X_FORWARDED_FOR, ip);
             }
         } else {
-            String remoteAddr = request.getRemoteAddr();
+        	String remoteAddr = null;
+        	
+        	if ( request != null) 
+        		remoteAddr = request.getRemoteAddr();
+        	
             if (remoteAddr != null) addRequestHeader(X_FORWARDED_FOR, remoteAddr);
         }
 
@@ -180,7 +225,10 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
         String accept = reqHeaders.get(ACCEPT_LC);
         if (accept != null) {
             addRequestHeader(X_ACCEPT, accept);
-        }
+            removeRequestHeader(ACCEPT_LC);
+        } 
+        addRequestHeader(ACCEPT_LC, "*/*");
+        	
         
         // add X-Wap-Profile
         String xWapProfile = reqHeaders.get(X_WAP_PROFILE_LC);
@@ -202,7 +250,6 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
      */
     private void addOtherHeaders(String reqPath) {
         setEncodingAccept();
-        addRequestHeader(ACCEPT_LC, "*/*");
         addRequestHeader("X-Cloud-Client", "WurflCloudClient/Java_" + CLIENT_VERSION);
         addRequestHeader("Connection", "Close");
         addRequestHeader(AUTHORIZATION, AuthorizationUtils.getBasicAuthString(credentials));
@@ -236,6 +283,17 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
      */
     private CloudClient addRequestHeader(String headerName, String headerValue) {
         reqHeaders.put(headerName, headerValue);
+        return this;
+    }
+
+    /**
+     * Convenience method to remove a specific header from the headers will be sent to server.
+     *
+     * @param headerName The header name
+     * @return This object
+     */
+    private CloudClient removeRequestHeader(String headerName) {
+        reqHeaders.remove(headerName);
         return this;
     }
 
@@ -401,7 +459,7 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
      * @return
      * @throws IOException 
      */
-    public AbstractDevice detectDevice() throws IOException {
+    protected AbstractDevice detectDevice() throws IOException {
         AbstractDevice device = cache.getDevice(request, this);
         if (device != null) {
             //check if capabilities search is changed
@@ -551,10 +609,15 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
     }
 
     private void updateCache(AbstractDevice device, long mtime) {
-        String userAgent = request.getHeader(USER_AGENT_LC);
-        if (userAgent == null || userAgent.length() == 0) {
-            userAgent = request.getHeader("User-Agent");
-        }
+    	String userAgent = "";
+    	if (request != null) {
+            userAgent = request.getHeader(USER_AGENT_LC);
+            if (userAgent == null || userAgent.length() == 0) {
+                userAgent = request.getHeader("User-Agent");
+            }    		
+    	} else {
+    		userAgent = this.userAgent;
+    	}
         cache.setDevice(response, userAgent, new CacheDevice(device));
         cache.setMtime(mtime);
     }

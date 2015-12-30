@@ -11,11 +11,11 @@
  */
 package com.scientiamobile.wurflcloud.cache;
 
-import com.scientiamobile.wurflcloud.CloudRequest;
 import com.scientiamobile.wurflcloud.ICloudClientRequest;
 import com.scientiamobile.wurflcloud.device.AbstractDevice;
 import com.scientiamobile.wurflcloud.utils.Constants;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.Map;
 
@@ -27,8 +27,7 @@ public interface IWurflCloudCache extends Constants {
     /**
      * Get the device capabilities for the given user agent from the cache provider
      */
-    public AbstractDevice getDevice(CloudRequest request, ICloudClientRequest client);
-    
+    public AbstractDevice getDevice(HttpServletRequest request, ICloudClientRequest client);
     /**
      * Get the device for the given key from the cache provider
      * 

@@ -167,6 +167,7 @@ public interface Constants {
     String X_WAP_PROFILE_LC = "x-wap-profile";
     String X_FORWARDED_FOR_LC = "x-forwarded-for";
     String PROFILE_LC = "profile";
+    String X_REQUESTED_WITH_LC = "x-requested-with";    
 
     /**
      * X-Accept
