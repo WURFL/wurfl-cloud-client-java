@@ -155,7 +155,8 @@ public class CloudClientManager extends Loggable implements CloudListener, IClou
      * {@inheritDoc}
      */
     public AbstractDevice getDeviceFromUserAgent(String userAgent, String... search_capabilities) {
-        CloudClient cc = new CloudClient(new DefaultCloudRequest(userAgent), null, config, (search_capabilities != null && search_capabilities.length > 0) ? search_capabilities : parsedCapabilities, credentials, cache, this, proxy);
+        CloudClient cc = new CloudClient(userAgent, null, config, (search_capabilities != null && search_capabilities.length > 0) ? search_capabilities : parsedCapabilities, credentials, cache, this, proxy);
+
         return detectDevice(cc);
     }
 
@@ -163,7 +164,7 @@ public class CloudClientManager extends Loggable implements CloudListener, IClou
      * {@inheritDoc}
      */
     public AbstractDevice getDeviceFromRequest(HttpServletRequest request, HttpServletResponse response, String... search_capabilities) {
-        CloudClient cc = new CloudClient(new DefaultCloudRequest(request), response, config, (search_capabilities != null && search_capabilities.length > 0) ? search_capabilities : parsedCapabilities, credentials, cache, this, proxy);
+        CloudClient cc = new CloudClient(request, response, config, (search_capabilities != null && search_capabilities.length > 0) ? search_capabilities : parsedCapabilities, credentials, cache, this, proxy);
         return detectDevice(cc);
     }
 
@@ -239,7 +240,7 @@ public class CloudClientManager extends Loggable implements CloudListener, IClou
         HttpServletResponse response = mock(HttpServletResponse.class);
 
         // Determine the HTTP method to use and grab the response from the server
-        CloudClient client = new CloudClient(new DefaultCloudRequest(request), response, config, new String[0], credentials, cache, this, proxy);
+        CloudClient client = new CloudClient(request, response, config, new String[0], credentials, cache, this, proxy);
         return client.testCall(Constants.Encoding.PLAIN);
     }
 

@@ -1,3 +1,9 @@
+1.0.6
+Add: EhcachePremiumCloudCache and HashMapPremiumCloudCache unit tests
+Fix: SimpleCookieCache and SimpleCookieCache unit test
+Fix: Headers sent to cloud server to correctly calculate Virtual Capabilities
+Remove: CloudRequest and DefaultCloudRequest ( using HttpServletRequest directly )
+
 1.0.5
 Add: Make connection and read timeouts configurable in `wurflcloud.properties` file
 

@@ -17,11 +17,11 @@ import java.net.URLEncoder;
 import java.util.HashMap;
 
 import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.codehaus.jackson.map.ObjectMapper;
 
-import com.scientiamobile.wurflcloud.CloudRequest;
 import com.scientiamobile.wurflcloud.ICloudClientRequest;
 import com.scientiamobile.wurflcloud.device.AbstractDevice;
 import com.scientiamobile.wurflcloud.device.CookieDevice;
@@ -50,7 +50,7 @@ public class SimpleCookieCache extends AbstractWurflCloudCache {
         return true;
     }
 
-    public AbstractDevice getDevice(CloudRequest request, ICloudClientRequest client) {
+    public AbstractDevice getDevice(HttpServletRequest request, ICloudClientRequest client) {
         if (request == null) throw new IllegalArgumentException("request cannot be null");
         AbstractDevice ret = null;
         Cookie[] cookies = null;
