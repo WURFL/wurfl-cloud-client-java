@@ -24,7 +24,7 @@ public interface Constants {
     /**
      * The version of this client
      */
-    String CLIENT_VERSION = "1.0.5";
+    String CLIENT_VERSION = "1.0.6";
 
     /**
      * Accepted encoding enum.
@@ -167,6 +167,7 @@ public interface Constants {
     String X_WAP_PROFILE_LC = "x-wap-profile";
     String X_FORWARDED_FOR_LC = "x-forwarded-for";
     String PROFILE_LC = "profile";
+    String X_REQUESTED_WITH_LC = "x-requested-with";    
 
     /**
      * X-Accept

@@ -14,7 +14,6 @@ package com.scientiamobile.wurflcloud;
 import com.scientiamobile.wurflcloud.device.AbstractDevice;
 import com.scientiamobile.wurflcloud.utils.Constants;
 
-import static org.testng.Assert.assertEquals;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -27,21 +26,21 @@ import java.util.Enumeration;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
+import static org.testng.Assert.assertEquals;
+
+
 
 /**
  * @version $Id$
  */
 @Test(groups = "unit")
-public class CloudClientCookieTest extends Loggable {
+public class CloudClientEhCacheTest extends Loggable {
 
     static final String ua = "Mozilla/5.0 (BlackBerry; U; BlackBerry 9800; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.466 Mobile Safari/534.8+";
 
     private ICloudClientManager ICloudClient;
     private AbstractDevice device;
     private String[] capabilities;
-    private long time;
-    private long start;
-    private String mobile;
     private Enumeration<Object> e;
     private HttpServletRequest request;
     private HttpServletResponse response;
@@ -49,7 +48,7 @@ public class CloudClientCookieTest extends Loggable {
 
     @BeforeClass
     public void setup() throws Exception {
-        CloudClientLoader loader = new CloudClientLoader(null, "/CookieTest.properties");
+        CloudClientLoader loader = new CloudClientLoader(null, "/EhCacheTest.properties");
         ICloudClient = loader.getClientManager();
         capabilities = loader.getSearchedCapabilities();
     }
@@ -81,33 +80,18 @@ public class CloudClientCookieTest extends Loggable {
     }
 
     @Test
-    public void testWoCookie() {
-        start = System.currentTimeMillis();
-        device = ICloudClient.getDeviceFromRequest(request, response, capabilities);
+    public void firstRun() {
+
+    	device = ICloudClient.getDeviceFromRequest(request, response, capabilities);
+        assertEquals(device.getSource(), ResponseType.cloud);
         
-        assertEquals(device.getSource(), ResponseType.cloud);
     }
 
     @Test
-    public void testWithCookie() {
-        start = System.currentTimeMillis();
-        Cookie[] cks = new Cookie[1];
-        cks[0] = new Cookie(Constants.WURFL_COOKIE_NAME, "{\"date_set\":\""+((start/1000)-5000)+"\",\"capabilities\":{\"id\":\"pippo\",\"brand_name\":\"RIM\",\"is_wireless_device\":true,\"resolution_height\":480,\"model_name\":\"BlackBerry 9800\"}}");//"resolution_width":360,
-        when(request.getCookies()).thenReturn(cks);
-
-        device = ICloudClient.getDeviceFromRequest(request, response, capabilities);
-        assertEquals(device.getSource(), ResponseType.cookie);
+    public void secondRun() {
+        
+    	device = ICloudClient.getDeviceFromRequest(request, response, capabilities);
+        assertEquals(device.getSource(), ResponseType.cache);
+        
     }
-
-    @Test
-    public void testWithExpiredCookie() {
-        start = System.currentTimeMillis();
-        Cookie[] cks = new Cookie[1];
-        cks[0] = new Cookie(Constants.WURFL_COOKIE_NAME, "{\"date_set\":\""+((start/1000)-100000)+"\",\"capabilities\":{\"id\":\"pippo\",\"brand_name\":\"RIM\",\"is_wireless_device\":true,\"resolution_width\":360,\"resolution_height\":480,\"model_name\":\"BlackBerry 9800\"}}");
-        when(request.getCookies()).thenReturn(cks);
-
-        device = ICloudClient.getDeviceFromRequest(request, response, capabilities);
-        assertEquals(device.getSource(), ResponseType.cloud);
-    }
-
 }

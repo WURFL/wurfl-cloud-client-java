@@ -15,7 +15,7 @@ import java.util.Collections;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import com.scientiamobile.wurflcloud.CloudRequest;
+import javax.servlet.http.HttpServletRequest;
 import com.scientiamobile.wurflcloud.ICloudClientRequest;
 import com.scientiamobile.wurflcloud.Loggable;
 import com.scientiamobile.wurflcloud.device.AbstractDevice;
@@ -38,7 +38,7 @@ public abstract class AbstractWurflCloudCache extends Loggable implements IWurfl
         return mtime;
     }
 
-    public AbstractDevice getDevice(CloudRequest request, ICloudClientRequest client) {
+    public AbstractDevice getDevice(HttpServletRequest request, ICloudClientRequest client) {
     	return null;
     }
     
