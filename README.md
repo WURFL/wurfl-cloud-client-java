@@ -13,8 +13,10 @@ http://www.scientiamobile.com/cloud
 Installation
 ------------
 
-If you're reading this, you've probably already extracted the Cloud Client files.
-You should put them somewhere on your server that is accessible from your web application.
+First, you must go to http://www.scientiamobile.com/cloud and signup
+for a free or paid WURFL Cloud account (see above).  When you've finished
+creating your account, you must copy your API Key, as it will be needed in
+the Client.
 
 Setup a Development Environment
 -------------------------------
@@ -35,7 +37,7 @@ using a terminal window (`cmd.exe`), you must quit and restart the Command Promp
 utility for the environment variables you have defined to be recognized.*
 
 Build a Sample Client
--------------------
+---------------------
 
 To build and test the sample code you will first need to edit two files which
 came with the WURFL Cloud Client.
