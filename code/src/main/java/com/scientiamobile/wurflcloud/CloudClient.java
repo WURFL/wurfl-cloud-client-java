@@ -460,7 +460,15 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
      * @throws IOException 
      */
     protected AbstractDevice detectDevice() throws IOException {
-        AbstractDevice device = cache.getDevice(request, this);
+        AbstractDevice device = null;
+    	
+        if (request != null)
+            device = cache.getDevice(request, this);
+        // if request == null we came here from getDeviceFromUA
+        // we need to check cache directly with UA
+        else
+            device = cache.getDeviceFromID(this.userAgent);
+    	    	
         if (device != null) {
             //check if capabilities search is changed
             if (searchCapabilities != null && searchCapabilities.length > 0) {
