@@ -53,6 +53,14 @@ public class EhcachePremiumCloudCache extends AbstractUseragentWurflCloudCache {
     }
 
     public AbstractDevice getDeviceFromID(String key) {
+        
+    	try {
+            key = AeSimpleMD5.MD5(key);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+        
         Element item = cache.get(key);
 
         Object stored = null;
@@ -79,6 +87,12 @@ public class EhcachePremiumCloudCache extends AbstractUseragentWurflCloudCache {
     }
 
     public boolean setDeviceFromID(String key, AbstractDevice device) {
+        try {
+            key = AeSimpleMD5.MD5(key);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
         Element item = new Element(key, device);
         cache.put(item);
         return true;
