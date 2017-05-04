@@ -1,3 +1,7 @@
+1.0.7
+Fix: Cache issue when detection is performed by getDeviceFromUserAgent
+Fix: EhcachePremiumCloudCache and HashMapPremiumCloudCache unit tests
+
 1.0.6
 Add: EhcachePremiumCloudCache and HashMapPremiumCloudCache unit tests
 Fix: SimpleCookieCache and SimpleCookieCache unit test
