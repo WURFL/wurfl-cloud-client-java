@@ -76,7 +76,7 @@ public class CloudClientQueryTest extends Loggable{
         
         logger.debug("\ndevice: " + device);
         time = System.currentTimeMillis() - start;
-        Object mobile = device.get("is_wireless_device");
+        Object mobile = device.get("is_mobile");
         this.mobile = mobile != null ? mobile.toString() : "unknown";
     }
 

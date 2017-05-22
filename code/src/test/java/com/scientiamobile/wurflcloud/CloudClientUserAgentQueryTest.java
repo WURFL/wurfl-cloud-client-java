@@ -45,7 +45,7 @@ public class CloudClientUserAgentQueryTest extends Loggable{
     public void setupDevice() {
         device = ICloudClient.getDeviceFromUserAgent(ua, capabilities);
         
-        Object mobile = device.get("is_wireless_device");
+        Object mobile = device.get("is_mobile");
         this.mobile = mobile != null ? mobile.toString() : "unknown";
     }
 
