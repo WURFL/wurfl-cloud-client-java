@@ -24,7 +24,7 @@ public class MyCloudClientServlet extends HttpServlet {
         super.init();
         CloudClientLoader loader;
         try {
-            loader = new CloudClientLoader("nnnnnn:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"); // Place your API Key here
+            loader = new CloudClientLoader("XXXXXX:YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY"); // Place your API Key here
             manager = loader.getClientManager();
             capabilities = loader.getSearchedCapabilities();
         } catch (Exception e) {
