@@ -39,17 +39,16 @@ Build the WURFL Cloud Client
 
 1. Clone the WURFL Cloud Client repo locally `git clone https://github.com/WURFL/wurfl-cloud-client-java.git`
 2. Enter the directory `cd wurfl-cloud-client-java` 
-3. Add your WURFL Cloud API key to the following files in the `/code/src/test/resources` directory
-    *CloudClientAcceptEncodingHeadersTest
-    *CookieTest
-    *EhCacheTest
-    *HashMapCacheTest
-    *CloudClientReadTimeoutTest
-    *CloudClientManagerTest
-    *InvalidCapability
-    *InvalidApiKey
-    *DefaultTest
-3a. Alternatively you can run the following command if you have GNU `sed` installed `sed -i -- 's/XXXXXX:YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY/<Insert WURFL Cloud API Key>/g' *.properties`
+3. Add your WURFL Cloud API key to the following files in the `code/src/test/resources` directory
+    * CloudClientAcceptEncodingHeadersTest.properties
+    * CookieTest.properties
+    * EhCacheTest.properties
+    * HashMapCacheTest.properties
+    * CloudClientReadTimeoutTest.properties
+    * CloudClientManagerTest.properties
+    * InvalidCapability.properties
+    * InvalidApiKey.properties
+    * DefaultTest.properties
 4. Enter the `code` directory in the root of the project
 5. Build the WURFL Cloud by typing `mvn clean install`
 
@@ -59,8 +58,8 @@ Build the sample project
 1. Enter your local WURFL Cloud Client directory `cd wurfl-cloud-client-java`
 2. Enter the examples directory `cd examples`
 3. Add your WURFL Cloud API key to the following files:
-    *`wurflcloud.properties` located at `wurfl-cloud-client-java/examples/src/main/resources`
-    *`MyCloudClientServlet.java` located at `wurfl-cloud-client-java/examples/src/main/java/my/wurflcloud/example`
+    * `wurflcloud.properties` located at `wurfl-cloud-client-java/examples/src/main/resources`
+    * `MyCloudClientServlet.java` located at `wurfl-cloud-client-java/examples/src/main/java/my/wurflcloud/example`
 4. Build the example project by typing `mvn clean install`
 
 Test the WURFL Cloud Client
