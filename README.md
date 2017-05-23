@@ -21,81 +21,65 @@ the Client.
 Setup a Development Environment
 -------------------------------
 
-* Download and Install a Java JDK version 1.5 or greater
-* Download and Install Apache Tomcat version 6 or greater
-* Download and Install Apache Ant version 1.8 or greater
-
-Create a `JAVA_HOME` Environment Variable which points to the location of your
-Java JDK installation (`eq: C:\Program Files (x86)\Java \jdk1.6.0_31`).
-
-Create a `ANT_HOME` Environment Variable which points to the location of your
-Ant installation (`eq: C:\apache-ant-1.8.3`). Add `%ANT_HOME%/bin` to your
+1. Download and Install a Java JDK version 1.5 or greater
+2. Download and Install Apache Tomcat version 6 or greater
+3. Download and Install Apache Maven (Tested with version 3.5)
+4. Create a `JAVA_HOME` Environment Variable which points to the location of your
+Java JDK installation (Example:`C:\Program Files\Java\jdk1.8.0_31`).
+5. Create `MAVEN_HOME` and `M2_HOME` Environment Variables that point to the location of your
+Maven installation (Example: `C:\Program Files\Apache Software Foundation\Maven`). Add `%M2_HOME%\bin` to your
 `PATH` System Variable.
 
 *Note for Windows users: If you are setting your environment variables 
 using a terminal window (`cmd.exe`), you must quit and restart the Command Prompt
 utility for the environment variables you have defined to be recognized.*
 
-Build a Sample Client
----------------------
+Build the WURFL Cloud Client
+----------------------------
 
-To build and test the sample code you will first need to edit two files which
-came with the WURFL Cloud Client.
+1. Clone the WURFL Cloud Client repo locally `git clone https://github.com/WURFL/wurfl-cloud-client-java.git`
+2. Enter the directory `cd wurfl-cloud-client-java` 
+3. Add your WURFL Cloud API key to the following files in the `/code/src/test/resources` directory
+    *CloudClientAcceptEncodingHeadersTest
+    *CookieTest
+    *EhCacheTest
+    *HashMapCacheTest
+    *CloudClientReadTimeoutTest
+    *CloudClientManagerTest
+    *InvalidCapability
+    *InvalidApiKey
+    *DefaultTest
+3a. Alternatively you can run the following command if you have GNU `sed` installed `sed -i -- 's/XXXXXX:YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY/<Insert WURFL Cloud API Key>/g' *.properties`
+4. Enter the `code` directory in the root of the project
+5. Build the WURFL Cloud by typing `mvn clean install`
 
-Locate the `MyCloudClientServlet.java` file and open it with a text editor.
+Build the sample project
+----------------------------
 
-Change the value of the `TEST_API_KEY` variable to your API Key. You can retrieve
-your API Key in your Scientiamobile account. Save and close the file.
-
-Locate the `build.properties` file and open it with a text editor. Set the value of
-`tomcat.home` to the location of your tomcat installation and other settings as
-explained. Save and close the file. 
-
-*Note: Please observe that this step assumes that Tomcat is configured
-to 'talk' to other applications. Tomcat must be running and you must have
-configured an user with 'manager-script' role. For this step, please read
-how-to in `<tomcat-home>/conf/tomcat-users.xml`. If this is not the case,
-you can skip this step and deploy/copy the '.war' (more later) following
-the procedure that you normally follow to install web applications on your
-Java application server.*
-
-If your Tomcat installation is accessible from Ant, the `ant install`
-command will deploy the cloud client automatically.
-
-*Warning: manager paths are slightly different between [Tomcat 6](http://tomcat.apache.org/tomcat-6.0-doc/manager-howto.html#Executing%20Manager%20Commands%20With%20Ant) and [Tomcat 7](http://tomcat.apache.org/tomcat-7.0-doc/manager-howto.html#Executing%20Manager%20Commands%20With%20Ant).*
-
-Open a terminal window and change to the WURFL Cloud Client directory. Type
-`ant` and hit enter. This builds a `.war` file in `dist` folder.
-
-Assuming you are using Tomcat, copy the '.war' file in the dist directory to
-the  tomcat webapps directory. For other application servers, simply follow
-the normal procedure to deploy `.war` files.
-
-If not already started, start Tomcat.
+1. Enter your local WURFL Cloud Client directory `cd wurfl-cloud-client-java`
+2. Enter the examples directory `cd examples`
+3. Add your WURFL Cloud API key to the following files:
+    *`wurflcloud.properties` located at `wurfl-cloud-client-java/examples/src/main/resources`
+    *`MyCloudClientServlet.java` located at `wurfl-cloud-client-java/examples/src/main/java/my/wurflcloud/example`
+4. Build the example project by typing `mvn clean install`
 
 Test the WURFL Cloud Client
 ---------------------------
 
-Assuming you have installed Tomcat and all of the traditional defaults apply,
-you can access the Cloud Client from your browser at one of the following URLs: 
+Building the sample project in the previous step creates a .war file in the `wurfl-cloud-client-java/examples/target` directory. Deploy the .war file to Tomcat either by placing it in your Tomcat webapps folder or by uploading it to the Tomcat installation via the Tomcat Web Application Manager App (usually available at `http://localhost:8080/manager/html`).
 
-*Please Note that it may take a few minutes from the time that you signup
-for your WURFL Cloud API Key to become active.*
+Assuming you have installed Tomcat and all of the traditional defaults apply, you can access the Cloud Client from your browser at one of the following URLs: 
 
-`http://localhost:8080/cloud-client-example-1.0/`
+*Please Note that it may take a few minutes from signup for your WURFL Cloud API Key to become active.*
 
-(or, if you have hot-deployed with ant)
+`http://localhost:8080/client-example-1.0.7/`
 
-`http://localhost:8080/cloud-client-example)`
-
-*Note: if your application server is not tomcat or you changed some of the
-defaults, you will need to adjust your URLs accordingly.*
+*Note: if your application server is not Tomcat or if you changed some of the defaults, you will need to adjust your URLs accordingly.*
 
 Integration
 -----------
 
-You should review the included example code (`MyCloudClientServlet.java` and `response.jsp`)
-to get a feel for the Client API, and how best to use it in your application.
+You should review the included example code (`MyCloudClientServlet.java` and `response.jsp`) in the `wurfl-cloud-client-java/examples/` directory to get a feel for the Client API, and how best to use it in your application.
 
 **2015 ScientiaMobile Incorporated**
 
