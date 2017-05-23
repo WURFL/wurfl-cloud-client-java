@@ -38,12 +38,15 @@ public class MyCloudClientServlet extends HttpServlet {
     }
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String useragent = req.getHeader("User-Agent");
-        if (useragent == null) useragent = req.getHeader("user-agent");
+        String useragent = req.getParameter("user_agent");
+        // If empty UA is submitted use UA from request instead
+		if (useragent == "") {
+        	useragent = req.getHeader("User-Agent");
+        }
         logger.fine("user agent: " + useragent);
         useragent = useragent.trim();
         long start = System.currentTimeMillis();
-        AbstractDevice device = manager.getDeviceFromRequest(req, resp, capabilities);
+        AbstractDevice device = manager.getDeviceFromUserAgent(useragent, capabilities);
         long time = System.currentTimeMillis() - start;
         logger.info("device: " + device);
         Info i = new Info(time);
