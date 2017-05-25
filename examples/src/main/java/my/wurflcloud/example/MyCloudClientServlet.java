@@ -24,7 +24,7 @@ public class MyCloudClientServlet extends HttpServlet {
         super.init();
         CloudClientLoader loader;
         try {
-            loader = new CloudClientLoader("nnnnnn:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"); // Place your API Key here
+            loader = new CloudClientLoader("XXXXXX:YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY"); // Place your API Key here
             manager = loader.getClientManager();
             capabilities = loader.getSearchedCapabilities();
         } catch (Exception e) {
@@ -38,12 +38,16 @@ public class MyCloudClientServlet extends HttpServlet {
     }
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String useragent = req.getHeader("User-Agent");
-        if (useragent == null) useragent = req.getHeader("user-agent");
-        logger.fine("user agent: " + useragent);
+        String useragent = req.getParameter("user_agent");
+        logger.fine("User-Agent from text area: " + useragent);
+        logger.fine("User-Agent from request: " + req.getHeader("User-Agent"));
         useragent = useragent.trim();
         long start = System.currentTimeMillis();
-        AbstractDevice device = manager.getDeviceFromRequest(req, resp, capabilities);
+        AbstractDevice device = manager.getDeviceFromUserAgent(useragent, capabilities);
+        // If empty UA is submitted use request instead
+        if (useragent == "") {
+        	device = manager.getDeviceFromRequest(req, resp, capabilities);
+        }
         long time = System.currentTimeMillis() - start;
         logger.info("device: " + device);
         Info i = new Info(time);

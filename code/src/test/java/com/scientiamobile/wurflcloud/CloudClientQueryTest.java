@@ -76,7 +76,7 @@ public class CloudClientQueryTest extends Loggable{
         
         logger.debug("\ndevice: " + device);
         time = System.currentTimeMillis() - start;
-        Object mobile = device.get("is_wireless_device");
+        Object mobile = device.get("is_mobile");
         this.mobile = mobile != null ? mobile.toString() : "unknown";
     }
 
@@ -85,8 +85,7 @@ public class CloudClientQueryTest extends Loggable{
 
         String s = "Result: " + device.getId() + "\n";
         if (mobile.equals("true")) {
-            s += "This is a mobile device.\nbrand_name capability: " + device.get("brand_name") +
-                    "\nmodel_name capability: " + device.get("model_name") + "\n";
+            s += "This is a mobile device.\ncomplete_device_name capability: " + device.get("complete_device_name") + "\n";
         } else {
             s += "This is a desktop browser\n";
         }
