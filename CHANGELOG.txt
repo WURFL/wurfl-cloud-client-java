@@ -1,3 +1,6 @@
+1.0.9
+Ehn: Updated and improved Maven repo references in poms.
+
 1.0.8
 Fix: Some minor fixes to Servlet example
 Enh: Removed references to brand_name/is_wireless_device from unit tests

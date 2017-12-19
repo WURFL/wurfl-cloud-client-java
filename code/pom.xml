@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.scientiamobile.wurflcloud</groupId>
     <artifactId>client-java</artifactId>
-    <version>1.0.8</version>
+    <version>1.0.9</version>
     <packaging>jar</packaging>
 
     <name>wurfl-cloud-client</name>
@@ -50,7 +50,7 @@
         <repository>
             <id>cloud-repository</id>
             <name>ScientiaMobile Repository</name>
-            <url>http://maven.scientiamobile.com:8081/nexus/content/repositories/cloud-repository</url>
+            <url>https://maven.scientiamobile.com/repository/wurfl-cloud/</url>
         </repository>
     </distributionManagement>
 
