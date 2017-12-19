@@ -44,14 +44,27 @@
             <timezone>-5</timezone>
         </developer>
     </developers>
-
+	
     <!-- Properties -->
     <properties>
         <!--<spring.version>2.5.6</spring.version>-->
         <wurfl.cloud.version>${project.version}</wurfl.cloud.version>
     </properties>
 
-    <dependencyManagement>
+     <repositories>
+        <repository>
+            <id>cloud-repository</id>
+            <name>ScientiaMobile Repository</name>
+            <url>https://maven.scientiamobile.com/repository/wurfl-cloud/</url>
+        </repository>
+		<repository>
+            <id>Central</id>
+            <name>Central</name>
+            <url>http://repo.maven.apache.org/maven2</url>
+        </repository>
+        </repositories>
+
+    <dependencyManagement> 
         <dependencies>
 
             <dependency>
