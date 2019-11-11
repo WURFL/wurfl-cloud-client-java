@@ -24,7 +24,7 @@ public interface Constants {
     /**
      * The version of this client
      */
-    String CLIENT_VERSION = "1.0.9";
+    String CLIENT_VERSION = "1.0.10";
 
     /**
      * Accepted encoding enum.
@@ -58,7 +58,7 @@ public interface Constants {
     /**
      * The WURFL Cloud Service API type
      */
-    String API_HTTP = "http";
+    String API_HTTPS = "https";
 
     /**
      * Request path prefix.
@@ -89,10 +89,10 @@ public interface Constants {
     int DEFAULT_REPORT_INTERVAL = 60;
 
     /**
-     * The WURFL Cloud API Type to be used.  Currently, only WurflCloudClientConfig::API_HTTP is supported.
+     * The WURFL Cloud API Type to be used.  Currently, only WurflCloudClientConfig::API_HTTPS is supported.
      */
 
-    String API_TYPE = API_HTTP;
+    String API_TYPE = API_HTTPS;
 
     /**
      * Cookie name, for cookie cache use.
