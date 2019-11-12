@@ -403,7 +403,7 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
         logger.debug("Setting read timeout: " + config.readTimeout + " mSec");
         connection.setReadTimeout(config.readTimeout);
         
-        if (Constants.API_TYPE.equals(Constants.API_HTTP) && connection instanceof HttpURLConnection) {
+        if (Constants.API_TYPE.equals(Constants.API_HTTPS) && connection instanceof HttpURLConnection) {
             logger.info("Explicitly setting connection method to GET");
             ((HttpURLConnection)connection).setRequestMethod("GET");
         }
