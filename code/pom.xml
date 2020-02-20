@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.scientiamobile.wurflcloud</groupId>
     <artifactId>client-java</artifactId>
-    <version>1.0.11</version>
+    <version>1.0.12</version>
     <packaging>jar</packaging>
 
     <name>wurfl-cloud-client</name>
@@ -89,7 +89,7 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.9.8</version>
+            <version>2.9.10.1</version>
         </dependency>
 
         <dependency>

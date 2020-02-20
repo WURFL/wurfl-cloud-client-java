@@ -1,3 +1,6 @@
+1.0.12
+Fix: Upgraded Jackson-databind dependency to fix new vulnerability
+
 1.0.11
 Ehn: upgraded Jackson dependency to v 2.10.x to fix several vulnerabilities
 Ehn: Minimum JDK requirement is now Java 7
