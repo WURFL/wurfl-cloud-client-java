@@ -31,8 +31,7 @@ import java.util.zip.GZIPInputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.codehaus.jackson.map.ObjectMapper;
-
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.scientiamobile.wurflcloud.cache.IWurflCloudCache;
 import com.scientiamobile.wurflcloud.device.AbstractDevice;
 import com.scientiamobile.wurflcloud.device.CacheDevice;

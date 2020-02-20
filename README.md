@@ -21,7 +21,7 @@ the Client.
 Setup a Development Environment
 -------------------------------
 
-1. Download and Install a Java JDK version 1.5 or greater
+1. Download and Install a Java JDK version 7 or greater (for compatibility with older Java versions, please use client releases up to 1.0.10)
 2. Download and Install Apache Tomcat version 6 or greater
 3. Download and Install Apache Maven (Tested with version 3.5)
 4. Create a `JAVA_HOME` Environment Variable which points to the location of your

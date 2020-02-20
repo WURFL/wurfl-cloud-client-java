@@ -42,7 +42,7 @@ public class CloudClientConnectionTimeoutTest extends Loggable{
         
         cfg = new CloudClientConfig();
         cfg.clearServers();
-        cfg.addCloudServer("timeout_server", "8.8.8.8", 10);
+        cfg.addCloudServer("timeout_server", "www.google.com:81", 10);
         cfg.apiKey = "XXXXXX:YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY";
         cfg.connectionTimeout = 2000;
         am = new AuthenticationManager(cfg);
