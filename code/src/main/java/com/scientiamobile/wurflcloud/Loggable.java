@@ -18,5 +18,5 @@ import org.slf4j.LoggerFactory;
  * Facility logging base class
  */
 public abstract class Loggable {
-    protected final Logger logger = LoggerFactory.getLogger(getClass());
+    protected final transient Logger logger = LoggerFactory.getLogger(getClass());
 }

@@ -11,12 +11,11 @@
  */
 package com.scientiamobile.wurflcloud;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 
+import static com.jsoniter.JsonIterator.deserialize;
 import static org.testng.Assert.assertNotNull;
 
 /**
@@ -26,16 +25,11 @@ import static org.testng.Assert.assertNotNull;
  */
 @Test
 public class CloudResponseTest extends Loggable {
-    ObjectMapper mapper;
 
-    @BeforeClass
-    public void setup() {
-        mapper = new ObjectMapper();
-    }
 
     public void testRawData() throws IOException {
         String rawData = "{\"apiVersion\":\"WurflCloud 2.1.6\",\"mtime\":1310581109,\"id\":\"mozilla_ver5\",\"capabilities\":{\"resolution_height\":600,\"resolution_width\":800},\"errors\":{}}";
-        CloudResponse cloudResponse = mapper.readValue(rawData, CloudResponse.class);
+        CloudResponse cloudResponse = deserialize(rawData, CloudResponse.class);
         assertNotNull(cloudResponse);
         logger.info(cloudResponse.toString());
     }

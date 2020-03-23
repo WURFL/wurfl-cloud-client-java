@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.scientiamobile.wurflcloud</groupId>
     <artifactId>client-java</artifactId>
-    <version>1.0.13</version>
+    <version>1.0.14</version>
     <packaging>jar</packaging>
 
     <name>wurfl-cloud-client</name>
@@ -80,17 +80,13 @@
             <version>2.5.1</version>
             <optional>true</optional>
         </dependency>
-        <!-- Jackson 2 -->
+        <!-- https://mvnrepository.com/artifact/com.jsoniter/jsoniter -->
         <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-core</artifactId>
-            <version>${jackson.version}</version>
+            <groupId>com.jsoniter</groupId>
+            <artifactId>jsoniter</artifactId>
+            <version>0.9.23</version>
         </dependency>
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.9.10.3</version>
-        </dependency>
+
 
         <dependency>
             <groupId>org.slf4j</groupId>

@@ -21,11 +21,14 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+import com.jsoniter.JsonIterator;
+import com.jsoniter.output.JsonStream;
 import com.scientiamobile.wurflcloud.ICloudClientRequest;
 import com.scientiamobile.wurflcloud.device.AbstractDevice;
 import com.scientiamobile.wurflcloud.device.CookieDevice;
 import com.scientiamobile.wurflcloud.device.JsonCookie;
+
+import static com.jsoniter.JsonIterator.deserialize;
 
 /**
  * Cache implementation using Cookies.
@@ -38,8 +41,6 @@ public class SimpleCookieCache extends AbstractWurflCloudCache {
      */
     public static final int COOKIE_CACHE_EXPIRATION = 86400;
 
-    private final ObjectMapper mapper = new ObjectMapper();
-    
     /**
      * Cookie encoding charset
      */
@@ -65,7 +66,7 @@ public class SimpleCookieCache extends AbstractWurflCloudCache {
                 try {
                     value = URLDecoder.decode(value, US_ASCII);
                     if (logger.isDebugEnabled()) logger.debug("decoded cookie value: " + value);
-                    JsonCookie jc = mapper.readValue(value, JsonCookie.class);
+                    JsonCookie jc = deserialize(value, JsonCookie.class);
                     long expiration = jc.getDate_set() + COOKIE_CACHE_EXPIRATION;
                     long nowSecs = System.currentTimeMillis() / 1000;
                     if (expiration < nowSecs) {
@@ -95,7 +96,6 @@ public class SimpleCookieCache extends AbstractWurflCloudCache {
      * @param key
      * @param device
      * @return
-     * @see COOKIE_CACHE_EXPIRATION
      */
     public boolean setDevice(HttpServletResponse response, String key, AbstractDevice device) {
         String cookieVal;
@@ -106,7 +106,7 @@ public class SimpleCookieCache extends AbstractWurflCloudCache {
         jsonCookie.setDate_set(nowSecs);
         jsonCookie.setId(device.getId());
         try {
-            cookieVal = mapper.writeValueAsString(jsonCookie);
+            cookieVal = JsonStream.serialize(jsonCookie);
             logger.debug("cookie value: " + cookieVal);
             cookieVal = URLEncoder.encode(cookieVal, US_ASCII);
             logger.debug("encoded cookie value: " + cookieVal);
