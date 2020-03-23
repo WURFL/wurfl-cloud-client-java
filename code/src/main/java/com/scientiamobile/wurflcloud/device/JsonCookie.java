@@ -19,7 +19,8 @@ import java.util.Map;
  */
 public class JsonCookie {
     private Map<String, Object> capabilities;
-    private long date_set;
+    private String date_set;
+    private long ldate_set;
     private String id;
 
     /**
@@ -39,11 +40,12 @@ public class JsonCookie {
     }
 
     public long getDate_set() {
-        return date_set;
+        return ldate_set;
     }
 
-    public void setDate_set(long date_set) {
+    public void setDate_set(String date_set) {
         this.date_set = date_set;
+        this.ldate_set = Long.parseLong(this.date_set);
     }
 
     /**
