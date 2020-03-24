@@ -58,7 +58,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <testng.version>5.14.10</testng.version>
+        <testng.version>6.9.8</testng.version>
         <logback.version>1.0.0</logback.version>
         <slf4j.version>1.6.4</slf4j.version>
         <jackson.version>2.10.2</jackson.version>
