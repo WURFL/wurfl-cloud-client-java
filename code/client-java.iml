@@ -17,6 +17,9 @@
     <orderEntry type="library" name="Maven: com.jsoniter:jsoniter:0.9.23" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.testng:testng:6.9.8" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.beust:jcommander:1.48" level="project" />
+    <orderEntry type="library" name="Maven: com.jsoniter:jsoniter:0.9.23" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.testng:testng:6.9.8" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.beust:jcommander:1.48" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:servlet-api:2.4" level="project" />
     <orderEntry type="library" name="Maven: net.sf.ehcache:ehcache-core:2.5.1" level="project" />
     <orderEntry type="library" name="Maven: com.jsoniter:jsoniter:0.9.23" level="project" />

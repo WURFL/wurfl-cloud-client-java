@@ -11,6 +11,10 @@
  */
 package com.scientiamobile.wurflcloud.device;
 
+import com.scientiamobile.wurflcloud.utils.AuthorizationUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -31,6 +35,8 @@ public class JsonCookie {
         return capabilities;
     }
 
+    private static final Logger logger = LoggerFactory.getLogger(JsonCookie.class);
+
     /**
      * Sets the capability map
      * @param capabilities The new capability map
@@ -45,7 +51,14 @@ public class JsonCookie {
 
     public void setDate_set(String date_set) {
         this.date_set = date_set;
-        this.ldate_set = Long.parseLong(this.date_set);
+        try {
+            // json iter may have problems parsing long values that arrive as strings, so we do it explicitly
+            this.ldate_set = Long.parseLong(this.date_set);
+        }
+        catch (Exception e){
+            logger.error("Unable to parse date_set field value " + this.date_set + " : it is not a number");
+        }
+
     }
 
     /**
