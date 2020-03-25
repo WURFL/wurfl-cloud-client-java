@@ -31,7 +31,6 @@ import java.util.zip.GZIPInputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.scientiamobile.wurflcloud.cache.IWurflCloudCache;
 import com.scientiamobile.wurflcloud.device.AbstractDevice;
 import com.scientiamobile.wurflcloud.device.CacheDevice;
@@ -41,6 +40,8 @@ import com.scientiamobile.wurflcloud.exc.WURFLCloudClientException;
 import com.scientiamobile.wurflcloud.utils.AuthorizationUtils;
 import com.scientiamobile.wurflcloud.utils.Constants;
 import com.scientiamobile.wurflcloud.utils.Credentials;
+
+import static com.jsoniter.JsonIterator.deserialize;
 
 
 /**
@@ -59,7 +60,6 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
     private final String[] searchCapabilities;
     private final Credentials credentials;
     private final IWurflCloudCache cache;
-    private final ObjectMapper mapper = new ObjectMapper();
     private final Set<CloudListener> listeners = new HashSet<CloudListener>();
     
     private static final int HTTP_ERROR_INVALID_KEY = 401;
@@ -362,8 +362,8 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
      */
     private CloudResponse processResponse(String rawData) {
         try {
-            return mapper.readValue(rawData, CloudResponse.class);
-        } catch (IOException e) {
+            return deserialize(rawData, CloudResponse.class);
+        } catch (Exception e) {
             throw new WURFLCloudClientException("", HTTP_ERROR_JSON_KEY);
         }
     }

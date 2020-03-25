@@ -1,0 +1,1001 @@
+Mozilla/5.0 (Linux; U; Android 4.2.2; tr-tr; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+ XYZ 
+OperaMini(MAUI_MRE;Opera Mini/4.4.33576;en)
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.32739;en)
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+XYZ
+
+Mozilla/5.0 (Linux; U; Android 4.1.1; es-us; GT-I8190 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 6.0.1; ko_KR; SM-N916K Build/41002dc8f221323d) AppleWebKit/535.30 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19
+Mozilla/5.0 (Linux; U; Android 4.2.2; fa-ir; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+ XYZ 
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.3; fr-be; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 6.0.1; ko_KR; SM-N916K Build/41002dc8f221323d) AppleWebKit/535.30 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 6.0.1; ko_KR; SM-N916K Build/41002dc8f221323d) AppleWebKit/535.30 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19
+Mozilla/5.0 (Linux; U; Android 4.2.1; it-it; ME173X Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; pt-br; GT-I8262B Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+Mozilla/5.0 (Linux; U; Android 4.1.1; es-us; GT-I8190 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.33961;fr)
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-ca; SM-T110 Bu1ild/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Redmi 5 Plus Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.5.1146 Mobile Safari/537.36
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG-SGH-I337 Build/KOT49H; us-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.1750.170 Mobile Safar
+Mozilla/5.0 (Linux; U; Android 4.1.1; es-us; GT-I8190 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+ XYZ
+ XYZ
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; en-ph; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; pt-br; GT-I8262B Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-ca; SM-T110 Bu1ild/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 Instagram 68.0.0.10.99 (iPhone10,1; iOS 11_2_5; en_US; en-US; scale=2.00; gamut=wide; 750x1334; 128202899)
+Mozilla/5.0 (Linux; U; Android 4.2.2; fa-ir; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.2; tr-tr; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.32739;en)
+Mozilla/5.0 (Linux; U; Android 4.1.1; es-us; GT-I8190 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+Mozilla/5.0 (Linux; Android 4.4.2; es-MX; 4027A Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-eg; LT26ii Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; Android 6.0; PGN610 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+ XYZ
+Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.1; it-it; ME173X Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG-SGH-I337 Build/KOT49H; us-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.1750.170 Mobile Safar
+Mozilla/5.0 (Linux; U; Android 4.1.2; vi-vn; C811 4G Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; en-ph; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+XYZ
+ XYZ 
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en)AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543a Safari/419.3
+Mozilla/5.0 (Linux; U; Android 4.1.2; id-id; GT-P3100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; Android 6.0; PGN610 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-eg; LT26ii Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG-SGH-I337 Build/KOT49H; us-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.1750.170 Mobile Safar
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-mx; LT26i Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-eg; LT26ii Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; tr-tr; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.2.2; sr-rs; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+XYZ
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG-SGH-I337 Build/KOT49H; us-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.1750.170 Mobile Safar
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-ca; SM-T110 Bu1ild/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.3; fr-be; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.33961;fr)
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-es; GT-I8190 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; A1-810 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; id-id; GT-P3100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; pt-br; GT-I8262B Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+NativeOperaMini(Spreadtrum/Unknown;Native Opera Mini/4.4.31492;fr)
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.33961;fr)
+Mozilla/5.0 (Linux; U; Android 4.1.1; es-us; GT-I8190 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; GT-I9082 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; fa-ir; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.3; fr-be; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; id-id; GT-P3100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.2; en-ph; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.1.1; es-us; GT-I8190 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; vi-vn; C811 4G Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+OperaMini(MAUI_MRE;Opera Mini/4.4.33576;en)
+ XYZ
+Mozilla/5.0 (Linux; U; Android 4.2.2; sr-rs; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; Android 4.4.2; es-MX; 4027A Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+XYZ
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+Mozilla/5.0 (Linux; U; Android 4.2.2; sr-rs; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; fa-ir; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.32739;en)
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+Mozilla/5.0 (Linux; U; Android 4.1.1; es-us; GT-I8190 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; Android 4.4.2; es-MX; 4027A Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 Instagram 68.0.0.10.99 (iPhone10,1; iOS 11_2_5; en_US; en-US; scale=2.00; gamut=wide; 750x1334; 128202899)
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+Mozilla/5.0 (Linux; Android 4.4.2; es-MX; 4027A Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+ XYZ 
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-eg; LT26ii Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+OperaMini(MAUI_MRE;Opera Mini/4.4.33576;en)
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; GT-I9082 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; A1-810 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-es; GT-I8190 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.1; it-it; ME173X Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; Android 6.0; PGN610 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36
+OperaMini(MAUI_MRE;Opera Mini/4.4.33576;en)
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-es; GT-I8190 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 77.1.0.8.113 (iPhone8,1; iOS 11_3_1; en_IT; en-GB; scale=2.00; gamut=normal; 750x1334; 139192650)
+XYZ
+Mozilla/5.0 (Linux; Android 4.4.2; es-MX; 4027A Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 77.1.0.8.113 (iPhone8,1; iOS 11_3_1; en_IT; en-GB; scale=2.00; gamut=normal; 750x1334; 139192650)
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; Android 4.4.2; es-MX; 4027A Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+XYZ
+Mozilla/5.0 (Linux; Android 6.0; PGN610 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+XYZ
+
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.32739;en)
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; Android 4.4.2; es-MX; 4027A Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.2; sr-rs; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.2.2; th-th; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.1; es-us; GT-I8190 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.1.2; pt-br; GT-I8262B Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.1; it-it; ME173X Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 Instagram 68.0.0.10.99 (iPhone10,1; iOS 11_2_5; en_US; en-US; scale=2.00; gamut=wide; 750x1334; 128202899)
+Mozilla/5.0 (Linux; U; Android 4.1.2; pt-br; GT-I8262B Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; GT-I9082 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-mx; LT26i Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-eg; LT26ii Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Redmi 5 Plus Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.5.1146 Mobile Safari/537.36
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.32739;en)
+ XYZ 
+Mozilla/5.0 (Linux; Android 6.0; PGN610 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36
+XYZ 
+ XYZ 
+ XYZ 
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+Mozilla
+Mozilla/5.0 (Linux; Android 4.4.2; es-MX; 4027A Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 Instagram 68.0.0.10.99 (iPhone10,1; iOS 11_2_5; en_US; en-US; scale=2.00; gamut=wide; 750x1334; 128202899)
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-eg; LT26ii Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-I8552 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 6.0.1; ko_KR; SM-N916K Build/41002dc8f221323d) AppleWebKit/535.30 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19
+Mozilla
+OperaMini(MAUI_MRE;Opera Mini/4.4.33576;en)
+Mozilla/5.0 (Linux; U; Android 4.2.2; th-th; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; Android 4.4.2; es-MX; 4027A Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-eg; LT26ii Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+Mozilla/5.0 (Linux; U; Android 4.2.2; sr-rs; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; vi-vn; C811 4G Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+
+Mozilla
+Mozilla/5.0 (Linux; U; Android 4.1.2; id-id; GT-P3100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; Android 6.0; PGN610 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.2; en-ph; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-eg; LT26ii Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+NativeOperaMini(Spreadtrum/Unknown;Native Opera Mini/4.4.31492;fr)
+Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30
+
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; GT-I9082 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; fa-ir; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+
+Mozilla/5.0 (Linux; U; Android 5.0; en-US; E2303 Build/26.1.A.3.111) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.10.1159 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; A1-810 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; id-id; GT-P3100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; sr-rs; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+Mozilla/5.0 (Linux; U; Android 4.2.2; fa-ir; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Redmi 5 Plus Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.5.1146 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.1; it-it; ME173X Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+NativeOperaMini(Spreadtrum/Unknown;Native Opera Mini/4.4.31492;fr)
+Mozilla/5.0 (Linux; Android 4.4.2; es-MX; 4027A Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; en-ph; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.2.2; en-ph; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; A1-810 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Redmi 5 Plus Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.5.1146 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.2; fa-ir; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; vi-vn; C811 4G Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 77.1.0.8.113 (iPhone8,1; iOS 11_3_1; en_IT; en-GB; scale=2.00; gamut=normal; 750x1334; 139192650)
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+Mozilla
+Mozilla/5.0 (Linux; U; Android 5.0; en-US; E2303 Build/26.1.A.3.111) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.10.1159 Mobile Safari/537.36
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; vi-vn; C811 4G Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+ XYZ 
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 Instagram 68.0.0.10.99 (iPhone10,1; iOS 11_2_5; en_US; en-US; scale=2.00; gamut=wide; 750x1334; 128202899)
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-es; GT-I8190 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+ XYZ
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.33961;fr)
+XYZ 
+
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-es; GT-I8190 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 Instagram 68.0.0.10.99 (iPhone10,1; iOS 11_2_5; en_US; en-US; scale=2.00; gamut=wide; 750x1334; 128202899)
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.33961;fr)
+Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en)AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543a Safari/419.3
+Mozilla/5.0 (Linux; U; Android 4.2.1; it-it; ME173X Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG-SGH-I337 Build/KOT49H; us-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.1750.170 Mobile Safar
+Mozilla/5.0 (Linux; U; Android 4.2.1; it-it; ME173X Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; sr-rs; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; id-id; GT-P3100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 5.0; en-US; E2303 Build/26.1.A.3.111) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.10.1159 Mobile Safari/537.36
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+Mozilla/5.0 (Linux; U; Android 6.0.1; ko_KR; SM-N916K Build/41002dc8f221323d) AppleWebKit/535.30 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19
+Mozilla/5.0 (Linux; U; Android 4.2.2; th-th; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; fa-ir; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; vi-vn; C811 4G Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+ XYZ
+Mozilla/5.0 (Linux; U; Android 4.1.2; id-id; GT-P3100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 77.1.0.8.113 (iPhone8,1; iOS 11_3_1; en_IT; en-GB; scale=2.00; gamut=normal; 750x1334; 139192650)
+Mozilla/5.0 (Linux; U; Android 4.1.2; pt-br; GT-I8262B Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+OperaMini(MAUI_MRE;Opera Mini/4.4.33576;en)
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 77.1.0.8.113 (iPhone8,1; iOS 11_3_1; en_IT; en-GB; scale=2.00; gamut=normal; 750x1334; 139192650)
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.32739;en)
+Mozilla/5.0 (Linux; U; Android 4.2.2; fa-ir; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 77.1.0.8.113 (iPhone8,1; iOS 11_3_1; en_IT; en-GB; scale=2.00; gamut=normal; 750x1334; 139192650)
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+Mozilla/5.0 (Linux; U; Android 6.0.1; ko_KR; SM-N916K Build/41002dc8f221323d) AppleWebKit/535.30 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19
+Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; A1-810 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+ XYZ
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; GT-I9082 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG-SGH-I337 Build/KOT49H; us-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.1750.170 Mobile Safar
+Mozilla/5.0 (Linux; U; Android 4.3; fr-be; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; en-ph; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-mx; LT26i Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.3; fr-be; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-I8552 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.32739;en)
+Mozilla
+Mozilla/5.0 (Linux; U; Android 6.0.1; ko_KR; SM-N916K Build/41002dc8f221323d) AppleWebKit/535.30 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19
+Mozilla/5.0 (Linux; U; Android 4.1.2; id-id; GT-P3100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+XYZ
+Mozilla/5.0 (Linux; U; Android 4.2.2; tr-tr; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+XYZ
+Mozilla/5.0 (Linux; U; Android 4.2.2; tr-tr; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-es; GT-I8190 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-mx; LT26i Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-mx; LT26i Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG-SGH-I337 Build/KOT49H; us-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.1750.170 Mobile Safar
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+Mozilla/5.0 (Linux; U; Android 4.2.2; sr-rs; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.32739;en)
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 Instagram 68.0.0.10.99 (iPhone10,1; iOS 11_2_5; en_US; en-US; scale=2.00; gamut=wide; 750x1334; 128202899)
+Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en)AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543a Safari/419.3
+Mozilla/5.0 (Linux; U; Android 4.1.1; es-us; GT-I8190 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; A1-810 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 Instagram 68.0.0.10.99 (iPhone10,1; iOS 11_2_5; en_US; en-US; scale=2.00; gamut=wide; 750x1334; 128202899)
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-mx; LT26i Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+ XYZ 
+Mozilla/5.0 (Linux; U; Android 4.1.2; vi-vn; C811 4G Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; GT-I9082 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-ca; SM-T110 Bu1ild/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; sr-rs; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+OperaMini(MAUI_MRE;Opera Mini/4.4.33576;en)
+Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; GT-I9082 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 5.0; en-US; E2303 Build/26.1.A.3.111) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.10.1159 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-mx; LT26i Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+ XYZ 
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 77.1.0.8.113 (iPhone8,1; iOS 11_3_1; en_IT; en-GB; scale=2.00; gamut=normal; 750x1334; 139192650)
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; Android 6.0; PGN610 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 77.1.0.8.113 (iPhone8,1; iOS 11_3_1; en_IT; en-GB; scale=2.00; gamut=normal; 750x1334; 139192650)
+Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; A1-810 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Redmi 5 Plus Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.5.1146 Mobile Safari/537.36
+Mozilla
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 77.1.0.8.113 (iPhone8,1; iOS 11_3_1; en_IT; en-GB; scale=2.00; gamut=normal; 750x1334; 139192650)
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.32739;en)
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+Mozilla
+Mozilla/5.0 (Linux; U; Android 4.2.2; th-th; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 77.1.0.8.113 (iPhone8,1; iOS 11_3_1; en_IT; en-GB; scale=2.00; gamut=normal; 750x1334; 139192650)
+Mozilla/5.0 (Linux; U; Android 4.3; fr-be; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+XYZ
+Mozilla/5.0 (Linux; U; Android 4.2.2; en-ph; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 77.1.0.8.113 (iPhone8,1; iOS 11_3_1; en_IT; en-GB; scale=2.00; gamut=normal; 750x1334; 139192650)
+Mozilla/5.0 (Linux; U; Android 4.2.2; sr-rs; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; en-ph; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+NativeOperaMini(Spreadtrum/Unknown;Native Opera Mini/4.4.31492;fr)
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+Mozilla/5.0 (Linux; U; Android 4.1.2; pt-br; GT-I8262B Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en)AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543a Safari/419.3
+Mozilla/5.0 (Linux; U; Android 4.1.2; id-id; GT-P3100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; en-ph; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-es; GT-I8190 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-I8552 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; Android 6.0; PGN610 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36
+ XYZ
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; A1-810 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en)AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543a Safari/419.3
+Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+XYZ
+Mozilla/5.0 (Linux; U; Android 4.2.2; tr-tr; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-eg; LT26ii Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; Android 4.4.2; es-MX; 4027A Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+Mozilla/5.0 (Linux; Android 6.0; PGN610 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+XYZ
+
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-ca; SM-T110 Bu1ild/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+
+NativeOperaMini(Spreadtrum/Unknown;Native Opera Mini/4.4.31492;fr)
+Mozilla/5.0 (Linux; U; Android 4.2.2; sr-rs; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.32739;en)
+Mozilla
+Mozilla/5.0 (Linux; Android 6.0; PGN610 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Redmi 5 Plus Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.5.1146 Mobile Safari/537.36
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 77.1.0.8.113 (iPhone8,1; iOS 11_3_1; en_IT; en-GB; scale=2.00; gamut=normal; 750x1334; 139192650)
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 77.1.0.8.113 (iPhone8,1; iOS 11_3_1; en_IT; en-GB; scale=2.00; gamut=normal; 750x1334; 139192650)
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 77.1.0.8.113 (iPhone8,1; iOS 11_3_1; en_IT; en-GB; scale=2.00; gamut=normal; 750x1334; 139192650)
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG-SGH-I337 Build/KOT49H; us-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.1750.170 Mobile Safar
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.32739;en)
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 77.1.0.8.113 (iPhone8,1; iOS 11_3_1; en_IT; en-GB; scale=2.00; gamut=normal; 750x1334; 139192650)
+Mozilla/5.0 (Linux; U; Android 4.2.1; it-it; ME173X Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+XYZ
+Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-I8552 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; id-id; GT-P3100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-mx; LT26i Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; id-id; GT-P3100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-eg; LT26ii Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 Instagram 68.0.0.10.99 (iPhone10,1; iOS 11_2_5; en_US; en-US; scale=2.00; gamut=wide; 750x1334; 128202899)
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-eg; LT26ii Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 6.0.1; ko_KR; SM-N916K Build/41002dc8f221323d) AppleWebKit/535.30 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.32739;en)
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-ca; SM-T110 Bu1ild/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; id-id; GT-P3100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+NativeOperaMini(Spreadtrum/Unknown;Native Opera Mini/4.4.31492;fr)
+Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en)AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543a Safari/419.3
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; GT-I9082 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; tr-tr; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Redmi 5 Plus Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.5.1146 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; vi-vn; C811 4G Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-ca; SM-T110 Bu1ild/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-ca; SM-T110 Bu1ild/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; id-id; GT-P3100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; GT-I9082 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; vi-vn; C811 4G Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 77.1.0.8.113 (iPhone8,1; iOS 11_3_1; en_IT; en-GB; scale=2.00; gamut=normal; 750x1334; 139192650)
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-mx; LT26i Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 Instagram 68.0.0.10.99 (iPhone10,1; iOS 11_2_5; en_US; en-US; scale=2.00; gamut=wide; 750x1334; 128202899)
+Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en)AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543a Safari/419.3
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla
+
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-eg; LT26ii Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+OperaMini(MAUI_MRE;Opera Mini/4.4.33576;en)
+Mozilla/5.0 (Linux; U; Android 4.3; fr-be; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Redmi 5 Plus Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.5.1146 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.1.2; vi-vn; C811 4G Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; en-ph; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.32739;en)
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+XYZ
+Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30
+ XYZ
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-ca; SM-T110 Bu1ild/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 6.0.1; ko_KR; SM-N916K Build/41002dc8f221323d) AppleWebKit/535.30 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-ca; SM-T110 Bu1ild/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; Android 6.0; PGN610 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36
+ XYZ
+Mozilla/5.0 (Linux; U; Android 5.0; en-US; E2303 Build/26.1.A.3.111) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.10.1159 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.1.1; es-us; GT-I8190 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; sr-rs; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Redmi 5 Plus Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.5.1146 Mobile Safari/537.36
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG-SGH-I337 Build/KOT49H; us-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.1750.170 Mobile Safar
+Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en)AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543a Safari/419.3
+NativeOperaMini(Spreadtrum/Unknown;Native Opera Mini/4.4.31492;fr)
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 Instagram 68.0.0.10.99 (iPhone10,1; iOS 11_2_5; en_US; en-US; scale=2.00; gamut=wide; 750x1334; 128202899)
+Mozilla/5.0 (Linux; U; Android 4.2.2; sr-rs; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 Instagram 68.0.0.10.99 (iPhone10,1; iOS 11_2_5; en_US; en-US; scale=2.00; gamut=wide; 750x1334; 128202899)
+Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.32739;en)
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; fa-ir; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 6.0.1; ko_KR; SM-N916K Build/41002dc8f221323d) AppleWebKit/535.30 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19
+Mozilla/5.0 (Linux; U; Android 5.0; en-US; E2303 Build/26.1.A.3.111) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.10.1159 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30
+
+XYZ
+Mozilla/5.0 (Linux; U; Android 4.2.2; tr-tr; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en)AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543a Safari/419.3
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Redmi 5 Plus Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.5.1146 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; en-ph; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Redmi 5 Plus Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.5.1146 Mobile Safari/537.36
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 77.1.0.8.113 (iPhone8,1; iOS 11_3_1; en_IT; en-GB; scale=2.00; gamut=normal; 750x1334; 139192650)
+XYZ 
+Mozilla/5.0 (Linux; U; Android 4.2.2; th-th; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.33961;fr)
+ XYZ
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+OperaMini(MAUI_MRE;Opera Mini/4.4.33576;en)
+Mozilla/5.0 (Linux; U; Android 4.1.1; es-us; GT-I8190 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+NativeOperaMini(Spreadtrum/Unknown;Native Opera Mini/4.4.31492;fr)
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.33961;fr)
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.32739;en)
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Redmi 5 Plus Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.5.1146 Mobile Safari/537.36
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+Mozilla/5.0 (Linux; U; Android 4.2.2; sr-rs; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; id-id; GT-P3100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; fa-ir; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG-SGH-I337 Build/KOT49H; us-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.1750.170 Mobile Safar
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.33961;fr)
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Redmi 5 Plus Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.5.1146 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.2; tr-tr; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Redmi 5 Plus Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.5.1146 Mobile Safari/537.36
+Mozilla
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 5.0; en-US; E2303 Build/26.1.A.3.111) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.10.1159 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30
+NativeOperaMini(Spreadtrum/Unknown;Native Opera Mini/4.4.31492;fr)
+Mozilla/5.0 (Linux; U; Android 4.3; fr-be; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+XYZ 
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.2.2; sr-rs; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-I8552 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; en-ph; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.3; fr-be; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; tr-tr; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-ca; SM-T110 Bu1ild/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; en-ph; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.2.2; sr-rs; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+ XYZ 
+ XYZ
+Mozilla/5.0 (Linux; U; Android 4.2.2; tr-tr; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+XYZ
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 Instagram 68.0.0.10.99 (iPhone10,1; iOS 11_2_5; en_US; en-US; scale=2.00; gamut=wide; 750x1334; 128202899)
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; vi-vn; C811 4G Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-es; GT-I8190 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.1; es-us; GT-I8190 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.3; fr-be; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Redmi 5 Plus Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.5.1146 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.1; it-it; ME173X Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.1; it-it; ME173X Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; th-th; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; Android 6.0; PGN610 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.3; fr-be; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; A1-810 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-ca; SM-T110 Bu1ild/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; en-ph; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; fa-ir; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-eg; LT26ii Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; th-th; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG-SGH-I337 Build/KOT49H; us-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.1750.170 Mobile Safar
+Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.33961;fr)
+Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-I8552 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+XYZ 
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+NativeOperaMini(Spreadtrum/Unknown;Native Opera Mini/4.4.31492;fr)
+Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; A1-810 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.33961;fr)
+XYZ
+Mozilla/5.0 (Linux; U; Android 4.2.2; tr-tr; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 6.0.1; ko_KR; SM-N916K Build/41002dc8f221323d) AppleWebKit/535.30 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.33961;fr)
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.33961;fr)
+NativeOperaMini(Spreadtrum/Unknown;Native Opera Mini/4.4.31492;fr)
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+Mozilla/5.0 (Linux; U; Android 4.1.1; es-us; GT-I8190 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; Android 6.0; PGN610 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+Mozilla/5.0 (Linux; U; Android 5.0; en-US; E2303 Build/26.1.A.3.111) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.10.1159 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-I8552 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+ XYZ 
+Mozilla/5.0 (Linux; U; Android 4.3; fr-be; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; Android 4.4.2; es-MX; 4027A Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+OperaMini(MAUI_MRE;Opera Mini/4.4.33576;en)
+
+
+Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; A1-810 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+OperaMini(MAUI_MRE;Opera Mini/4.4.33576;en)
+Mozilla/5.0 (Linux; Android 6.0; PGN610 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+ XYZ
+Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-I8552 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; GT-I9082 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Redmi 5 Plus Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.5.1146 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG-SGH-I337 Build/KOT49H; us-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.1750.170 Mobile Safar
+Mozilla/5.0 (Linux; Android 6.0; PGN610 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Redmi 5 Plus Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.5.1146 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.1; it-it; ME173X Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.33961;fr)
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-es; GT-I8190 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+ XYZ 
+XYZ 
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.33961;fr)
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+XYZ 
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; Android 4.4.2; es-MX; 4027A Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+Mozilla/5.0 (Linux; U; Android 5.0; en-US; E2303 Build/26.1.A.3.111) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.10.1159 Mobile Safari/537.36
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.32739;en)
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-mx; LT26i Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en)AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543a Safari/419.3
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 Instagram 68.0.0.10.99 (iPhone10,1; iOS 11_2_5; en_US; en-US; scale=2.00; gamut=wide; 750x1334; 128202899)
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; id-id; GT-P3100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Redmi 5 Plus Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.5.1146 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-I8552 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-es; GT-I8190 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+NativeOperaMini(Spreadtrum/Unknown;Native Opera Mini/4.4.31492;fr)
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; GT-I9082 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.33961;fr)
+
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.1; it-it; ME173X Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+Mozilla/5.0 (Linux; U; Android 6.0.1; ko_KR; SM-N916K Build/41002dc8f221323d) AppleWebKit/535.30 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-I8552 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+NativeOperaMini(Spreadtrum/Unknown;Native Opera Mini/4.4.31492;fr)
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+ XYZ 
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-mx; LT26i Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG-SGH-I337 Build/KOT49H; us-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.1750.170 Mobile Safar
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.33961;fr)
+OperaMini(MAUI_MRE;Opera Mini/4.4.33576;en)
+Mozilla/5.0 (Linux; U; Android 4.3; fr-be; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG-SGH-I337 Build/KOT49H; us-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.1750.170 Mobile Safar
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG-SGH-I337 Build/KOT49H; us-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.1750.170 Mobile Safar
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-I8552 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 6.0.1; ko_KR; SM-N916K Build/41002dc8f221323d) AppleWebKit/535.30 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19
+Mozilla/5.0 (Linux; U; Android 4.2.2; sr-rs; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-mx; LT26i Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+
+OperaMini(MAUI_MRE;Opera Mini/4.4.33576;en)
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en)AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543a Safari/419.3
+Mozilla/5.0 (Linux; U; Android 4.1.2; vi-vn; C811 4G Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-eg; LT26ii Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 Instagram 68.0.0.10.99 (iPhone10,1; iOS 11_2_5; en_US; en-US; scale=2.00; gamut=wide; 750x1334; 128202899)
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; tr-tr; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; id-id; GT-P3100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.1; es-us; GT-I8190 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+Mozilla
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; GT-I9082 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-I8552 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; vi-vn; C811 4G Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.32739;en)
+Mozilla/5.0 (Linux; U; Android 4.2.1; it-it; ME173X Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 Instagram 68.0.0.10.99 (iPhone10,1; iOS 11_2_5; en_US; en-US; scale=2.00; gamut=wide; 750x1334; 128202899)
+Mozilla/5.0 (Linux; U; Android 6.0.1; ko_KR; SM-N916K Build/41002dc8f221323d) AppleWebKit/535.30 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Redmi 5 Plus Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.5.1146 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.2; tr-tr; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 5.0; en-US; E2303 Build/26.1.A.3.111) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.10.1159 Mobile Safari/537.36
+ XYZ
+OperaMini(MAUI_MRE;Opera Mini/4.4.33576;en)
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-eg; LT26ii Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.2; th-th; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; Android 4.4.2; es-MX; 4027A Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; en-ph; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; pt-br; GT-I8262B Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Redmi 5 Plus Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.5.1146 Mobile Safari/537.36
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG-SGH-I337 Build/KOT49H; us-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.1750.170 Mobile Safar
+Mozilla/5.0 (Linux; U; Android 4.2.1; it-it; ME173X Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; Android 6.0; PGN610 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.1.2; id-id; GT-P3100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; th-th; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 77.1.0.8.113 (iPhone8,1; iOS 11_3_1; en_IT; en-GB; scale=2.00; gamut=normal; 750x1334; 139192650)
+ XYZ 
+Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-I8552 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; sr-rs; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 5.0; en-US; E2303 Build/26.1.A.3.111) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.10.1159 Mobile Safari/537.36
+OperaMini(MAUI_MRE;Opera Mini/4.4.33576;en)
+Mozilla/5.0 (Linux; U; Android 4.2.2; fa-ir; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; pt-br; GT-I8262B Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+ XYZ
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-mx; LT26i Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; sr-rs; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-eg; LT26ii Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 Instagram 68.0.0.10.99 (iPhone10,1; iOS 11_2_5; en_US; en-US; scale=2.00; gamut=wide; 750x1334; 128202899)
+Mozilla/5.0 (Linux; U; Android 4.1.2; pt-br; GT-I8262B Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; sr-rs; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+ XYZ 
+NativeOperaMini(Spreadtrum/Unknown;Native Opera Mini/4.4.31492;fr)
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; GT-I9082 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; Android 6.0; PGN610 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 77.1.0.8.113 (iPhone8,1; iOS 11_3_1; en_IT; en-GB; scale=2.00; gamut=normal; 750x1334; 139192650)
+ XYZ 
+NativeOperaMini(Spreadtrum/Unknown;Native Opera Mini/4.4.31492;fr)
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+Mozilla/5.0 (Linux; U; Android 6.0.1; ko_KR; SM-N916K Build/41002dc8f221323d) AppleWebKit/535.30 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-es; GT-I8190 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 Instagram 68.0.0.10.99 (iPhone10,1; iOS 11_2_5; en_US; en-US; scale=2.00; gamut=wide; 750x1334; 128202899)
+ XYZ 
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 5.0; en-US; E2303 Build/26.1.A.3.111) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.10.1159 Mobile Safari/537.36
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+Mozilla/5.0 (Linux; U; Android 4.2.2; tr-tr; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; fa-ir; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-I8552 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; Android 4.4.2; es-MX; 4027A Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-eg; LT26ii Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 77.1.0.8.113 (iPhone8,1; iOS 11_3_1; en_IT; en-GB; scale=2.00; gamut=normal; 750x1334; 139192650)
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; GT-I9082 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; tr-tr; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+Mozilla/5.0 (Linux; Android 4.4.2; es-MX; 4027A Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+OperaMini(MAUI_MRE;Opera Mini/4.4.33576;en)
+Mozilla/5.0 (Linux; U; Android 4.2.2; tr-tr; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-es; GT-I8190 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Redmi 5 Plus Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.5.1146 Mobile Safari/537.36
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 Instagram 68.0.0.10.99 (iPhone10,1; iOS 11_2_5; en_US; en-US; scale=2.00; gamut=wide; 750x1334; 128202899)
+ XYZ 
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-ca; SM-T110 Bu1ild/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-mx; LT26i Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; GT-I9082 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.3; fr-be; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+Mozilla/5.0 (Linux; U; Android 4.2.2; fa-ir; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; pt-br; GT-I8262B Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+ XYZ 
+Mozilla/5.0 (Linux; U; Android 4.2.1; it-it; ME173X Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.1; es-us; GT-I8190 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+NativeOperaMini(Spreadtrum/Unknown;Native Opera Mini/4.4.31492;fr)
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-mx; LT26i Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; Android 6.0; PGN610 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.1.2; vi-vn; C811 4G Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+Mozilla/5.0 (Linux; U; Android 4.2.2; en-ph; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en)AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543a Safari/419.3
+
+XYZ
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+Mozilla/5.0 (Linux; Android 4.4.2; es-MX; 4027A Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-es; GT-I8190 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; Android 4.4.2; es-MX; 4027A Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.1; it-it; ME173X Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.32739;en)
+Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; A1-810 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; Android 4.4.2; es-MX; 4027A Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+Mozilla/5.0 (Linux; Android 6.0; PGN610 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+Mozilla/5.0 (Linux; U; Android 4.1.2; id-id; GT-P3100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.3; fr-be; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.32739;en)
+Mozilla/5.0 (Linux; U; Android 4.1.1; es-us; GT-I8190 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+ XYZ 
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 Instagram 68.0.0.10.99 (iPhone10,1; iOS 11_2_5; en_US; en-US; scale=2.00; gamut=wide; 750x1334; 128202899)
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Redmi 5 Plus Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.5.1146 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.2; fa-ir; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; vi-vn; C811 4G Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-I8552 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en)AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543a Safari/419.3
+ XYZ 
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-mx; LT26i Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; Android 4.4.2; es-MX; 4027A Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+Mozilla
+ XYZ
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; GT-I9082 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+XYZ 
+OperaMini(MAUI_MRE;Opera Mini/4.4.33576;en)
+Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en)AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543a Safari/419.3
+XYZ
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.32739;en)
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; vi-vn; C811 4G Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 6.0.1; ko_KR; SM-N916K Build/41002dc8f221323d) AppleWebKit/535.30 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en)AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543a Safari/419.3
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 5.0; en-US; E2303 Build/26.1.A.3.111) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.10.1159 Mobile Safari/537.36
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.32739;en)
+Mozilla/5.0 (Linux; U; Android 6.0.1; ko_KR; SM-N916K Build/41002dc8f221323d) AppleWebKit/535.30 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 77.1.0.8.113 (iPhone8,1; iOS 11_3_1; en_IT; en-GB; scale=2.00; gamut=normal; 750x1334; 139192650)
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.32739;en)
+Mozilla/5.0 (Linux; U; Android 4.1.1; es-us; GT-I8190 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.1; it-it; ME173X Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+ XYZ
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Redmi 5 Plus Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.5.1146 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 6.0.1; ko_KR; SM-N916K Build/41002dc8f221323d) AppleWebKit/535.30 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-mx; LT26i Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+ XYZ
+Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-I8552 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-es; GT-I8190 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+XYZ 
+OperaMini(MAUI_MRE;Opera Mini/4.4.33576;en)
+
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-eg; LT26ii Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; th-th; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 77.1.0.8.113 (iPhone8,1; iOS 11_3_1; en_IT; en-GB; scale=2.00; gamut=normal; 750x1334; 139192650)
+XYZ 
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-eg; LT26ii Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.1.2; id-id; GT-P3100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; A1-810 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+
+Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG-SGH-I337 Build/KOT49H; us-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.1750.170 Mobile Safar
+Mozilla/5.0 (Linux; U; Android 4.2.1; it-it; ME173X Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-I8552 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+Mozilla/5.0 (Linux; U; Android 5.0; en-US; E2303 Build/26.1.A.3.111) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.10.1159 Mobile Safari/537.36
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+XYZ 
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 Instagram 68.0.0.10.99 (iPhone10,1; iOS 11_2_5; en_US; en-US; scale=2.00; gamut=wide; 750x1334; 128202899)
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; A1-810 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; Android 4.4.2; es-MX; 4027A Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.1; it-it; ME173X Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+ XYZ 
+Mozilla/5.0 (Linux; U; Android 4.2.2; sr-rs; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; A1-810 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 6.0.1; ko_KR; SM-N916K Build/41002dc8f221323d) AppleWebKit/535.30 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19
+Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; A1-810 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-I8552 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 64.0.0.12.96 (iPhone7,2; iOS 10_3_1; ar_SA@calendar=gregorian; ar; scale=2.00; gamut=normal; 750x1334; 124976489)
+Mozilla
+XYZ 
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; A1-810 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; th-th; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; GT-I9082 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+XYZ
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 77.1.0.8.113 (iPhone8,1; iOS 11_3_1; en_IT; en-GB; scale=2.00; gamut=normal; 750x1334; 139192650)
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+XYZ 
+Mozilla/5.0 (Linux; U; Android 4.2.2; fa-ir; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 77.1.0.8.113 (iPhone8,1; iOS 11_3_1; en_IT; en-GB; scale=2.00; gamut=normal; 750x1334; 139192650)
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 Instagram 68.0.0.10.99 (iPhone10,1; iOS 11_2_5; en_US; en-US; scale=2.00; gamut=wide; 750x1334; 128202899)
+XYZ
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Instagram 61.0.0.10.86 (iPhone8,2; iOS 10_1_1; ar_SA@calendar=gregorian;numbers=latn; ar-SA; scale=2.61; gamut=normal; 1080x1920)
+Mozilla/5.0 (Linux; Android 6.0; PGN610 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.2; sr-rs; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; Android 6.0; PGN610 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; th-th; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; vi-vn; C811 4G Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+ XYZ
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+XYZ 
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; Android 6.0; PGN610 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Redmi 5 Plus Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.5.1146 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; AURUS III Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.1 Mobile Safari/534.30
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG-SGH-I337 Build/KOT49H; us-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.1750.170 Mobile Safar
+ XYZ
+Mozilla/5.0 (Linux; U; Android 4.2.1; it-it; ME173X Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+XYZ
+Mozilla/5.0 (Linux; U; Android 5.0; en-US; E2303 Build/26.1.A.3.111) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.10.1159 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.3; fr-be; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.33961;fr)
+Mozilla/5.0 (Linux; U; Android 4.2.2; th-th; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+OperaMini(MAUI_MRE;Opera Mini/4.4.33576;en)
+Mozilla/5.0 (Linux; U; Android 4.1.2; pt-br; GT-I8262B Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+Mozilla/5.0 (Linux; Android 4.4.2; es-MX; 4027A Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-mx; LT26i Build/6.2.B.1.96) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; es-es; GT-I8190 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; fa-ir; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; Android 9; Mi A1 Build/PKQ1.180917.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; GT-I9082 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-I8552 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-P5100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+Mozilla
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.33961;fr)
+Mozilla/5.0 (Linux; U; Android 4.2.2; th-th; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+ XYZ
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.32739;en)
+NativeOperaMini(Spreadtrum/Unknown;Native Opera Mini/4.4.31492;fr)
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+Mozilla/5.0 (Linux; U; Android 4.2.2; fr-fr; STARADDICT III Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SWV/082.27SFR
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG-SGH-I337 Build/KOT49H; us-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.1750.170 Mobile Safar
+Mozilla/5.0 (Linux; U; Android 4.1.2; vi-vn; C811 4G Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 5.0; en-US; E2303 Build/26.1.A.3.111) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.10.1159 Mobile Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.1.2; id-id; GT-P3100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 62.1.0.15.94 (iPhone8,1; iOS 11_4; de_DE; de-DE; scale=2.00; gamut=normal; 750x1334)
+NativeOperaMini(Spreadtrum/HW Version:        fp6531_bar;Native Opera Mini/4.4.33961;fr)
+Mozilla/5.0 (Linux; U; Android 4.2.2; fa-ir; H30-U10 Build/HuaweiH30-U10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Mozilla/5.0 (Linux; U; Android 4.2.2; ro-ro; GT-I9060 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30

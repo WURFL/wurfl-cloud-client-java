@@ -11,11 +11,12 @@
  */
 package com.scientiamobile.wurflcloud;
 
-import junit.framework.Assert;
 
 import org.testng.annotations.Test;
 
 import com.scientiamobile.wurflcloud.utils.Constants;
+
+import static org.testng.Assert.assertEquals;
 
 @Test(groups = "unit")
 public class VersionTest extends Loggable {
@@ -29,7 +30,7 @@ public class VersionTest extends Loggable {
         String versionStr = System.getProperty("wurflcloudversion");
         logger.debug("Version read from pom.xml: " + versionStr);
         logger.debug("Version read from Constants.java: " + Constants.CLIENT_VERSION);
-        Assert.assertEquals(versionStr, Constants.CLIENT_VERSION);
+        assertEquals(versionStr, Constants.CLIENT_VERSION);
     }
 
 }
