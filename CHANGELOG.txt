@@ -1,3 +1,6 @@
+1.0.14
+Fix: Replaced Jackson mapper dependency with JsonIter
+
 1.0.13
 Fix: Upgraded Jackson-databind dependency to fix new vulnerability
 
