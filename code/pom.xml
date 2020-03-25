@@ -145,6 +145,7 @@
                             <exclude>**/*.bz2</exclude>
                             <exclude>**/.*</exclude>
                             <exclude>**/*LICENSE*.txt</exclude>
+                            <exclude>**/*_ua*.txt</exclude>
                             <exclude>**/CHANGELOG*</exclude>
                             <exclude>logs/**.*</exclude>
                         </excludes>
