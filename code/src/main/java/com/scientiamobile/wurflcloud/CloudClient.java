@@ -70,8 +70,6 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
 
     /**
      * The HTTP Headers that will be used to query the WURFL Cloud Server in Map<String, String> format.
-     *
-     * @var array
      */
     private final Map<String, String> reqHeaders = new LinkedHashMap<String, String>();
 
@@ -100,14 +98,14 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
     /**
      * Construct a new CloudClient object
      *
-     * @param request
-     * @param response
-     * @param cfg
-     * @param searchCapabilities
-     * @param credentials
-     * @param cache
-     * @param recoveryManager
-     * @param clientManager
+     * @param request the HTTP servlet request object
+     * @param response HTTP servlet response object
+     * @param cfg cloud clinet configuration
+     * @param searchCapabilities list of capabilities to get
+     * @param credentials wurfl cloud credentials
+     * @param cache cache implementation
+     * @param clientManager cloud client manager
+     * @param proxy proxy to use for connections
      */
     protected CloudClient(HttpServletRequest request, HttpServletResponse response, CloudClientConfig cfg, String[] searchCapabilities, Credentials credentials, IWurflCloudCache cache, CloudClientManager clientManager, Proxy proxy) {
         this.response = response;
@@ -455,7 +453,7 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
      * Queries cache, then cloud.
      * If cloud is not available, tries a recovery answer.
      *
-     * @return
+     * @return an AbstractDevice implementation
      * @throws IOException 
      */
     protected AbstractDevice detectDevice() throws IOException {
@@ -549,9 +547,9 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
     /**
      * Reads response from cloud.
      *
-     * @param connection
-     * @return
-     * @throws IOException
+     * @param connection the HTTP connection object
+     * @return the content from cloud response
+     * @throws IOException in case of connection issues
      */
     private String processContent(URLConnection connection) throws IOException {
         final char[] buffer = new char[0x10000];

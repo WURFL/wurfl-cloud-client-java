@@ -91,7 +91,7 @@ public class AbstractDevice extends Loggable {
 
     /**
      * Gets the response type.
-     * @see {@link ResponseType}
+     * @see ResponseType
      * 
      * Possible values are:
      * - cache:  from local cache

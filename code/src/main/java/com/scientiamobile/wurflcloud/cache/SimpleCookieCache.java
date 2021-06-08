@@ -93,7 +93,7 @@ public class SimpleCookieCache extends AbstractWurflCloudCache {
      * @param response
      * @param key
      * @param device
-     * @return
+     * @return true if device has been set properly, false if any error occurred
      */
     public boolean setDevice(HttpServletResponse response, String key, AbstractDevice device) {
         String cookieVal;
