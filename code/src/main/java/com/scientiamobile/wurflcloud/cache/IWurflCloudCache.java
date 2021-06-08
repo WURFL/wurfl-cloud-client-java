@@ -26,6 +26,9 @@ public interface IWurflCloudCache extends Constants {
 
     /**
      * Get the device capabilities for the given user agent from the cache provider
+     * @param request HTTP request object
+     * @param client wurfl cloud client request object
+     * @return a detected AbstractDevice implementation
      */
     public AbstractDevice getDevice(HttpServletRequest request, ICloudClientRequest client);
     /**
@@ -64,7 +67,6 @@ public interface IWurflCloudCache extends Constants {
 
     /**
      * Sets the last loaded WURFL timestamp in the cache provider
-     * @link IWurflCloudCache.#getMtime()
      *
      * @param server_mtime The new time to set
      * @return True if the new time was set successfully, false otherwise

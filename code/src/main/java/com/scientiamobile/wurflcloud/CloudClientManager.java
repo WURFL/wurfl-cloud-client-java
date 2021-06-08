@@ -100,10 +100,10 @@ public class CloudClientManager extends Loggable implements CloudListener, IClou
 
     /**
      * CloudClientManager constructor.
-     * @param authenticationManager
-     * @param config
-     * @param cache
-     * @param proxy
+     * @param authenticationManager the auth manager
+     * @param config cloud config object
+     * @param cache cache implementation
+     * @param proxy proxy used for connection
      */
     public CloudClientManager(IAuthenticationManager authenticationManager, CloudClientConfig config, IWurflCloudCache cache, Proxy proxy) {
         this(authenticationManager, config, cache, proxy, null);
@@ -111,11 +111,11 @@ public class CloudClientManager extends Loggable implements CloudListener, IClou
 
     /**
      * Full constructor.
-     * @param authenticationManager
-     * @param config
-     * @param cache
-     * @param proxy
-     * @param parsedCapabilities
+     * @param authenticationManager the auth manager
+     * @param config cloud config object
+     * @param cache cache implementation
+     * @param proxy proxy used for connection
+     * @param parsedCapabilities array of capabilities to be used
      */
     public CloudClientManager(IAuthenticationManager authenticationManager, CloudClientConfig config, IWurflCloudCache cache, Proxy proxy, String[] parsedCapabilities) {
         this.config = config;
