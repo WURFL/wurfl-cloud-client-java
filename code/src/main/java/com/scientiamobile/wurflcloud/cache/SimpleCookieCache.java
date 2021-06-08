@@ -16,9 +16,9 @@ import java.net.URLDecoder;
 import java.net.URLEncoder;
 import java.util.HashMap;
 
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.Cookie;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 import com.jsoniter.output.JsonStream;
 import com.scientiamobile.wurflcloud.ICloudClientRequest;

@@ -13,7 +13,7 @@ package com.scientiamobile.wurflcloud.cache;
 
 import com.scientiamobile.wurflcloud.device.AbstractDevice;
 
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletResponse;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

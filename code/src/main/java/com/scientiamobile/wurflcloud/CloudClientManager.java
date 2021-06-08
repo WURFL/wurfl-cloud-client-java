@@ -25,8 +25,8 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 import com.scientiamobile.wurflcloud.cache.IWurflCloudCache;
 import com.scientiamobile.wurflcloud.device.AbstractDevice;
@@ -217,14 +217,14 @@ public class CloudClientManager extends Loggable implements CloudListener, IClou
     public boolean testCallWurflCloud() {
 
         String ua = "useragent_test";
-        Enumeration<Object> e = new Enumeration<Object>() {
+        Enumeration<String> e = new Enumeration<String>() {
             private boolean set = false;
 
             public boolean hasMoreElements() {
                 return !set;
             }
 
-            public Object nextElement() {
+            public String nextElement() {
                 if (!set) {
                     set = true;
                     return Constants.USER_AGENT_LC;

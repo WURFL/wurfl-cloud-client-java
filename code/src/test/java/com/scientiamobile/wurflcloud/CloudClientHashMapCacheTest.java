@@ -18,9 +18,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.Cookie;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import java.util.Enumeration;
 
 import static org.mockito.Mockito.mock;
@@ -42,7 +42,7 @@ public class CloudClientHashMapCacheTest extends Loggable {
     private ICloudClientManager ICloudClient;
     private AbstractDevice device;
     private String[] capabilities;
-    private Enumeration<Object> e1, e2, e3;
+    private Enumeration<String> e1, e2, e3;
     private HttpServletRequest request1, request2, request3;
     private HttpServletResponse response;
 
@@ -67,14 +67,14 @@ public class CloudClientHashMapCacheTest extends Loggable {
     	 *  e3 for request3
     	 */
 
-        e1 = new Enumeration<Object>() {
+        e1 = new Enumeration<String>() {
             private boolean set = false;
 
             public boolean hasMoreElements() {
                 return !set;
             }
 
-            public Object nextElement() {
+            public String nextElement() {
                 if (!set) {
                     set = true;
                     return Constants.USER_AGENT_LC;
@@ -84,14 +84,14 @@ public class CloudClientHashMapCacheTest extends Loggable {
 
         };
         
-        e2 = new Enumeration<Object>() {
+        e2 = new Enumeration<String>() {
             private boolean set = false;
 
             public boolean hasMoreElements() {
                 return !set;
             }
 
-            public Object nextElement() {
+            public String nextElement() {
                 if (!set) {
                     set = true;
                     return Constants.USER_AGENT_LC;
@@ -101,14 +101,14 @@ public class CloudClientHashMapCacheTest extends Loggable {
 
         };
 
-        e3 = new Enumeration<Object>() {
+        e3 = new Enumeration<String>() {
             private boolean set = false;
 
             public boolean hasMoreElements() {
                 return !set;
             }
 
-            public Object nextElement() {
+            public String nextElement() {
                 if (!set) {
                     set = true;
                     return Constants.USER_AGENT_LC;

@@ -20,8 +20,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import java.util.Enumeration;
 
 import static org.mockito.Mockito.*;
@@ -55,14 +55,14 @@ public class CloudClientAcceptEncodingHeadersTest extends Loggable{
     public void setupDevice() {
         start = System.currentTimeMillis();
 
-        Enumeration<Object> e = new Enumeration<Object>() {
+        Enumeration<String> e = new Enumeration<String>() {
             private boolean set = false;
 
             public boolean hasMoreElements() {
                 return !set;
             }
 
-            public Object nextElement() {
+            public String nextElement() {
                 if (!set) {
                     set = true;
                     return Constants.USER_AGENT_LC;

@@ -15,7 +15,7 @@ import java.util.Collections;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 import com.scientiamobile.wurflcloud.ICloudClientRequest;
 import com.scientiamobile.wurflcloud.Loggable;
 import com.scientiamobile.wurflcloud.device.AbstractDevice;

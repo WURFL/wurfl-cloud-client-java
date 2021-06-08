@@ -15,8 +15,8 @@ import com.scientiamobile.wurflcloud.ICloudClientRequest;
 import com.scientiamobile.wurflcloud.device.AbstractDevice;
 import com.scientiamobile.wurflcloud.utils.Constants;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import java.util.Map;
 
 /**

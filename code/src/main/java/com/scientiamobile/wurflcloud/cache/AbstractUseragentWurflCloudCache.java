@@ -11,7 +11,7 @@
  */
 package com.scientiamobile.wurflcloud.cache;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 import com.scientiamobile.wurflcloud.ICloudClientRequest;
 import com.scientiamobile.wurflcloud.device.AbstractDevice;
 import com.scientiamobile.wurflcloud.utils.Constants;

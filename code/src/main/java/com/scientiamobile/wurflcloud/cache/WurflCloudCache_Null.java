@@ -13,8 +13,8 @@ package com.scientiamobile.wurflcloud.cache;
 
 import com.scientiamobile.wurflcloud.device.AbstractDevice;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 /**
  * Cache implementation with no specific behavior.

@@ -19,9 +19,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.Cookie;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import java.util.Enumeration;
 
 import static org.mockito.Mockito.mock;
@@ -42,7 +42,7 @@ public class CloudClientCookieTest extends Loggable {
     private long time;
     private long start;
     private String mobile;
-    private Enumeration<Object> e;
+    private Enumeration<String> e;
     private HttpServletRequest request;
     private HttpServletResponse response;
 
@@ -57,14 +57,14 @@ public class CloudClientCookieTest extends Loggable {
     @BeforeMethod
     public void setupMethod() {
 
-        e = new Enumeration<Object>() {
+        e = new Enumeration<String>() {
             private boolean set = false;
 
             public boolean hasMoreElements() {
                 return !set;
             }
 
-            public Object nextElement() {
+            public String nextElement() {
                 if (!set) {
                     set = true;
                     return Constants.USER_AGENT_LC;
