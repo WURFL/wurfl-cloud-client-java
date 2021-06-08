@@ -71,7 +71,7 @@ Assuming you have installed Tomcat and all of the traditional defaults apply, yo
 
 *Please Note that it may take a few minutes from signup for your WURFL Cloud API Key to become active.*
 
-`http://localhost:8080/client-example-1.0.7/`
+`http://localhost:8080/client-example-1.0.15/`
 
 *Note: if your application server is not Tomcat or if you changed some of the defaults, you will need to adjust your URLs accordingly.*
 
@@ -80,7 +80,75 @@ Integration
 
 You should review the included example code (`MyCloudClientServlet.java` and `response.jsp`) in the `wurfl-cloud-client-java/examples/` directory to get a feel for the Client API, and how best to use it in your application.
 
-**2015 ScientiaMobile Incorporated**
+Migrating to Jakarta EE9 (Tomcat 10 and other new servers)
+-----------
+With Jakarta EE 9, the enterprise Java application ecosystem has faced a huge change. The most impacting one is the naming change from the Oracle owned `javax.*` 
+package namespace to the new `jakarta.*`
+This naming change will break most of the code that, for example, uses class `HttpServletRequest` or others from the same packages.
+So if you want to use the `wurfl-cloud-client-java` in a web/application server that supports Jakarta EE9 such as:
+  - Tomcat 10.x
+  - Glassfish 6.x
+  - Jetty 11.x
+  or any other that will comply to this spec in the near future, you will need to migrate both the cloud client and the sample application (or yours, if needed) and build them from the source code.
+    
+### Step 1: use the Tomcat migration tool
+If you use Tomcat 10 you can migrate part of the code by using the Tomcat Migration tool: https://tomcat.apache.org/download-migration.cgi
+This tool replaces all the projects javax.* occurrences with jakarta.*. There are different option that you can specify depending on how your application uses the 
+Java Enterprise features. Execute the `migrate.sh` script without parameters for more info on the usage options.
+
+The command `./migrate.sh <path/to/wurfl-cloud-client-java> <path/to/destination dir> -profile=EE` will generate a "migrated" copy of the project code using any javax.* package to
+the specified destination directory.
+
+### Step 2: check the pom.xml dependencies
+The migration tool tries to update the dependencies in your pom.xml files, but it's not perfect in that at the current development stage.
+This means you have to check the EE dependencies yourself.
+
+These are the dependencies used in the java cloud client example app to make it compliant with Jakarta EE 9 on Tomcat 10.
+
+```xml
+<dependencies>
+        <dependency>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>5.0.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>jakarta.servlet.jsp</groupId>
+            <artifactId>jakarta.servlet.jsp-api</artifactId>
+            <version>3.0.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.glassfish.web/jakarta.servlet.jsp.jstl -->
+        <dependency>
+            <groupId>org.glassfish.web</groupId>
+            <artifactId>jakarta.servlet.jsp.jstl</artifactId>
+            <version>2.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>jakarta.servlet.jsp.jstl</groupId>
+            <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+            <version>2.0.0</version>
+        </dependency>
+    </dependencies>
+```
+
+The project branch on : `https://github.com/WURFL/wurfl-cloud-client-java/blob/1.0.15-jakarta-migration`
+contains an already migrated version of the cloud-client-java and the example application projects.
+Build them as previously shown. The migrated project build and execution has been tested using this environment:
+
+- JDK 16
+- Maven 3.8.1
+- Tomcat 10.0.6
+
+### Step 3: updating other dependencies or code (if needed).
+If you are migrating your custom project to Jakarta EE9, the project build may fail because some other dependency has not been updated, or its interface has changed. Fix the dependency or code and retry building you project.
+
+
+-----------
+
+**2015-2021 ScientiaMobile Incorporated**
 
 **All Rights Reserved.**
 
