@@ -1,3 +1,6 @@
+1.0.15
+Fix: updated logback dependency due to discovered vulnerability
+
 1.0.14
 Fix: Replaced Jackson mapper dependency with JsonIter
 
