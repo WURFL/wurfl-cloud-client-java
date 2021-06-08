@@ -64,7 +64,7 @@ public interface IWurflCloudCache extends Constants {
 
     /**
      * Sets the last loaded WURFL timestamp in the cache provider
-     * @see IWurflCloudCache.getMtime()
+     * @link IWurflCloudCache.#getMtime()
      *
      * @param server_mtime The new time to set
      * @return True if the new time was set successfully, false otherwise
@@ -74,7 +74,7 @@ public interface IWurflCloudCache extends Constants {
     /**
      * Clears the cache provider
      * 
-     * @return True if the purge succeded, false otherwise
+     * @return True if the purge succeeded, false otherwise
      */
     public boolean purge();
 

@@ -70,8 +70,6 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
 
     /**
      * The HTTP Headers that will be used to query the WURFL Cloud Server in Map<String, String> format.
-     *
-     * @var array
      */
     private final Map<String, String> reqHeaders = new LinkedHashMap<String, String>();
 
@@ -106,7 +104,6 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
      * @param searchCapabilities
      * @param credentials
      * @param cache
-     * @param recoveryManager
      * @param clientManager
      */
     protected CloudClient(HttpServletRequest request, HttpServletResponse response, CloudClientConfig cfg, String[] searchCapabilities, Credentials credentials, IWurflCloudCache cache, CloudClientManager clientManager, Proxy proxy) {
@@ -455,7 +452,7 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
      * Queries cache, then cloud.
      * If cloud is not available, tries a recovery answer.
      *
-     * @return
+     * @return an AbstractDevice implementation
      * @throws IOException 
      */
     protected AbstractDevice detectDevice() throws IOException {

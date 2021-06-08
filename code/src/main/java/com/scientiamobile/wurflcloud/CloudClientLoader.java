@@ -64,7 +64,7 @@ public class CloudClientLoader extends Loggable implements Constants, Serializab
      * @param apiKey     the API key
      * @param proxyIp    the proxy IP
      * @param proxyPort  the proxy port
-     * @param proxyType  the {@link Proxy.Type} representing the proxy protocol
+     * @param proxyType  the {Proxy.Type representing the proxy protocol
      * @throws Exception
      */
     public CloudClientLoader(String apiKey, String proxyIp, int proxyPort, Proxy.Type proxyType) throws Exception {
@@ -75,7 +75,7 @@ public class CloudClientLoader extends Loggable implements Constants, Serializab
      * Constructs a CloudClientLoader with proxy configuration
      * @param proxyIp    the proxy IP
      * @param proxyPort  the proxy port
-     * @param proxyType  the {@link Proxy.Type} representing the proxy protocol
+     * @param proxyType  the Proxy.Type representing the proxy protocol
      * @throws Exception
      */
     public CloudClientLoader(String proxyIp, int proxyPort, Proxy.Type proxyType) throws Exception {
@@ -84,7 +84,7 @@ public class CloudClientLoader extends Loggable implements Constants, Serializab
     
     /**
      * Constructs a CloudClientLoader without specific proxy configuration
-     * @param the {@link Proxy} to be used to connect to cloud server
+     * @param proxy Proxy class  to be used to connect to cloud server
      * @throws Exception
      */
     public CloudClientLoader(Proxy proxy) throws Exception {
@@ -94,7 +94,7 @@ public class CloudClientLoader extends Loggable implements Constants, Serializab
     /**
      * Constructs a CloudClientLoader without specific proxy configuration
      * @param apiKey required key for Cloud Client use.
-     * @param the {@link Proxy} to be used to connect to cloud server
+     * @param  proxy Proxy class to be used to connect to cloud server
      * @throws Exception
      */
     public CloudClientLoader(String apiKey, Proxy proxy) throws Exception {
@@ -104,7 +104,7 @@ public class CloudClientLoader extends Loggable implements Constants, Serializab
     /**
      * Constructs a CloudClientLoader with proxy configuration represented by a {@link Proxy} object
      * @param apiKey required key for Cloud Client use.
-     * @param the .properties file path to be used
+     * @param  propertiesFile .properties file path to be used
      * @throws Exception
      */
     public CloudClientLoader(String apiKey, String propertiesFile) throws Exception {
@@ -114,10 +114,10 @@ public class CloudClientLoader extends Loggable implements Constants, Serializab
     /**
      * Constructs a CloudClientLoader with proxy configuration
      * @param apiKey     the API key
-     * @param the .properties file path to be used
+     * @param propertiesFile the .properties file path to be used
      * @param proxyIp    the proxy IP
      * @param proxyPort  the proxy port
-     * @param proxyType  the {@link Proxy.Type} representing the proxy protocol
+     * @param proxyType  the Proxy.Type representing the proxy protocol
      * @throws Exception
      */
     public CloudClientLoader(String apiKey, String propertiesFile, String proxyIp, int proxyPort, Proxy.Type proxyType) throws Exception {
@@ -127,8 +127,8 @@ public class CloudClientLoader extends Loggable implements Constants, Serializab
     /**
      * Constructs a CloudClientLoader without specific proxy configuration
      * @param apiKey required key for Cloud Client use.
-     * @param the .properties file path to be used
-     * @param the {@link Proxy} to be used to connect to cloud server
+     * @param propertiesFile the .properties file path to be used
+     * @param proxy the Proxy class to be used to connect to cloud server
      * @throws Exception
      */
     public CloudClientLoader(String apiKey, String propertiesFile, Proxy proxy) throws Exception {
