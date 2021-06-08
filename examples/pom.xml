@@ -44,82 +44,55 @@
             <timezone>-5</timezone>
         </developer>
     </developers>
-	
+
     <!-- Properties -->
     <properties>
         <!--<spring.version>2.5.6</spring.version>-->
         <wurfl.cloud.version>${project.version}</wurfl.cloud.version>
     </properties>
 
-     <repositories>
+    <repositories>
         <repository>
             <id>cloud-repository</id>
             <name>ScientiaMobile Repository</name>
             <url>https://maven.scientiamobile.com/repository/wurfl-cloud/</url>
         </repository>
-		<repository>
+        <repository>
             <id>Central</id>
             <name>Central</name>
-            <url>http://repo.maven.apache.org/maven2</url>
+            <url>https://repo.maven.apache.org/maven2</url>
         </repository>
-        </repositories>
-
-    <dependencyManagement> 
-        <dependencies>
-
-            <dependency>
-                <groupId>javax.servlet</groupId>
-                <artifactId>servlet-api</artifactId>
-                <version>2.4</version>
-                <scope>provided</scope>
-            </dependency>
-            <dependency>
-                <groupId>javax.servlet.jsp</groupId>
-                <artifactId>jsp-api</artifactId>
-                <version>2.0</version>
-                <scope>provided</scope>
-            </dependency>
-            <dependency>
-                <groupId>javax.servlet</groupId>
-                <artifactId>jstl</artifactId>
-                <version>1.1.2</version>
-                <scope>compile</scope>
-            </dependency>
-            <dependency>
-                <groupId>taglibs</groupId>
-                <artifactId>standard</artifactId>
-                <version>1.1.2</version>
-                <scope>compile</scope>
-            </dependency>
-            <dependency>
-                <groupId>com.scientiamobile.wurflcloud</groupId>
-                <artifactId>client-java</artifactId>
-                <version>${wurfl.cloud.version}</version>
-
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+    </repositories>
 
     <dependencies>
         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>5.0.0</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>javax.servlet.jsp</groupId>
-            <artifactId>jsp-api</artifactId>
+            <groupId>jakarta.servlet.jsp</groupId>
+            <artifactId>jakarta.servlet.jsp-api</artifactId>
+            <version>3.0.0</version>
+            <scope>provided</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.glassfish.web/jakarta.servlet.jsp.jstl -->
         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>jstl</artifactId>
+            <groupId>org.glassfish.web</groupId>
+            <artifactId>jakarta.servlet.jsp.jstl</artifactId>
+            <version>2.0.0</version>
         </dependency>
+
         <dependency>
-            <groupId>taglibs</groupId>
-            <artifactId>standard</artifactId>
+            <groupId>jakarta.servlet.jsp.jstl</groupId>
+            <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+            <version>2.0.0</version>
         </dependency>
         <dependency>
             <groupId>com.scientiamobile.wurflcloud</groupId>
             <artifactId>client-java</artifactId>
+            <version>1.0.15</version>
         </dependency>
     </dependencies>
 
@@ -131,7 +104,7 @@
                     org.apache.maven.plugins ...which is assumed by default.
                 -->
                 <artifactId>maven-assembly-plugin</artifactId>
-                <version>2.2.1</version>
+                <version>3.3.0</version>
                 <configuration>
                     <descriptors>
                         <descriptor>src/main/assembly/project-assembly.xml</descriptor>
@@ -151,10 +124,15 @@
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.1</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
