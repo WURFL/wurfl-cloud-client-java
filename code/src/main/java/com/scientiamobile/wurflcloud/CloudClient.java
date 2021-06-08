@@ -69,7 +69,7 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
     private static final int HTTP_ERROR_JSON_KEY = 500;
 
     /**
-     * The HTTP Headers that will be used to query the WURFL Cloud Server in Map<String, String> format.
+     * The HTTP Headers that will be used to query the WURFL Cloud Server in Map format.
      */
     private final Map<String, String> reqHeaders = new LinkedHashMap<String, String>();
 
