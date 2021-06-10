@@ -134,7 +134,7 @@ These are the dependencies used in the java cloud client example app to make it 
     </dependencies>
 ```
 
-The project branch on : `https://github.com/WURFL/wurfl-cloud-client-java/blob/1.0.15-jakarta-migration`
+The project branch on : `https://github.com/WURFL/wurfl-cloud-client-java/tree/1.0.15-jakarta-migration`
 contains an already migrated version of the cloud-client-java and the example application projects.
 Build them as previously shown. The migrated project build and execution has been tested using this environment:
 
