@@ -360,7 +360,6 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
      */
     private CloudResponse processResponse(String rawData) {
         try {
-            //return deserialize(rawData, CloudResponse.class);
             return gson.fromJson(rawData, CloudResponse.class);
         } catch (Exception e) {
             throw new WURFLCloudClientException("", HTTP_ERROR_JSON_KEY);
