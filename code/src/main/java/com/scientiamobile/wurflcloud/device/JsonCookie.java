@@ -11,21 +11,30 @@
  */
 package com.scientiamobile.wurflcloud.device;
 
-import com.scientiamobile.wurflcloud.utils.AuthorizationUtils;
+import com.google.gson.annotations.SerializedName;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.HashMap;
 import java.util.Map;
 
 /**
  * Bean serialized from/to a cookie.
  */
 public class JsonCookie {
-    private Map<String, Object> capabilities;
-    private String date_set;
-    private long ldate_set;
-    private String id;
+
+    @SerializedName("capabilities")
+    Map<String, Object> capabilities;
+    @SerializedName("date_set")
+    long date_set;
+    @SerializedName("id")
+    String id;
+
+    public JsonCookie(Map<String, Object> capabilities, long date, String devId)
+    {
+        this.capabilities = capabilities;
+        this.date_set = date;
+        this.id = devId;
+    }
 
     /**
      * Gets the capability map.
@@ -37,28 +46,20 @@ public class JsonCookie {
 
     private static final Logger logger = LoggerFactory.getLogger(JsonCookie.class);
 
-    /**
-     * Sets the capability map
-     * @param capabilities The new capability map
-     */
-    public void setCapabilities(HashMap<String, Object> capabilities) {
+    public long getDate_set() {
+        return date_set;
+    }
+
+    public void setDate_set(long date_set) {
+        this.date_set = date_set;
+    }
+
+    public void setCapabilities(Map<String, Object> capabilities) {
         this.capabilities = capabilities;
     }
 
-    public long getDate_set() {
-        return ldate_set;
-    }
-
-    public void setDate_set(String date_set) {
-        this.date_set = date_set;
-        try {
-            // json iter may have problems parsing long values that arrive as strings, so we do it explicitly
-            this.ldate_set = Long.parseLong(this.date_set);
-        }
-        catch (Exception e){
-            logger.error("Unable to parse date_set field value " + this.date_set + " : it is not a number");
-        }
-
+    public void setId(String id) {
+        this.id = id;
     }
 
     /**
@@ -67,13 +68,5 @@ public class JsonCookie {
      */
     public String getId() {
         return id;
-    }
-
-    /**
-     * Sets the cookie identifier
-     * @param id The cookie identifier
-     */
-    public void setId(String id) {
-        this.id = id;
     }
 }

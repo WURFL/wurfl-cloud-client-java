@@ -31,6 +31,7 @@ import java.util.zip.GZIPInputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.google.gson.Gson;
 import com.scientiamobile.wurflcloud.cache.IWurflCloudCache;
 import com.scientiamobile.wurflcloud.device.AbstractDevice;
 import com.scientiamobile.wurflcloud.device.CacheDevice;
@@ -40,8 +41,6 @@ import com.scientiamobile.wurflcloud.exc.WURFLCloudClientException;
 import com.scientiamobile.wurflcloud.utils.AuthorizationUtils;
 import com.scientiamobile.wurflcloud.utils.Constants;
 import com.scientiamobile.wurflcloud.utils.Credentials;
-
-import static com.jsoniter.JsonIterator.deserialize;
 
 
 /**
@@ -61,6 +60,7 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
     private final Credentials credentials;
     private final IWurflCloudCache cache;
     private final Set<CloudListener> listeners = new HashSet<CloudListener>();
+    private final Gson gson = new Gson();
     
     private static final int HTTP_ERROR_INVALID_KEY = 401;
     private static final int HTTP_ERROR_MISSING_KEY = 402;
@@ -360,7 +360,7 @@ public class CloudClient extends Loggable implements ICloudClientRequest, Consta
      */
     private CloudResponse processResponse(String rawData) {
         try {
-            return deserialize(rawData, CloudResponse.class);
+            return gson.fromJson(rawData, CloudResponse.class);
         } catch (Exception e) {
             throw new WURFLCloudClientException("", HTTP_ERROR_JSON_KEY);
         }

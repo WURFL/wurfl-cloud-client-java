@@ -1,3 +1,6 @@
+1.11.0
+Fix and ehn: replaced jsoniter with Gson due to some jsoniter deserialization issue and an unfixed severe security alert (CVE-2021-23441).
+
 1.0.15
 Fix: Updated logback dependency due to discovered vulnerability.
 
