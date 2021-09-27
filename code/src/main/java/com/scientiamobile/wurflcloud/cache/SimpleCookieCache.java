@@ -99,10 +99,7 @@ public class SimpleCookieCache extends AbstractWurflCloudCache {
         String cookieVal;
         HashMap<String, Object> capabilitiesMap = new HashMap<String, Object>(device.getCapabilities());
         long nowSecs = System.currentTimeMillis() / 1000;
-        JsonCookie jsonCookie = new JsonCookie();
-        jsonCookie.setCapabilities(capabilitiesMap);
-        jsonCookie.setDate_set(String.valueOf(nowSecs));
-        jsonCookie.setId(device.getId());
+        JsonCookie jsonCookie = new JsonCookie(capabilitiesMap, nowSecs, device.getId());
         try {
             cookieVal = JsonStream.serialize(jsonCookie);
             logger.debug("cookie value: " + cookieVal);
