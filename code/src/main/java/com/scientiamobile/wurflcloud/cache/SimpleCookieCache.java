@@ -20,13 +20,11 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.jsoniter.output.JsonStream;
+import com.google.gson.Gson;
 import com.scientiamobile.wurflcloud.ICloudClientRequest;
 import com.scientiamobile.wurflcloud.device.AbstractDevice;
 import com.scientiamobile.wurflcloud.device.CookieDevice;
 import com.scientiamobile.wurflcloud.device.JsonCookie;
-
-import static com.jsoniter.JsonIterator.deserialize;
 
 /**
  * Cache implementation using Cookies.
@@ -43,6 +41,8 @@ public class SimpleCookieCache extends AbstractWurflCloudCache {
      * Cookie encoding charset
      */
     private static final String US_ASCII = "US-ASCII";
+
+    private final Gson gson = new Gson();
 
     @Override
     protected boolean purgeInternal() {
@@ -64,7 +64,7 @@ public class SimpleCookieCache extends AbstractWurflCloudCache {
                 try {
                     value = URLDecoder.decode(value, US_ASCII);
                     if (logger.isDebugEnabled()) logger.debug("decoded cookie value: " + value);
-                    JsonCookie jc = deserialize(value, JsonCookie.class);
+                    JsonCookie jc = gson.fromJson(value, JsonCookie.class);
                     long expiration = jc.getDate_set() + COOKIE_CACHE_EXPIRATION;
                     long nowSecs = System.currentTimeMillis() / 1000;
                     if (expiration < nowSecs) {
@@ -101,7 +101,8 @@ public class SimpleCookieCache extends AbstractWurflCloudCache {
         long nowSecs = System.currentTimeMillis() / 1000;
         JsonCookie jsonCookie = new JsonCookie(capabilitiesMap, nowSecs, device.getId());
         try {
-            cookieVal = JsonStream.serialize(jsonCookie);
+            //cookieVal = JsonStream.serialize(jsonCookie);
+            cookieVal = gson.toJson(jsonCookie);
             logger.debug("cookie value: " + cookieVal);
             cookieVal = URLEncoder.encode(cookieVal, US_ASCII);
             logger.debug("encoded cookie value: " + cookieVal);
